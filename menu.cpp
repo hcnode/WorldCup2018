@@ -30,8 +30,10 @@ typedef struct teams{
 }teams_node;
 ////////////////var
 char selectedTeam[25]={};
-void loadPlayerInfo();
+void loadPlayerInfo(player_node * headp);
 void selectTeamsToManagement();
+void pointsOfTeamsWrite(teams_node *headt);
+void pointsOfTeamsRead(teams_node *head);
 int main()
 {
 	int menuOrder=0;
@@ -48,7 +50,7 @@ int main()
 		selectTeamsToManagement();
 		break;}
 		case 2: {
-			loadPlayerInfo();
+			//loadPlayerInfo(head);
 			//////////load all of recent WorldCup from files
 			break;
 		}
@@ -92,7 +94,7 @@ void selectTeamsToManagement()
 	strcpy(selectedTeam,teamNames[team-1]);
 	return;
 }
-void loadPlayerInfo()
+void loadPlayerInfo(player_node * headp)
 {
 	FILE *loadplayers = fopen("recentWorldCupPlayersInfo.txt","r");
 	if (!loadplayers)
@@ -104,7 +106,7 @@ void loadPlayerInfo()
 	char line[200]={};
 	int counter=0;
 	player_node *p=(player_node*)calloc(1,sizeof(player_node));
-	
+	p=headp;
 	for(int i=0;fgets(line,200,loadplayers)!=NULL&&counter!=1005;i++)
 	{
 		
@@ -148,5 +150,40 @@ void loadPlayerInfo()
 	
 	///////////////file of goals and who and in which game is that
 	
+	
+}
+void pointsOfTeamsWrite(teams_node * head)
+{
+	FILE *pointsOfTeams = fopen("TEAMSPOINTS.txt","w");
+	char *pointsOfTeamsInfo=(char *)calloc (350,sizeof(char));
+	teams_node *pt = (teams_node*)calloc(1,sizeof(teams_node));
+	pt = head;
+	while (pt != NULL) {
+		char integer_string[15]={};
+		sprintf(integer_string, "\n%d %d %d %s %s\n",pt->pointOfteam,pt->goalsRecev,pt->goalsScoerds,pt->teamName,pt->group );
+		strcat(pointsOfTeamsInfo, integer_string); 
+		pt = pt->next;
+	}
+	fprintf(pointsOfTeams,"%s",pointsOfTeamsInfo);
+	fclose(pointsOfTeams);
+	pointsOfTeams=NULL;
+	
+}
+void pointsOfTeamsRead(teams_node *head)
+{
+	FILE *pointsOfTeams = fopen("TEAMSPOINTS.txt","r");
+	teams_node *pt = (teams_node*)calloc(1,sizeof(teams_node));
+	pt = head;
+	char line[20]={};
+	for(int i=0;fgets(line,20,pointsOfTeams)!=NULL;i++)
+	{
+		
+		fscanf(pointsOfTeams,"%d %d %d %s %s",pt->pointOfteam,pt->goalsRecev,pt->goalsScoerds,pt->teamName,pt->group);
+		/////////////file of players
+		///////////
+		
+	}
+	fclose(pointsOfTeams);
+	pointsOfTeams=NULL;
 	
 }
