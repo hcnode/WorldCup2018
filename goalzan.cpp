@@ -14,14 +14,14 @@ int main() {
 int passgoal(int players[11],int tarkib){
   int middle = (tarkib/10)%10;
   int a = rand()%middle + 1 ;
-  a = tarkib / 100;
+  a += tarkib / 100;
   return a;
 }
 
 int goalzan(int players[11] , int tarkib){
   int attacker = tarkib%10;
   int a = rand()%attacker + 1 ;
-  a = tarkib/100 + tarkib / 10;
+  a += tarkib/100 + tarkib / 10;
   return a;
 }
 
