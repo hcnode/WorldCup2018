@@ -25,7 +25,7 @@ int goalNumber(double attackPower1, double defencePower2) {
         odds[j] = odds[j + 1] * (0.3);
     }
 
-    double sum;
+    double sum=0;
     baze[0] = odds[0];
 
     for (int i = 1; i < 11; i++) {
