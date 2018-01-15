@@ -110,10 +110,10 @@ int main()
 		teamsName=NULL;
 		teamsNumber--;
 	}
-//	gamePlan(head_players);
+//	gamePlan(head_players);------->all teams get their best plan for games!
 	printList(head_players);
 }
-void teamsReadInfofromGlobal(FILE *t,teams_node *p)///////sould copy this to our grouping system
+void teamsReadInfofromGlobal(FILE *t,teams_node *p)///////should copy this to our grouping system
 {
 	/*char teamName[15];
 	char group[1];
