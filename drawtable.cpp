@@ -4,12 +4,13 @@
 #include <stdbool.h>
 
 void drawing(int table[4][8], int checkConf[5][8]);
-
+bool checkend(int table[4][8], int i);
 bool checkdrawing(int table[4][8]);
 
 void printt(int table[][8], int m);
-
+void coppyarray(int temp[5][8], int checkConf[5][8] );
 int main() {
+
     int table[4][8] = {0};
     int checkConf[5][8] = {0};
     srand((unsigned) (time(NULL)));
@@ -17,7 +18,14 @@ int main() {
 
 
 }
+bool checkend(int table[4][8], int satr){
+  for(int = 0 ;i<8;i++){
+    if(table[satr][i]==0) return false;
+  }
 
+  else return true;
+
+}
 void printt(int table[][8], int m) {
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < 8; j++) {
@@ -27,7 +35,16 @@ void printt(int table[][8], int m) {
         puts("");
     }
 }
+void coppyarray(int temp[5][8], int checkConf[5][8] ){
+  for(int i = 0 ;i<5 ;i++){
+    for (size_t j = 0; j < 8; j++) {
+      temp[i][j]=checkConf[i][j];
+    }
+  }
 
+
+
+}
 bool checkdrawing(int table[4][8]) {
     for (int i = 0; i < 8; i++) {
         for (int j = 0; j < 8; j++) {
@@ -41,6 +58,7 @@ bool checkdrawing(int table[4][8]) {
 
 void drawing(int table[4][8], int checkConf[5][8]) {
     int conf(int team);
+    int tempConf[5][8];
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 8; j++) {
             table[4][8] = 0;
@@ -74,12 +92,17 @@ void drawing(int table[4][8], int checkConf[5][8]) {
             i++;
         }
     }
+
+
+    //step2:
+    bool end = false;
+    while(end==false){
+    coppyarray(tempConf,checkConf);
+
     for (int i = 0; i < 8; i++) {
         checkSeed[i] = 0;
     }
-
-    //step2:
-
+    //starting step 2
     for (int i = 0; i < 8;) {
         for (i = 0; table[1][i] != 0; i++); //avalin jaye khali
         int a = rand() % 8;
@@ -117,6 +140,10 @@ void drawing(int table[4][8], int checkConf[5][8]) {
 
 
     }
+    end = checkend(table,1);
+  }
+
+    //payan step 2
     for (int i = 0; i < 8; i++) {
         checkSeed[i] = 0;
     }
