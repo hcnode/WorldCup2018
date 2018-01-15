@@ -3,33 +3,35 @@
 #include <time.h>
 #include <stdbool.h>
 
-void drawing(int table[4][8],int checkConf[5][8]);
-bool checkdrawing(int table[4][8]);
-void printt(int table[][8],int  m );
-int main() {
-        int table[4][8] = {0};
-        int checkConf[5][8]={0};
-        srand((unsigned) (time(NULL)));
-        while (checkdrawing(table) == false) {
-            drawing(table,checkConf);
-        }
-        printt(table , 4);
+void drawing(int table[4][8], int checkConf[5][8]);
 
-    printt(checkConf,5);
+bool checkdrawing(int table[4][8]);
+
+void printt(int table[][8], int m);
+
+int main() {
+    int table[4][8] = {0};
+    int checkConf[5][8] = {0};
+    srand((unsigned) (time(NULL)));
+    drawing(table, checkConf);
+
+
 }
-void printt(int table[ ][8] , int m){
-    for(int i = 0 ; i<m;i++){
-        for(int j = 0 ; j<8 ; j++){
+
+void printt(int table[][8], int m) {
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < 8; j++) {
             printf("%d ", table[i][j]);
 
         }
         puts("");
     }
 }
-bool checkdrawing(int table[4][8]){
-    for(int i=0;i<8;i++){
-        for(int j = 0 ; j<8 ; j++){
-            if(table[i][j]==0){
+
+bool checkdrawing(int table[4][8]) {
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 8; j++) {
+            if (table[i][j] == 0) {
                 return false;
             }
         }
@@ -37,7 +39,7 @@ bool checkdrawing(int table[4][8]){
     return true;
 }
 
-void drawing(int table[4][8],int checkConf[5][8]) {
+void drawing(int table[4][8], int checkConf[5][8]) {
     int conf(int team);
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 8; j++) {
@@ -50,9 +52,9 @@ void drawing(int table[4][8],int checkConf[5][8]) {
     int seed3[8] = {6, 8, 9, 13, 14, 26, 29, 31};
     int seed4[8] = {2, 15, 16, 18, 19, 20, 25, 27};
 
-    for(int i = 0 ; i<5 ; i++){
-        for(int j = 0 ; j<8 ; j++){
-            checkConf[i][j]=0;
+    for (int i = 0; i < 5; i++) {
+        for (int j = 0; j < 8; j++) {
+            checkConf[i][j] = 0;
         }
     }
 
@@ -64,6 +66,11 @@ void drawing(int table[4][8],int checkConf[5][8]) {
             checkSeed[a] = 1;
             table[0][i] = seed1[a];
             checkConf[conf(seed1[a])][i]++;
+            puts("");
+            printt(table , 4);
+            puts("");
+            printt(checkConf,5);
+            puts("");
             i++;
         }
     }
@@ -85,6 +92,12 @@ void drawing(int table[4][8],int checkConf[5][8]) {
                 }//alan mojaz be entekhab ast
                 table[1][i] = seed2[a];
                 checkConf[2][i]++;
+                puts("");
+                printt(table, 4);
+                puts("");
+                printt(checkConf, 5);
+                puts("");
+                i = 0;
             }
                 //agar team orupa nabud:
             else {
@@ -93,6 +106,12 @@ void drawing(int table[4][8],int checkConf[5][8]) {
                 }//alan mojaz be entekhab ast
                 table[1][i] = seed2[a];
                 checkConf[conf(seed2[a])][i]++;
+                puts("");
+                printt(table, 4);
+                puts("");
+                printt(checkConf, 5);
+                puts("");
+                i = 0 ;
             }
         }
 
@@ -101,7 +120,7 @@ void drawing(int table[4][8],int checkConf[5][8]) {
     for (int i = 0; i < 8; i++) {
         checkSeed[i] = 0;
     }
-
+/*
     //step3
 
     for (int i = 0; i < 8;) {
@@ -161,7 +180,7 @@ void drawing(int table[4][8],int checkConf[5][8]) {
         checkSeed[i] = 0;
     }
 
-
+*/
 }
 
 int conf(int team) {
