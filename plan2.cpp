@@ -7,7 +7,7 @@ void table2(int n){
 	int x=0,y=0;
 	char teamTable[32][15]={"  Argentina  ","  Australia  ","   Belgium   ","    Brazil   ","   Colombia  ","  Costa Rica ","   Croatia   ","   Denmark   ","    Egypt    ","   England   ","    France   ","   Germany   ","   Iceland   ","     Iran    ","    Japan    ","    Korea    ","    Mexico   ","   Morocco   ","   Nigeria   ","    Panama   ","     Peru    ","    Poland   ","   Portugal  ","    Russia   "," Saudi Arabia ","   Senegal   ","    Serbia   ","    Spain    ","    Sweden   "," Switzerland ","   Tunisia   ","   Uruguay   "};
 	
-	char teamBoard[45][5][15];
+	char teamBoard[32][5][15];
 	for(i = 0;i<45;i++){
 		for(j=0;j<5;j++){
 			strcpy(teamBoard[i][j],"0");
@@ -15,38 +15,38 @@ void table2(int n){
 	}
 	for(j=0;j<n;j++)
 	{
-		if(j=0)
+		if(j==0)
 		{
-			for(i=0;i<45;i+=2)
+			for(i=0;i<32;i+=2)
 			{
-				strcpy(teamBoard[i][j],teamTable[(p->number)-1]);					
+				strcpy(teamBoard[i][j],teamTable[(14)-1]);					
 			}
 		}
-		if(j=1)
+		if(j==1)
 		{
 			for(i=1;i<45;i+=4)
 			{
-				strcpy(teamBoard[i][j],teamTable[(p->number)-1]);					
+				strcpy(teamBoard[i][j],teamTable[(14)-1]);					
 			}
 		}
-		if(j=3)
+		if(j==3)
 		{
 			for(i=4;i<45;i+=7)
 			{
-				strcpy(teamBoard[i][j],teamTable[(p->number)-1]);					
+				strcpy(teamBoard[i][j],teamTable[(14)-1]);					
 			}
 		}
-		if(j=4)
+		if(j==4)
 		{
-			for(i=4;i<45;i+=15)
+			for(i=8;i<45;i+=15)
 			{
-				strcpy(teamBoard[i][j],teamTable[(p->number)-1]);					
+				strcpy(teamBoard[i][j],teamTable[(14)-1]);					
 			}
 		}
 	}
 	for(i =0;i<45;i++)
 	{
-		printf("\n");
+	//	printf("\n");
 		for(j=0;j<5;j++)
 		{
 			
@@ -67,5 +67,5 @@ void table2(int n){
 
 
 int main(){
-	table2();
+	table2(2);
 }
