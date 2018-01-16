@@ -24,27 +24,27 @@ void table2(int n){
 		}
 		if(j==1)
 		{
-			for(i=1;i<45;i+=4)
+			for(i=1;i<32;i+=4)
 			{
 				strcpy(teamBoard[i][j],teamTable[(14)-1]);					
 			}
 		}
 		if(j==3)
 		{
-			for(i=4;i<45;i+=7)
+			for(i=4;i<32;i+=7)
 			{
 				strcpy(teamBoard[i][j],teamTable[(14)-1]);					
 			}
 		}
 		if(j==4)
 		{
-			for(i=8;i<45;i+=15)
+			for(i=8;i<32;i+=15)
 			{
 				strcpy(teamBoard[i][j],teamTable[(14)-1]);					
 			}
 		}
 	}
-	for(i =0;i<45;i++)
+	for(i =0;i<32;i++)
 	{
 	//	printf("\n");
 		for(j=0;j<5;j++)
