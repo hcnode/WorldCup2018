@@ -2368,7 +2368,7 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 			matchTable[0][8]---->matchTable[2][8]
 			matchTable[1][8]---->matchTable[3][8]
 			*/
-		for(int i = 0, j = 0, t=0 ;j<7; i++,t++){
+		for(int i = 0, j = 0, t=0 ;i<16; i++,t++){
 
 				if(t%2==0 && t!=0)
 				{
