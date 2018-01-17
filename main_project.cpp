@@ -87,14 +87,14 @@ teams_node * searchTeamForGrouping(teams_node * head_team,const char * teamName)
 int main()
 {
 	//for delay and show wordcup
-/*	srand((unsigned)time(NULL));
+	srand((unsigned)time(NULL));
 	////////////////splash screen
 	clock_t clockk0=clock();
 	while(clock()<clockk0+2000);
 	splash();
 	clockk0=clock();
 while(clock()<clockk0+3000);
-*/
+
 system("cls");
 	////////////////new WorldCup or recent WorldCup?
 	printf("\n\n\n\n\n\tEnter What do you want : (write 'exit' to close the program)");
@@ -2343,7 +2343,7 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 
 
 
-
+		printf("\n\n\n\n\n\n\n\n\n");
 
 
 
@@ -2433,7 +2433,99 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 				goalsofTeam2--;
 				}
 		}
+		printf("\n\n\n\n\n\n\n\n\n");
+		// start of proceed 3
+		 /*
+		matchTable[0][0]---->matchTable[3][0]
+		matchTable[1][0]---->matchTable[2][0]
+		matchTable[0][1]---->matchTable[3][1]
+		matchTable[1][1]---->matchTable[2][1]
+		matchTable[0][2]---->matchTable[3][2]
+		matchTable[1][2]---->matchTable[2][2]
+		matchTable[0][3]---->matchTable[3][3]
+		matchTable[1][3]---->matchTable[2][3]
+		matchTable[0][4]---->matchTable[3][4]
+		matchTable[1][4]---->matchTable[2][4]
+		matchTable[0][5]---->matchTable[3][5]
+		matchTable[1][5]---->matchTable[2][5]
+		matchTable[0][6]---->matchTable[3][6]
+		matchTable[1][6]---->matchTable[2][6]
+		matchTable[0][7]---->matchTable[3][7]
+		matchTable[1][7]---->matchTable[2][7]
+		matchTable[0][8]---->matchTable[3][8]
+		matchTable[1][8]---->matchTable[2][8]
+		*/
+		for(int i = 0, j = 0, t=0 ;i<16; i++,t++){
+			int k = 0;
+			if(t%2==0){
+				k = 3;
+			}
+			else{
+				k = 1;
+			}
+				if(t%2==0 && t!=0)
+				{
+					j++;
+				}
 
+
+			goalsofTeam1=goalNumber(gPlan[matchTable[i%4][j]%100-1][13],gPlan[matchTable[((i+k)%4)][j]%100-1][12]);
+			goalsofTeam2=goalNumber(gPlan[matchTable[(i+k)%4][j]%100-1][13],gPlan[matchTable[i%4][j]%100-1][12]);
+			printf ("\nteam1 = %s   %d   VS    team2= %s  %d",teamNamesandNums[matchTable[i%4][j]%100-1],goalsofTeam1,teamNamesandNums[matchTable[(i+k)%4][j]%100-1],goalsofTeam2);
+			if(goalsofTeam1!=goalsofTeam2)
+			{
+				if(goalsofTeam1>goalsofTeam2)
+				{
+						ppt= search_team(pt,teamNamesandNums[matchTable[i%4][j]%100-1]);
+						ppt->pointOfteam+=3;
+				}
+				else
+				{
+					ppt= search_team(pt,teamNamesandNums[matchTable[(i+k)%4][j]%100-1]);
+					ppt->pointOfteam+=3;
+				}
+
+			}
+			else
+			{
+				ppt= search_team(pt,teamNamesandNums[matchTable[i%4][j]%100-1]);
+				ppt->pointOfteam+=1;
+				ppt= search_team(pt,teamNamesandNums[matchTable[(i+k)%4][j]%100-1]);
+				ppt->pointOfteam+=1;
+			}
+			ppt= search_team(pt,teamNamesandNums[matchTable[i%4][j]%100-1]);
+			ppt->goalsScoerds+=goalsofTeam1;
+			ppt->goalsRecev+=goalsofTeam2;
+			ppt= search_team(pt,teamNamesandNums[matchTable[(i+k)%4][j]%100-1]);
+			ppt->goalsScoerds+=goalsofTeam2;
+			ppt->goalsRecev+=goalsofTeam1;
+			while(goalsofTeam1)
+			{
+
+				golzanNum=goalzan(gPlan[matchTable[i%4][j]%100-1][11]);
+				passGoalNum=passgoal(gPlan[matchTable[i%4][j]%100-1][11]);
+				ppp=search_playerNumber_teams(pp,gPlan[matchTable[i%4][j]%100-1][golzanNum],teamNamesandNums[matchTable[i%4][j]%100-1]);
+				ppp->goals+=1;
+				printf("\ngoal Zan :%d.%s",ppp->number,ppp->name);
+				ppp=search_playerNumber_teams(pp,gPlan[matchTable[i%4][j]%100-1][passGoalNum],teamNamesandNums[matchTable[i%4][j]%100-1]);
+				ppp->passGoals+=1;
+				printf("\npass Goale :%d.%s",ppp->number,ppp->name);
+				goalsofTeam1--;
+
+			}
+			while(goalsofTeam2)
+			{
+				golzanNum=goalzan(gPlan[matchTable[(i+k)%4][j]%100-1][11]);
+				passGoalNum=passgoal(gPlan[matchTable[(i+k)%4][j]%100-1][11]);
+				ppp=search_playerNumber_teams(pp,gPlan[matchTable[(i+k)%4][j]%100-1][golzanNum],teamNamesandNums[matchTable[(i+k)%4][j]%100-1]);
+				ppp->goals+=1;
+				printf("\ngoal Zan :%d.%s",ppp->number,ppp->name);
+				ppp=search_playerNumber_teams(pp,gPlan[matchTable[(i+k)%4][j]%100-1][passGoalNum],teamNamesandNums[matchTable[(i+k)%4][j]%100-1]);
+				ppp->passGoals+=1;
+				printf("\npass Goale :%d.%s",ppp->number,ppp->name);
+				goalsofTeam2--;
+				}
+		}
 
 		//printf("%s :   %d - %s :     %d",teamNamesandNums[matchTable[0][0]%100-1],goalsofTeam1,teamNamesandNums[matchTable[1][0]%100-1],goalsofTeam2);
 		//ppp=search_teamName(pp,teamNamesandNums[matchTable[0][0]%100-1]);
@@ -2499,7 +2591,8 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		matchTable[0][7]---->matchTable[3][7]
 		matchTable[1][7]---->matchTable[2][7]
 		matchTable[0][8]---->matchTable[3][8]
-		matchTable[1][8]---->matchTable[2][8]
+		matchTable[1][8]---->matchTable[2][8]*/
+		/*
 	}
 	if(loacalProceed==4)
 	{
