@@ -22,7 +22,7 @@ typedef struct players{
 	int fitness;
 	int goals;
 	int passGoals;
-	
+
 	struct players *next;
 }player_node;
 typedef struct teams{
@@ -86,14 +86,16 @@ int passgoal(int tarkib);
 teams_node * searchTeamForGrouping(teams_node * head_team,const char * teamName);
 int main()
 {
-	srand((unsigned)time(NULL));
+	//for delay and show wordcup
+/*	srand((unsigned)time(NULL));
 	////////////////splash screen
-	//clock_t clockk0=clock();
-	//while(clock()<clockk0+2000);
-	//splash();
-	//clockk0=clock();
-	//while(clock()<clockk0+3000);
-	//system("cls");
+	clock_t clockk0=clock();
+	while(clock()<clockk0+2000);
+	splash();
+	clockk0=clock();
+while(clock()<clockk0+3000);
+*/
+system("cls");
 	////////////////new WorldCup or recent WorldCup?
 	printf("\n\n\n\n\n\tEnter What do you want : (write 'exit' to close the program)");
 	printf("\n\n\t1.New WorldCup.");
@@ -107,7 +109,7 @@ int main()
 		{
 			if(strcmp(n,"1")==0)
 			{
-				
+
 				system("cls");
 				startNewWorldCup();
 				a=0;
@@ -128,10 +130,10 @@ int main()
 		}
 		free(n);
 		n=NULL;
-		
+
 	}
-	
-	
+
+
 }
 void startNewWorldCup()
 {
@@ -151,7 +153,7 @@ void startNewWorldCup()
 		{
 			if(strcmp(n,"1")==0)
 			{
-				
+
 				system("cls");
 				worldCupnewGrouping=1;
 				loadGrouping(head_teams);
@@ -176,7 +178,7 @@ void startNewWorldCup()
 		n=NULL;
 	}
 	selectTeamsToManagement();
-	
+
 	loadGrouping(head_teams);/////////*******
 	FILE *managment1=fopen("teamNames.txt","r");
 	char line[5000]={};
@@ -198,7 +200,7 @@ void startNewWorldCup()
 	setTempPosts(head_player,head_teams);
 	customization(head_player,head_teams);
 	playerWriteInfo(head_player);
-	
+
 	matchControllerGroups(head_player,head_teams);
 }
 void customization(player_node *headp,teams_node * headt)
@@ -240,7 +242,7 @@ void customization(player_node *headp,teams_node * headt)
 		}
 		free(n);
 		n=NULL;
-		
+
 	}
 }
 void CustomizationManualform(player_node * headp,teams_node *headt)
@@ -249,7 +251,7 @@ void CustomizationManualform(player_node * headp,teams_node *headt)
 	teams_node * pt=(teams_node *)calloc(1,sizeof(teams_node));
 	pt = headt;
 	pp = headp;
-	
+
 	int gameSystem[4]={442,352,541,433};
 	system("cls");
 	printf("\n\n\t\t\t\t ====Customization Manual form====");
@@ -316,7 +318,7 @@ void CustomizationManualform(player_node * headp,teams_node *headt)
 		}
 		free(n);
 		n=NULL;
-		
+
 	}
 	system("cls");
 	printf("\n\n\t\t\t\t ====Customization Substitution form====");
@@ -336,7 +338,7 @@ void CustomizationManualform(player_node * headp,teams_node *headt)
 				/////show the players is in game
 				system("cls");
 				showPlayersofUser(pp);
-				
+
 				a=0;
 			}
 			else if(strcmp(n,"2")==0)
@@ -361,7 +363,7 @@ void CustomizationManualform(player_node * headp,teams_node *headt)
 		}
 		free(n);
 		n=NULL;
-		
+
 	}
 }
 void changingPlayerofUser(player_node * headp,teams_node *headt)
@@ -394,7 +396,7 @@ void changingPlayerofUser(player_node * headp,teams_node *headt)
 		{
 			if(gPlan[r][u]==y)
 			{
-				counter++;
+				counter=2;
 			}
 		}
 		if(counter==1)
@@ -414,7 +416,7 @@ void changingPlayerofUser(player_node * headp,teams_node *headt)
 		{
 			continue;
 		}
-		
+
 		///////////////
 		printf("\n\t\tDo you have more Substitution?(Yes -> 1 / No -> 0)\n");
 		scanf("%d",&a);
@@ -459,21 +461,21 @@ void doSubstitution(player_node * headp,teams_node * headt,int x,int y)
 			istrue=2;
 			if(strcmp(pp->nation,selectedTeam)!=0)
 			istrue=2;
-			
+
 		}
 		else if(istrue==0)
 		{
 			pp= pp->next;
 		}
-		
+
 	}
 	*/
-	
-	
+
+
 }
 void showPlayersofUser(player_node * headp)
 {
-	
+
 	printf("\t\t\t\t ====Players In Game====");
 	player_node * pp=(player_node *)calloc(1,sizeof(player_node));
 	pp=headp;
@@ -487,7 +489,7 @@ void showPlayersofUser(player_node * headp)
 		counter++;
 		pp= ppp->next;
 	}
-	
+
 	pp=headp;
 	ppp=NULL;
 	int istrue=0;
@@ -505,20 +507,20 @@ void showPlayersofUser(player_node * headp)
 				istrue=1;
 				if(strcmp(pp->nation,selectedTeam)!=0)
 				istrue=2;
-				
+
 			}
 			else
 			{
 				istrue=2;
 			}
-			
-			
+
+
 		}
 		else if(istrue==0)
 		{
 			pp= pp->next;
 		}
-		
+
 	}
 }
 void loadPlayersInformationFirstTime(player_node * head_players)
@@ -541,13 +543,13 @@ void loadPlayersInformationFirstTime(player_node * head_players)
 		fscanf(teams,"%s",teamsName);
 		strcat(teamNamee,append(append(dir,teamsName),formatt));
 		FILE *tp = fopen(teamNamee,"r");
-		
+
 		if (!tp) {
 			perror("fopen failed : \nCheck Files and then run program again!");
 			return;
 		}
-		
-		
+
+
 		pp=playersReadInfo(tp,pp,teamsName);
 		fclose(tp);
 		tp=NULL;
@@ -595,7 +597,7 @@ void newGrouping(teams_node * head_team)
 	char *statee=(char*)calloc(2,sizeof(char));
 		for(int i=0;i<4;i++)
 		{
-			
+
 			for(int j=0;j<8;j++)
 			{
 				strcpy(teamName,teamNamesandNums[matchTable[i][j]%100-1]);
@@ -620,7 +622,7 @@ void newGrouping(teams_node * head_team)
 				strcpy(pd->group,statee);
 				pd->state=i+1;
 				/////////////////
-				
+
 			}
 		}
 }
@@ -655,19 +657,19 @@ player_node * playersReadInfo(FILE *t,player_node *p,const char * teamNamee)
 {
 	char line[100]={};
 	int counter=0;
-	
+
 	//////this ganna change
-	
+
 	for(int i=0;fgets(line,100,t)!=NULL;i++)
 	{
-		
+
 		int num;
 		char *namee=(char *)calloc (25,sizeof(char));
 		char *postt=(char *)calloc (1,sizeof(char));
 		char *postt_temp=(char *)calloc (1,sizeof(char));
 		int age;
 		fscanf(t,"%d%s%d%s",&num,namee,&age,postt);
-		
+
 		counter++;
 		/////////////file of players
 		p->number=num;
@@ -675,15 +677,15 @@ player_node * playersReadInfo(FILE *t,player_node *p,const char * teamNamee)
 		strcpy(p->mainPost,postt);
 		strcpy(p->tempPost,postt_temp);
 		p->age=age;
-		
+
 		/////////////our calculations
-		strcpy(p->nation,teamNamee);             	
-		
-		
+		strcpy(p->nation,teamNamee);
+
+
 		////////////
 		p->next = (player_node *)calloc(1, sizeof(player_node));
 		p = p->next;
-		
+
 		free(namee);
 		postt_temp=NULL;
 		postt=NULL;
@@ -696,7 +698,7 @@ void teamsReadInfofromGlobal(FILE *t,teams_node *p)///////sould copy this to our
 	char line[100]={};
 	int counter=0;
 	const char * space=" ";
-	
+
 	for(int i=0;fgets(line,100,t)!=NULL;i++)
 	{
 		char *namee=(char *)calloc (20,sizeof(char));
@@ -705,7 +707,7 @@ void teamsReadInfofromGlobal(FILE *t,teams_node *p)///////sould copy this to our
 		char *confidd=(char *)calloc (15,sizeof(char));
 		int seedd;
 		fscanf(t,"%s%s%d%s%d",namee,groupp,&statee,confidd,&seedd);
-		
+
 		counter++;
 		/////////////file of teams
 		strcpy(p->teamName,namee);
@@ -720,7 +722,7 @@ void teamsReadInfofromGlobal(FILE *t,teams_node *p)///////sould copy this to our
 		confidd=NULL;
 		p->next = (teams_node *)calloc(1, sizeof(teams_node));
 		p = p->next;
-		
+
 	}
 	FILE *set=fopen("teamNames.txt","w");
 	fprintf(set,"%s",teamNames);
@@ -755,7 +757,7 @@ void splash()
 	puts("");
 	puts("=========================================================================================================================");
 	puts("=========================================================================================================================");
-	
+
 }
 char* append(const char* name,const char* extension)
 {
@@ -793,7 +795,7 @@ void selectTeamsToManagement()
 			puts("choose team number from list!!");
 		}
 	}
-	
+
 	printf("Your team is : %s", teamNamesandNums[team-1]);
 	strcpy(selectedTeam,teamNamesandNums[team-1]);
 	return;
@@ -820,7 +822,7 @@ void balloting()
 			teams[team]=0;
 			counter++;
 		}
-		
+
 	}
 	counter=0;
 	int counter2=0;
@@ -843,7 +845,7 @@ void balloting()
 				counter++;
 			}
 			}
-			
+
 		}
 		else
 		{
@@ -870,7 +872,7 @@ void balloting()
 			{
 				counter++;
 			}
-			}	
+			}
 		}
 		else
 		{
@@ -897,14 +899,14 @@ void balloting()
 			{
 				counter++;
 			}
-			}	
+			}
 		}
 		else
 		{
 			counter++;
 		}
 	}
-	
+
 	checkTable=checkNULL();
 }
 randomizeTeams();
@@ -940,7 +942,7 @@ void randomizeTeams()
 				matchTable[y][col]=place2;
 				place2=0;
 				counter++;
-			
+
 			}
 			else if(matchTable[y][col]==0 && place3!=0)
 			{
@@ -954,12 +956,12 @@ void randomizeTeams()
 				counter2+=3;
 				a=0;
 			}
-			
-			
+
+
 		}
-		
-		
-		
+
+
+
 	}
 }
 void printtable()
@@ -972,7 +974,7 @@ void printtable()
 		}
 		puts("");
 	}
-	
+
 }
 int check(int place,int group,int teamNumber)
 {
@@ -988,17 +990,17 @@ int check(int place,int group,int teamNumber)
 		else if(((matchTable[i][group])/100)%10==confed && confed==3)
 		{
 			counter++;
-			
+
 		}
 		if(counter>1)
 		{
 			ch=0;
 		}
-		
-		
+
+
 	}
 	return ch;
-	
+
 }
 int checkNULL()
 {
@@ -1017,13 +1019,13 @@ int checkNULL()
 void copyTeams(int teamsOrginal[],int teams[])
 {
 	for(int i=0;i<32;i++)
-	{	
+	{
 		teams[i]=teamsOrginal[i];
 	}
 }
 void tableToNULL()
 {
-	
+
 	for(int i=0;i<4;i++)
 	{
 		for(int j=0;j<8;j++)
@@ -1051,23 +1053,23 @@ void bestPlanForManagment(player_node *pp,int t,int selectedTeam){
 	strcpy(order,teamNamesandNums[selectedTeam-1]);
 	int **a;
 	a = (int **)calloc(n, sizeof(int *));
-	
+
 	for (int i = 0; i < n; i++) {
 		a[i] = (int *)calloc(2, sizeof(int));
 	}
 				//golaer//////////////////////////////////////////////////////////////////
-	stop =1;			
+	stop =1;
 	while(stop)
 	{
 		p=search_post(pp,"G",order);
-		
+
 		if(!p)
 		{
 			stop=0;
 		}
 		else
 		{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			if(temp_GK<ability)
 			{
@@ -1076,9 +1078,9 @@ void bestPlanForManagment(player_node *pp,int t,int selectedTeam){
 				//player=p;
 				gPlan[gPlan_i][12] = ability*2;
 			}
-			pp = p->next;	
+			pp = p->next;
 		}
-		
+
 	}
 	//strcpy(player->tempPost,"G");
 	f++;
@@ -1090,26 +1092,26 @@ void bestPlanForManagment(player_node *pp,int t,int selectedTeam){
 		while(stop)
 		{
 			p=search_post(pp,"D",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			
-			pp = p->next;	
+
+			pp = p->next;
 			}
-		
+
 		}
 		pp=head;
 		bubbleSort(a,n);
-		
+
 		for(int j = 0;j<(t/100);j++)
 		{
 			gPlan[gPlan_i][12]+=a[j][0];
@@ -1123,42 +1125,42 @@ void bestPlanForManagment(player_node *pp,int t,int selectedTeam){
 		}
 		free(a);
 		a = NULL;
-		
-		//////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+		//////////////////////////////////////////////////////////////////////////////////////////////////////
 	////////////////////////////// n ra az barname migirim  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/
-		
+
 
 		a =(int **) calloc(n, sizeof(int *));
-	
+
 		for (int i = 0; i < n; i++) {
 			a[i] =(int *) calloc(2, sizeof(int));
 		}
-				//p ro az barname migirim		
+				//p ro az barname migirim
 		stop=1;
 		j=0;
 		while(stop)
 		{
 			p=search_post(pp,"M",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			
-			pp = p->next;	
+
+			pp = p->next;
 			}
-		
+
 		}
 		pp=head;
 		bubbleSort(a,n);
-		
+
 		for(int i=0;i<((t%100)-(t%10))/10;i++)
 		{
 			gPlan[gPlan_i][12]+=a[i][0]/2;
@@ -1175,39 +1177,39 @@ void bestPlanForManagment(player_node *pp,int t,int selectedTeam){
 		a = NULL;
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////// n ra az barname migirim  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-		
+
 
 		a = (int **)calloc(n, sizeof(int *));
-	
+
 		for (int i = 0; i < n; i++) {
 		a[i] = (int*)calloc(2, sizeof(int));
 		}
-				//p ro az barname migirim		
+				//p ro az barname migirim
 		stop=1;
 		j=0;
 		while(stop)
 		{
 			p=search_post(pp,"A",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			
-			pp = p->next;	
+
+			pp = p->next;
 			}
-		
+
 		}
 		pp=head;
 		bubbleSort(a,n);
-		
+
 		for(int i=0;i<(t%10);i++)
 		{
 			gPlan[gPlan_i][13]+=a[i][0];
@@ -1252,20 +1254,20 @@ void gamePlan(player_node *pp,teams_node * pt){
 	if(!pt)
 	break;
 	strcpy(order,pt->teamName);
-	
+
 	//scanf("%s",order);
-	
+
 	while(stop)
 	{
 		p=search_post(pp,"G",order);
-		
+
 		if(!p)
 		{
 			stop=0;
 		}
 		else
 		{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			if(temp_GK<ability)
 			{
@@ -1274,9 +1276,9 @@ void gamePlan(player_node *pp,teams_node * pt){
 				player=p;
 				gPlan[gPlan_i][12] = ability*2;
 			}
-			pp = p->next;	
+			pp = p->next;
 		}
-		
+
 	}
 	//strcpy(player->tempPost,"G");
 	f++;
@@ -1304,21 +1306,21 @@ void gamePlan(player_node *pp,teams_node * pt){
 		while(stop)
 		{
 			p=search_post(pp,"D",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			pp = p->next;	
+			pp = p->next;
 			}
-		
+
 		}
 		pp=head;
 		bubbleSort(a,n);
@@ -1334,10 +1336,10 @@ void gamePlan(player_node *pp,teams_node * pt){
 		}
 		free(a);
 		a = NULL;
-		
+
 		//////////////////////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////// n ra az barname migirim  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-		
+
 
 		a = (int **)calloc(n, sizeof(int *));
 		for (int i = 0; i < n; i++) {
@@ -1349,26 +1351,26 @@ void gamePlan(player_node *pp,teams_node * pt){
 		while(stop)
 		{
 			p=search_post(pp,"M",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			
-			pp = p->next;	
+
+			pp = p->next;
 			}
-		
+
 		}
-		pp=head;	
+		pp=head;
 		bubbleSort(a,n);
-		
+
 		for(int i=0;i<((t%100)-(t%10))/10;i++)
 		{
 			counter+=a[i][0];
@@ -1383,36 +1385,36 @@ void gamePlan(player_node *pp,teams_node * pt){
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////// n ra az barname migirim  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/
 
-	a =(int **) calloc(n, sizeof(int *));	
+	a =(int **) calloc(n, sizeof(int *));
 	for (int i = 0; i < n; i++) {
 		a[i] =(int *) calloc(2, sizeof(int));
 	}
-				//p ro az barname migirim	
+				//p ro az barname migirim
 		stop=1;
 		j=0;
 		while(stop)
 		{
 			p=search_post(pp,"A",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			
-			pp = p->next;	
+
+			pp = p->next;
 			}
-		
+
 		}
-		pp=head;	
+		pp=head;
 		bubbleSort(a,n);
-		
+
 		for(int i=0;i<(t%10);i++)
 		{
 			counter+=a[i][0];
@@ -1430,17 +1432,17 @@ void gamePlan(player_node *pp,teams_node * pt){
 			temp = counter;
 			u = c;
 		}
-	
+
 	}
-	
+
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////
 	t=b[u];
 	gPlan[gPlan_i][11]= t;
-	
+
 	a = (int **)calloc(n, sizeof(int *));
-	
+
 	for (int i = 0; i < n; i++) {
 		a[i] = (int *)calloc(2, sizeof(int));
 	}
@@ -1451,26 +1453,26 @@ void gamePlan(player_node *pp,teams_node * pt){
 		while(stop)
 		{
 			p=search_post(pp,"D",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			
-			pp = p->next;	
+
+			pp = p->next;
 			}
-		
+
 		}
 		pp=head;
 		bubbleSort(a,n);
-		
+
 		for(int j = 0;j<(t/100);j++)
 		{
 			gPlan[gPlan_i][12]+=a[j][0];
@@ -1484,42 +1486,42 @@ void gamePlan(player_node *pp,teams_node * pt){
 		}
 		free(a);
 		a = NULL;
-		
-		//////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+		//////////////////////////////////////////////////////////////////////////////////////////////////////
 	////////////////////////////// n ra az barname migirim  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\/
-		
+
 
 		a =(int **) calloc(n, sizeof(int *));
-	
+
 		for (int i = 0; i < n; i++) {
 			a[i] =(int *) calloc(2, sizeof(int));
 		}
-				//p ro az barname migirim		
+				//p ro az barname migirim
 		stop=1;
 		j=0;
 		while(stop)
 		{
 			p=search_post(pp,"M",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			
-			pp = p->next;	
+
+			pp = p->next;
 			}
-		
+
 		}
 		pp=head;
 		bubbleSort(a,n);
-		
+
 		for(int i=0;i<((t%100)-(t%10))/10;i++)
 		{
 			gPlan[gPlan_i][12]+=a[i][0]/2;
@@ -1536,39 +1538,39 @@ void gamePlan(player_node *pp,teams_node * pt){
 		a = NULL;
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////// n ra az barname migirim  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-		
+
 
 		a = (int **)calloc(n, sizeof(int *));
-	
+
 		for (int i = 0; i < n; i++) {
 		a[i] = (int*)calloc(2, sizeof(int));
 		}
-				//p ro az barname migirim		
+				//p ro az barname migirim
 		stop=1;
 		j=0;
 		while(stop)
 		{
 			p=search_post(pp,"A",order);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			ability=doAbility(p->skill,p->form,p->fitness);
 			a[j][0]=ability;
 			a[j][1]=p->number;
 			j++;
-			
-			pp = p->next;	
+
+			pp = p->next;
 			}
-		
+
 		}
 		pp=head;
 		bubbleSort(a,n);
-		
+
 		for(int i=0;i<(t%10);i++)
 		{
 			gPlan[gPlan_i][13]+=a[i][0];
@@ -1613,7 +1615,7 @@ void updateGamePlan(player_node *pp){
 		while(stop)
 		{
 			p=search_post_temp(pp,"G",order);
-		
+
 			if(!p)
 			{
 				stop=0;
@@ -1641,9 +1643,9 @@ void updateGamePlan(player_node *pp){
 					ability=((p->skill)*0.2)+(p->form)+(p->fitness);
 					gPlan[gPlan_i][12]+=ability*2;
 				}
-		
+
 			}
-			pp = p->next;	
+			pp = p->next;
 		}
 		pp=head;
 /////////////////deffend
@@ -1680,8 +1682,8 @@ void updateGamePlan(player_node *pp){
 					ability=((p->skill)*0.3)+(p->form)+(p->fitness);
 					gPlan[gPlan_i][12]+=ability;
 				}
-			
-		
+
+
 			}
 				pp = p->next;
 		}
@@ -1762,8 +1764,8 @@ void updateGamePlan(player_node *pp){
 					ability=((p->skill)*0.7)+(p->form)+(p->fitness);
 					gPlan[gPlan_i][13]+=ability;
 				}
-			
-		
+
+
 			}
 			pp = p->next;
 		}
@@ -1804,12 +1806,12 @@ void setTempPosts(player_node * pp,teams_node * pt)
 			if(strcmp(p->tempPost,"N")==0)
 			{
 				strcpy(p->tempPost,"G");
-			}		
+			}
 			else
 			{
 				stop=0;
 			}
-					
+
 		}
 		///////////////////////defenders
 		pp=head;
@@ -1817,18 +1819,18 @@ void setTempPosts(player_node * pp,teams_node * pt)
 		while(stop)
 		{
 			p=search_playerNumber(search_post(pp,"D",order),gPlan[i][odef]);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			if(strcmp(p->tempPost,"N")==0)
 			{
 				strcpy(p->tempPost,"D");
-			}		
+			}
 			else
 			{
 				if(odef!=def)
@@ -1838,9 +1840,9 @@ void setTempPosts(player_node * pp,teams_node * pt)
 					stop=0;
 				}
 			}
-					
+
 			}
-			
+
 		}
 		//////////////////midders
 		pp=head;
@@ -1848,18 +1850,18 @@ void setTempPosts(player_node * pp,teams_node * pt)
 		while(stop)
 		{
 			p=search_playerNumber(search_post(pp,"M",order),gPlan[i][omid]);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			if(strcmp(p->tempPost,"N")==0)
 			{
 				strcpy(p->tempPost,"M");
-			}		
+			}
 			else
 			{
 				if(omid!=mid+odef)
@@ -1869,9 +1871,9 @@ void setTempPosts(player_node * pp,teams_node * pt)
 					stop=0;
 				}
 			}
-					
+
 			}
-			
+
 		}
 		//////////////////attackers
 		pp=head;
@@ -1879,18 +1881,18 @@ void setTempPosts(player_node * pp,teams_node * pt)
 		while(stop)
 		{
 			p=search_playerNumber(search_post(pp,"A",order),gPlan[i][oatt]);
-		
+
 			if(!p)
 			{
 				stop=0;
 			}
 			else
 			{
-			
+
 			if(strcmp(p->tempPost,"N")==0)
 			{
 				strcpy(p->tempPost,"A");
-			}		
+			}
 			else
 			{
 				if(oatt!=10)
@@ -1900,18 +1902,18 @@ void setTempPosts(player_node * pp,teams_node * pt)
 					stop=0;
 				}
 			}
-					
+
 			}
-			
+
 		}
-		
+
 	pp=head;
 	/////////
 	teamNum--;
 	pt = pt->next;
 	i++;
 	}
-	
+
 }
 player_node *search_teamName(player_node *head,const char* teamName)
 {
@@ -1923,7 +1925,7 @@ player_node *search_teamName(player_node *head,const char* teamName)
 			printf("%s",p->name);
 			return p;
 		}
-			
+
 		p = p->next;
 	}
 	return NULL;
@@ -1937,11 +1939,11 @@ teams_node * search_team(teams_node * head,const char * teamName)
 		{
 			return p;
 		}
-			
+
 		p = p->next;
 	}
 	return NULL;
-	
+
 }
 player_node *search_playerNumber_teams(player_node *head,int n,const char* teamName)
 {
@@ -1956,10 +1958,10 @@ player_node *search_playerNumber_teams(player_node *head,int n,const char* teamN
 			}
 		}
 		p = p->next;
-		
+
 	}
 	return NULL;
-	
+
 }
 player_node *search_teamName_forPlayer(player_node *head,const char* teamName)
 {
@@ -1971,7 +1973,7 @@ player_node *search_teamName_forPlayer(player_node *head,const char* teamName)
 			if(strcmp(p->tempPost,"N")!=0)
 			return p;
 		}
-			
+
 		p = p->next;
 	}
 	return NULL;
@@ -1986,7 +1988,7 @@ player_node *search_post(player_node *head,const char* post,const char* teamName
 			if(strcmp(p->nation,teamName)==0)
 			return p;
 		}
-			
+
 		p = p->next;
 	}
 	return NULL;
@@ -2001,7 +2003,7 @@ player_node *search_post_temp(player_node *head,const char* post,const char* tea
 			if(strcmp(p->nation,teamName)==0)
 			return p;
 		}
-			
+
 		p = p->next;
 	}
 	return NULL;
@@ -2038,13 +2040,13 @@ player_node *search_playerNumber(player_node *head,int n)
 		p = p->next;
 	}
 	return NULL;
-	
+
 }
 int doAbility(int skill,int form, int fitness)
 {
 	return (skill) + ((fitness)/2) + ((form)*0.3);
 
-		
+
 }
 void setTempNull(player_node * head)
 {
@@ -2056,13 +2058,13 @@ void setTempNull(player_node * head)
 		p = p->next;
 	}
 	return;
-	
+
 }
-void printList(player_node *head) 
+void printList(player_node *head)
 {
 	player_node *p = head;
 	for (int i=0;;i++) {
-		if(p != NULL) {	
+		if(p != NULL) {
 			printf("\n %s -- %d ", p->name,p->skill);
 			p = p->next;
 		} else {
@@ -2088,7 +2090,7 @@ void doSkills(teams_node * head_team,player_node * head_player)
 			if (strcmp(player->nation,team->teamName)==0)
 			{
 				if(team->seed==1)
-				{	
+				{
 					int t=rand()%5+1;
 					if(t ==1||t ==2)
 					player->skill= rand()%21 +80;
@@ -2151,20 +2153,20 @@ void doSkills(teams_node * head_team,player_node * head_player)
 			a=0;
 		}
 	}
-	
+
 }
 //////////////////////////////////////writes
 void playerWriteInfo(player_node *pp)
 {
 	char *playersInformations=(char *)calloc (70000,sizeof(char));
-	
+
 	FILE *playersdata=fopen("recentWorldCupPlayersInfo.txt","w");
 	player_node *p = (player_node*)calloc(1,sizeof(player_node));
 	p=pp;
 	while (p != NULL) {
 		char integer_string[70]={};
 		sprintf(integer_string, "\n%d %s %d %s %s %s %d %d %d %d %d\n", p->number,p->name,p->age,p->nation,p->mainPost,p->tempPost,p->skill,p->form,p->fitness,p->goals,p->passGoals);
-		strcat(playersInformations, integer_string); 
+		strcat(playersInformations, integer_string);
 		p = p->next;
 	}
 	fprintf(playersdata,"%s",playersInformations);
@@ -2257,21 +2259,28 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 	//if(loacalProceed==1)
 	//{
 		//(matchTable[0][0]%100,matchTable[1][0]%100);
-		
+
 		for(int y=0; y < 32;y++)
 		{
 			printf ("\n%s" ,teamNamesandNums[y]);
 		}
-		int t=0;
-		int j=0;
-		for(int i=-1;j<32;t++,j+=2)
+
+
+
+
+
+
+
+
+		// start of proceed 1
+		for(int t=0, j=0,i=-1;j<32;t++,j+=2)
 		{
 			if(t%2==0)
 			{
 				i++;
 			}
-		
-		
+
+
 		goalsofTeam1=goalNumber(gPlan[matchTable[j%4][i]%100-1][13],gPlan[matchTable[(j+1)%4][i]%100-1][12]);
 		goalsofTeam2=goalNumber(gPlan[matchTable[(j+1)%4][i]%100-1][13],gPlan[matchTable[j%4][i]%100-1][12]);
 		printf ("\nteam1 = %s   %d   VS    team2= %s  %d",teamNamesandNums[matchTable[j%4][i]%100-1],goalsofTeam1,teamNamesandNums[matchTable[(j+1)%4][i]%100-1],goalsofTeam2);
@@ -2287,7 +2296,7 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 				ppt= search_team(pt,teamNamesandNums[matchTable[(j+1)%4][i]%100-1]);
 				ppt->pointOfteam+=3;
 			}
-			
+
 		}
 		else
 		{
@@ -2304,7 +2313,7 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		ppt->goalsRecev+=goalsofTeam1;
 		while(goalsofTeam1)
 		{
-			
+
 			golzanNum=goalzan(gPlan[matchTable[j%4][i]%100-1][11]);
 			passGoalNum=passgoal(gPlan[matchTable[j%4][i]%100-1][11]);
 			ppp=search_playerNumber_teams(pp,gPlan[matchTable[j%4][i]%100-1][golzanNum],teamNamesandNums[matchTable[j%4][i]%100-1]);
@@ -2314,7 +2323,7 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 			ppp->passGoals+=1;
 			printf("\npass Goale :%d.%s",ppp->number,ppp->name);
 			goalsofTeam1--;
-		
+
 		}
 		while(goalsofTeam2)
 		{
@@ -2328,9 +2337,104 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 			printf("\npass Goale :%d.%s",ppp->number,ppp->name);
 			goalsofTeam2--;
 			}
-			
+
 		}
-		
+
+
+
+
+
+
+
+
+		// start of proceed 2:
+		/*
+			matchTable[0][0]---->matchTable[2][0]
+			matchTable[1][0]---->matchTable[3][0]
+			matchTable[0][1]---->matchTable[2][1]
+			matchTable[1][1]---->matchTable[3][1]
+			matchTable[0][2]---->matchTable[2][2]
+			matchTable[1][2]---->matchTable[3][2]
+			matchTable[0][3]---->matchTable[2][3]
+			matchTable[1][3]---->matchTable[3][3]
+			matchTable[0][4]---->matchTable[2][4]
+			matchTable[1][4]---->matchTable[3][4]
+			matchTable[0][5]---->matchTable[2][5]
+			matchTable[1][5]---->matchTable[3][5]
+			matchTable[0][6]---->matchTable[2][6]
+			matchTable[1][6]---->matchTable[3][6]
+			matchTable[0][7]---->matchTable[2][7]
+			matchTable[1][7]---->matchTable[3][7]
+			matchTable[0][8]---->matchTable[2][8]
+			matchTable[1][8]---->matchTable[3][8]
+			*/
+		for(int i = 0, j = 0, t=0 ;j<7; i++,t++){
+
+				if(t%2==0 && t!=0)
+				{
+					j++;
+				}
+
+
+			goalsofTeam1=goalNumber(gPlan[matchTable[i%4][j]%100-1][13],gPlan[matchTable[(i+2)%4][j]%100-1][12]);
+			goalsofTeam2=goalNumber(gPlan[matchTable[(i+2)%4][j]%100-1][13],gPlan[matchTable[i%4][j]%100-1][12]);
+			printf ("\nteam1 = %s   %d   VS    team2= %s  %d",teamNamesandNums[matchTable[i%4][j]%100-1],goalsofTeam1,teamNamesandNums[matchTable[(i+2)%4][j]%100-1],goalsofTeam2);
+			if(goalsofTeam1!=goalsofTeam2)
+			{
+				if(goalsofTeam1>goalsofTeam2)
+				{
+						ppt= search_team(pt,teamNamesandNums[matchTable[i%4][j]%100-1]);
+						ppt->pointOfteam+=3;
+				}
+				else
+				{
+					ppt= search_team(pt,teamNamesandNums[matchTable[(i+2)%4][j]%100-1]);
+					ppt->pointOfteam+=3;
+				}
+
+			}
+			else
+			{
+				ppt= search_team(pt,teamNamesandNums[matchTable[i%4][j]%100-1]);
+				ppt->pointOfteam+=1;
+				ppt= search_team(pt,teamNamesandNums[matchTable[(i+2)%4][j]%100-1]);
+				ppt->pointOfteam+=1;
+			}
+			ppt= search_team(pt,teamNamesandNums[matchTable[i%4][j]%100-1]);
+			ppt->goalsScoerds+=goalsofTeam1;
+			ppt->goalsRecev+=goalsofTeam2;
+			ppt= search_team(pt,teamNamesandNums[matchTable[(i+2)%4][j]%100-1]);
+			ppt->goalsScoerds+=goalsofTeam2;
+			ppt->goalsRecev+=goalsofTeam1;
+			while(goalsofTeam1)
+			{
+
+				golzanNum=goalzan(gPlan[matchTable[i%4][j]%100-1][11]);
+				passGoalNum=passgoal(gPlan[matchTable[i%4][j]%100-1][11]);
+				ppp=search_playerNumber_teams(pp,gPlan[matchTable[i%4][j]%100-1][golzanNum],teamNamesandNums[matchTable[i%4][j]%100-1]);
+				ppp->goals+=1;
+				printf("\ngoal Zan :%d.%s",ppp->number,ppp->name);
+				ppp=search_playerNumber_teams(pp,gPlan[matchTable[i%4][j]%100-1][passGoalNum],teamNamesandNums[matchTable[i%4][j]%100-1]);
+				ppp->passGoals+=1;
+				printf("\npass Goale :%d.%s",ppp->number,ppp->name);
+				goalsofTeam1--;
+
+			}
+			while(goalsofTeam2)
+			{
+				golzanNum=goalzan(gPlan[matchTable[(i+2)%4][j]%100-1][11]);
+				passGoalNum=passgoal(gPlan[matchTable[(i+2)%4][j]%100-1][11]);
+				ppp=search_playerNumber_teams(pp,gPlan[matchTable[(i+2)%4][j]%100-1][golzanNum],teamNamesandNums[matchTable[(i+2)%4][j]%100-1]);
+				ppp->goals+=1;
+				printf("\ngoal Zan :%d.%s",ppp->number,ppp->name);
+				ppp=search_playerNumber_teams(pp,gPlan[matchTable[(i+2)%4][j]%100-1][passGoalNum],teamNamesandNums[matchTable[(i+2)%4][j]%100-1]);
+				ppp->passGoals+=1;
+				printf("\npass Goale :%d.%s",ppp->number,ppp->name);
+				goalsofTeam2--;
+				}
+		}
+
+
 		//printf("%s :   %d - %s :     %d",teamNamesandNums[matchTable[0][0]%100-1],goalsofTeam1,teamNamesandNums[matchTable[1][0]%100-1],goalsofTeam2);
 		//ppp=search_teamName(pp,teamNamesandNums[matchTable[0][0]%100-1]);
 		//
@@ -2354,6 +2458,7 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 	}
 	if(loacalProceed==2)
 	{
+	/*
 		matchTable[0][0]---->matchTable[2][0]
 		matchTable[1][0]---->matchTable[3][0]
 		matchTable[0][1]---->matchTable[2][1]
@@ -2372,6 +2477,8 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		matchTable[1][7]---->matchTable[3][7]
 		matchTable[0][8]---->matchTable[2][8]
 		matchTable[1][8]---->matchTable[3][8]
+		*/
+		/*
 	}
 	if(loacalProceed==3)
 	{
@@ -2414,7 +2521,7 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		matchTable[2][7]---->matchTable[3][7]
 		matchTable[0][8]---->matchTable[1][8]
 		matchTable[2][8]---->matchTable[3][8]
-	}	
+	}
 	*/
-	
+
 }
