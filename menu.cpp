@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 char teamNames[480]={};
+char teamNamesandNums[32][25]={};
 typedef struct players{
 	int number;
 	char name[20];
@@ -63,13 +64,13 @@ void selectTeamsToManagement()
 	FILE *managment=fopen("teamNames.txt","r");
 	char line[801]={};
 	int team=0;
-	char teamNames[32][25]={};
+	char teamNamesandNums[32][25]={};
 	int numTeams=1,i=0;
 	puts("Enter Number of your team that you want to manage");
 	while(numTeams<33)
 	{
-		fscanf(managment,"%s",teamNames[i]);
-		printf("%2d.%s\n",numTeams,teamNames[i]);
+		fscanf(managment,"%s",teamNamesandNums[i]);
+		printf("%2d.%s\n",numTeams,teamNamesandNums[i]);
 		
 		
 		numTeams++;
@@ -90,8 +91,8 @@ void selectTeamsToManagement()
 		}
 	}
 	
-	printf("Your team is : %s", teamNames[team-1]);
-	strcpy(selectedTeam,teamNames[team-1]);
+	printf("Your team is : %s", teamNamesandNums[team-1]);
+	strcpy(selectedTeam,teamNamesandNums[team-1]);
 	return;
 }
 void loadPlayerInfo(player_node * headp)
@@ -146,7 +147,7 @@ void loadPlayerInfo(player_node * headp)
 	loadplayers=NULL;
 	////////////////file of teams that the player wants to manage check!
 	
-	///////////////file of points of teams in group games
+	///////////////file of points of teams in group games check!
 	
 	///////////////file of goals and who and in which game is that
 	
@@ -186,4 +187,37 @@ void pointsOfTeamsRead(teams_node *head)
 	fclose(pointsOfTeams);
 	pointsOfTeams=NULL;
 	
+}
+void playerGoalsWrite(player_node *headp,int isgroupGame,teams_node * headt,int )
+{
+	///////////first var is : is groupGame?? 1 : 0
+	FILE *playersGoals = fopen("PlayersGoals.txt","w");
+	char *playersGoalsTXT=(char *)calloc (350,sizeof(char));
+	player_node *pp = (player_node*)calloc(1,sizeof(player_node));
+	teams_node *pt = (teams_node*)calloc(1,sizeof(teams_node));
+	pp = headp;
+	pt= headt;
+	int numTeams=0;
+	while (numTeams<33)
+	{
+		char * group = (char *)calloc(2,sizeof(char));
+		strcpy(group,pt->group);
+		while (strcmp(pt->teamName,pp->nation)==0) {
+		char integer_string[15]={};
+		//sprintf(integer_string, "\n%d %s %d %s %s\n",isgroupGame,group,);//////////what can i do for team? Vs team?		?????
+		strcat(playersGoalsTXT, integer_string); 
+		pp = pp->next;
+		}
+		pt->next;
+		numTeams++;
+	}
+	
+	fprintf(playersGoals,"%s",playersGoalsTXT);
+	fclose(playersGoals);
+	playersGoals=NULL;
+	
+}
+void playerGoalsRead(player_node *headp)
+{
+	/////namayesh dar jadval
 }
