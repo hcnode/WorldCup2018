@@ -375,6 +375,8 @@ void changingPlayerofUser(player_node * headp,teams_node *headt)
 	pp=headp;
 	pt = headt;
 	int a=1;
+	char xt[5];
+	char yt[5];
 	int x=0,y=0;
 	int r=0;
 	int counter=0;
@@ -385,7 +387,33 @@ void changingPlayerofUser(player_node * headp,teams_node *headt)
 		pp=headp;
 		pt = headt;
 		printf("\n\t\tTo do Substitution First Choose player is in the plan then Choose player is out of plan please(player's Number in plan / player's Number out of plan)\n");
-		scanf("%d%d",&x,&y);
+		scanf("%s",xt);
+		scanf("%s",yt);
+		//
+
+		for(int i=0;i<5;i++){
+			if(isdigit[i]) continue;
+			else{
+				i = 0;
+				printf("\n\t\tTo do Substitution First Choose player is in the plan then Choose player is out of plan please(player's Number in plan / player's Number out of plan)\n");
+						scanf("%s",xt);
+
+			}
+		}
+		x = (int)strtol(xt, (char **)NULL, 10);
+
+
+		for(int i=0;i<5;i++){
+			if(isdigit[i]) continue;
+			else{
+				i = 0;
+				printf("\n\t\tTo do Substitution First Choose player is in the plan then Choose player is out of plan please(player's Number in plan / player's Number out of plan)\n");
+						scanf("%s",yt);
+
+			}
+		}
+		y = (int)strtol(yt, (char **)NULL, 10);
+		//
 		for(int u=0;u<11;u++)
 		{
 			if(gPlan[r][u]==x)
