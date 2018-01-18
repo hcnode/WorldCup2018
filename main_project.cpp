@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 #include<string.h>
 #include<time.h>
 #include<stdlib.h>
@@ -772,6 +773,7 @@ void selectTeamsToManagement()
 	FILE *managment=fopen("teamNames.txt","r");
 	char line[5000]={};
 	int team=0;
+	char teamt[5] ={0};
 	int numTeams=1,i=0;
 	puts("Enter Number of your team that you want to manage");
 	while(numTeams<33)
@@ -783,7 +785,33 @@ void selectTeamsToManagement()
 	}
 	fclose(managment);
 	managment=NULL;
+
+//
 	while(1)
+	{
+		//for checking valid arg
+		scanf("%s",teamt);
+		for(int i=0;i<5;i++){
+			if(isdigit[i]) continue;
+			else{
+				i = 0;
+				puts("choose team number from list!!");
+						scanf("%s",teamt);
+
+			}
+		}
+		team = (int)strtol(teamt, (char **)NULL, 10);
+		if( team<33 && team>0)
+		{
+			break;
+		}
+		else
+		{
+			puts("choose team number from list!!");
+		}
+	}
+//
+/*	while(1)
 	{
 		scanf("%d",&team);
 		if( team<33 && team>0)
@@ -795,7 +823,7 @@ void selectTeamsToManagement()
 			puts("choose team number from list!!");
 		}
 	}
-
+*/
 	printf("Your team is : %s", teamNamesandNums[team-1]);
 	strcpy(selectedTeam,teamNamesandNums[team-1]);
 	return;
