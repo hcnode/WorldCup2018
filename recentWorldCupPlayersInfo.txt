@@ -1,2014 +1,2014 @@
 
-1 A.Marchesin 29 Argentina G G 88 80 100 0 0
+1 A.Marchesin 29 Argentina G N 40 80 100 0 0
 
-2 S.Romero 30 Argentina G N 59 80 100 0 0
+2 S.Romero 30 Argentina G G 87 80 100 0 0
 
-3 N.Guzman 31 Argentina G N 56 80 100 0 0
+3 N.Guzman 31 Argentina G N 60 80 100 0 0
 
-4 G.Rulli 25 Argentina G N 60 80 100 0 0
+4 G.Rulli 25 Argentina G N 40 80 100 0 0
 
-5 J.Mascherano 33 Argentina D N 80 80 100 0 0
+5 J.Mascherano 33 Argentina D N 62 80 100 0 0
 
-6 J.Maidana 32 Argentina D N 85 80 100 0 0
+6 J.Maidana 32 Argentina D D 76 80 100 0 0
 
-7 G.Mercado 30 Argentina D D 86 80 100 0 0
+7 G.Mercado 30 Argentina D N 68 80 100 0 0
 
-8 E.Insua 28 Argentina D D 88 80 100 0 0
+8 E.Insua 28 Argentina D D 86 80 100 0 0
 
-9 F.Fazio 30 Argentina D D 94 80 100 0 0
+9 F.Fazio 30 Argentina D N 63 80 100 0 0
 
-10 N.Otamendi 29 Argentina D N 78 80 100 0 0
+10 N.Otamendi 29 Argentina D D 86 80 100 0 0
 
-11 N.Tagliafico 25 Argentina D D 89 80 100 0 0
+11 N.Tagliafico 25 Argentina D D 80 80 100 0 0
 
-12 G.Pezzella 26 Argentina D N 66 80 100 0 0
+12 G.Pezzella 26 Argentina D N 76 80 100 0 0
 
-13 E.Mammana 21 Argentina D N 73 80 100 0 0
+13 E.Mammana 21 Argentina D N 61 80 100 0 0
 
-14 J.Gomez 24 Argentina D N 85 80 100 0 0
+14 J.Gomez 24 Argentina D N 49 80 100 0 0
 
-15 L.Biglia 31 Argentina M N 68 80 100 0 0
+15 L.Biglia 31 Argentina M N 59 80 100 0 0
 
-16 A.Gomez 29 Argentina M N 72 80 100 0 0
+16 A.Gomez 29 Argentina M N 50 80 100 0 0
 
-17 E.Perez 31 Argentina M M 89 80 100 0 0
+17 E.Perez 31 Argentina M N 73 80 100 0 0
 
-18 F.Belluschi 34 Argentina M N 44 80 100 0 0
+18 F.Belluschi 34 Argentina M M 100 80 100 0 0
 
-19 A.DiMaria 29 Argentina M N 67 80 100 0 0
+19 A.DiMaria 29 Argentina M N 80 80 100 0 0
 
-20 E.Banega 29 Argentina M M 83 80 100 0 0
+20 E.Banega 29 Argentina M N 52 80 100 0 0
 
-21 E.Salvio 27 Argentina M N 78 80 100 0 0
+21 E.Salvio 27 Argentina M N 71 80 100 0 0
 
-22 M.Lanzini 24 Argentina M N 69 80 100 0 0
+22 M.Lanzini 24 Argentina M N 62 80 100 0 0
 
-23 I.Fernandez 27 Argentina M N 62 80 100 0 0
+23 I.Fernandez 27 Argentina M N 60 80 100 0 0
 
-24 L.Paredes 23 Argentina M M 84 80 100 0 0
+24 L.Paredes 23 Argentina M N 55 80 100 0 0
 
-25 J.Correa 23 Argentina M N 61 80 100 0 0
+25 J.Correa 23 Argentina M N 63 80 100 0 0
 
-26 M.Kranevitter 24 Argentina M N 68 80 100 0 0
+26 M.Kranevitter 24 Argentina M M 82 80 100 0 0
 
-27 E.Rigoni 24 Argentina M N 78 80 100 0 0
+27 E.Rigoni 24 Argentina M N 64 80 100 0 0
 
-28 G.Rodriguez 23 Argentina M N 67 80 100 0 0
+28 G.Rodriguez 23 Argentina M M 87 80 100 0 0
 
-29 G.LoCelso 21 Argentina M N 78 80 100 0 0
+29 G.LoCelso 21 Argentina M N 68 80 100 0 0
 
 30 L.Messi 30 Argentina A N 41 80 100 0 0
 
-31 S.Aguero 29 Argentina A N 91 80 100 0 0
+31 S.Aguero 29 Argentina A A 93 80 100 0 0
 
-32 G.Higuain 30 Argentina A A 95 80 100 0 0
+32 G.Higuain 30 Argentina A N 71 80 100 0 0
 
-33 D.Perotti 29 Argentina A N 73 80 100 0 0
+33 D.Perotti 29 Argentina A N 51 80 100 0 0
 
-34 D.Benedetto 27 Argentina A A 97 80 100 0 0
+34 D.Benedetto 27 Argentina A N 51 80 100 0 0
 
-35 M.Acuna 26 Argentina A N 50 80 100 0 0
+35 M.Acuna 26 Argentina A N 64 80 100 0 0
 
-36 L.Alario 25 Argentina A N 92 80 100 0 0
+36 L.Alario 25 Argentina A A 82 80 100 0 0
 
-37 P.Dybala 24 Argentina A N 89 80 100 0 0
+37 P.Dybala 24 Argentina A N 44 80 100 0 0
 
-38 C.Pavon 21 Argentina A A 100 80 100 0 0
+38 C.Pavon 21 Argentina A A 85 80 100 0 0
 
-1 M.Ryan 25 Australia G N 20 80 100 0 0
+1 M.Ryan 25 Australia G G 50 80 100 0 0
 
-12 M.Langerak 29 Australia G G 60 80 100 0 0
+12 M.Langerak 29 Australia G N 32 80 100 0 0
 
-18 D.Vukovic 32 Australia G N 42 80 100 0 0
+18 D.Vukovic 32 Australia G N 34 80 100 0 0
 
-2 M.Degenek 23 Australia D D 44 80 100 0 0
+2 M.Degenek 23 Australia D N 24 80 100 0 0
 
-3 A.Gersbach 20 Australia D N 37 80 100 0 0
+3 A.Gersbach 20 Australia D D 52 80 100 0 0
 
-6 M.Jurman 28 Australia D N 25 80 100 0 0
+6 M.Jurman 28 Australia D N 33 80 100 0 0
 
-7 J.Risdon 25 Australia D N 36 80 100 0 0
+7 J.Risdon 25 Australia D D 62 80 100 0 0
 
-8 B.Wright 25 Australia D D 55 80 100 0 0
+8 B.Wright 25 Australia D N 35 80 100 0 0
 
-16 A.Behich 27 Australia D N 24 80 100 0 0
+16 A.Behich 27 Australia D D 58 80 100 0 0
 
-19 R.McGowan 28 Australia D N 33 80 100 0 0
+19 R.McGowan 28 Australia D D 48 80 100 0 0
 
-20 T.Sainsbury 25 Australia D D 43 80 100 0 0
+20 T.Sainsbury 25 Australia D D 49 80 100 0 0
 
-5 J.Jeggo 25 Australia M M 54 80 100 0 0
+5 J.Jeggo 25 Australia M M 56 80 100 0 0
 
-13 A.Mooy 27 Australia M M 54 80 100 0 0
+13 A.Mooy 27 Australia M M 57 80 100 0 0
 
-15 M.Jedinak 33 Australia M M 46 80 100 0 0
+15 M.Jedinak 33 Australia M N 29 80 100 0 0
 
-21 M.Luongo 25 Australia M M 58 80 100 0 0
+21 M.Luongo 25 Australia M M 43 80 100 0 0
 
-22 J.Irvine 24 Australia M N 37 80 100 0 0
+22 J.Irvine 24 Australia M N 31 80 100 0 0
 
-23 T.Rogic 25 Australia M N 40 80 100 0 0
+23 T.Rogic 25 Australia M N 31 80 100 0 0
 
-41 M.Milligan 32 Australia M N 37 80 100 0 0
+41 M.Milligan 32 Australia M N 35 80 100 0 0
 
-42 M.Leckie 26 Australia M M 44 80 100 0 0
+42 M.Leckie 26 Australia M M 38 80 100 0 0
 
-4 T.Cahill 38 Australia A A 72 80 100 0 0
+4 T.Cahill 38 Australia A N 34 80 100 0 0
 
-9 T.Juric 26 Australia A N 32 80 100 0 0
+9 T.Juric 26 Australia A N 33 80 100 0 0
 
-10 R.Kruse 29 Australia A N 26 80 100 0 0
+10 R.Kruse 29 Australia A N 32 80 100 0 0
 
-11 C.Goodwin 26 Australia A N 38 80 100 0 0
+11 C.Goodwin 26 Australia A A 54 80 100 0 0
 
-14 J.Troisi 29 Australia A N 29 80 100 0 0
+14 J.Troisi 29 Australia A N 39 80 100 0 0
 
-17 N.Rukavytsya 30 Australia A A 68 80 100 0 0
+17 N.Rukavytsya 30 Australia A N 37 80 100 0 0
 
-1 S.Mignolet 29 Belgium G N 93 80 100 0 0
+1 S.Mignolet 29 Belgium G N 69 80 100 0 0
 
-2 T.Courtois 25 Belgium G G 99 80 100 0 0
+2 T.Courtois 25 Belgium G N 80 80 100 0 0
 
-3 K.Casteels 25 Belgium G N 96 80 100 0 0
+3 K.Casteels 25 Belgium G N 79 80 100 0 0
 
-4 M.Sels 25 Belgium G N 90 80 100 0 0
+4 M.Sels 25 Belgium G G 100 80 100 0 0
 
-5 V.Kompany 31 Belgium D D 87 80 100 0 0
+5 V.Kompany 31 Belgium D N 77 80 100 0 0
 
-6 T.Vermaelen 32 Belgium D N 74 80 100 0 0
+6 T.Vermaelen 32 Belgium D N 58 80 100 0 0
 
-7 J.Vertonghen 30 Belgium D N 78 80 100 0 0
+7 J.Vertonghen 30 Belgium D D 79 80 100 0 0
 
-8 L.Ciman 32 Belgium D N 62 80 100 0 0
+8 L.Ciman 32 Belgium D D 87 80 100 0 0
 
-9 C.Kabasele 26 Belgium D N 69 80 100 0 0
+9 C.Kabasele 26 Belgium D D 80 80 100 0 0
 
-10 T.Alderweireld 28 Belgium D D 85 80 100 0 0
+10 T.Alderweireld 28 Belgium D D 93 80 100 0 0
 
-11 T.Meunier 26 Belgium D N 54 80 100 0 0
+11 T.Meunier 26 Belgium D N 65 80 100 0 0
 
-12 D.Boyata 27 Belgium D D 83 80 100 0 0
+12 D.Boyata 27 Belgium D N 49 80 100 0 0
 
-13 J.Lukaku 23 Belgium D N 79 80 100 0 0
+13 J.Lukaku 23 Belgium D N 51 80 100 0 0
 
-14 M.Dembele 30 Belgium M M 90 80 100 0 0
+14 M.Dembele 30 Belgium M N 77 80 100 0 0
 
-15 M.Fellaini 30 Belgium M N 80 80 100 0 0
+15 M.Fellaini 30 Belgium M N 71 80 100 0 0
 
-16 S.Defour 29 Belgium M M 100 80 100 0 0
+16 S.Defour 29 Belgium M N 54 80 100 0 0
 
-17 A.Witsel 28 Belgium M N 77 80 100 0 0
+17 A.Witsel 28 Belgium M N 49 80 100 0 0
 
-18 R.Nainggolan 29 Belgium M M 97 80 100 0 0
+18 R.Nainggolan 29 Belgium M N 77 80 100 0 0
 
-19 E.Hazard 26 Belgium M N 60 80 100 0 0
+19 E.Hazard 26 Belgium M N 47 80 100 0 0
 
-20 N.Chadli 28 Belgium M N 75 80 100 0 0
+20 N.Chadli 28 Belgium M N 58 80 100 0 0
 
-21 K.DeBruyne 26 Belgium M M 89 80 100 0 0
+21 K.DeBruyne 26 Belgium M M 81 80 100 0 0
 
-22 Y.Carrasco 24 Belgium M N 71 80 100 0 0
+22 Y.Carrasco 24 Belgium M N 64 80 100 0 0
 
-23 L.Dendoncker 22 Belgium M N 88 80 100 0 0
+23 L.Dendoncker 22 Belgium M M 86 80 100 0 0
 
-24 T.Foket 23 Belgium M N 56 80 100 0 0
+24 T.Foket 23 Belgium M N 53 80 100 0 0
 
-25 A.Januzaj 22 Belgium M M 98 80 100 0 0
+25 A.Januzaj 22 Belgium M N 71 80 100 0 0
 
-26 Y.Tielemans 20 Belgium M N 75 80 100 0 0
+26 Y.Tielemans 20 Belgium M M 87 80 100 0 0
 
-27 K.Mirallas 30 Belgium A N 79 80 100 0 0
+27 K.Mirallas 30 Belgium A A 85 80 100 0 0
 
-28 D.Mertens 30 Belgium A A 89 80 100 0 0
+28 D.Mertens 30 Belgium A N 57 80 100 0 0
 
-29 C.Benteke 27 Belgium A N 64 80 100 0 0
+29 C.Benteke 27 Belgium A A 99 80 100 0 0
 
-30 R.Lukaku 24 Belgium A N 68 80 100 0 0
+30 R.Lukaku 24 Belgium A A 90 80 100 0 0
 
-31 L.Depoitre 29 Belgium A A 88 80 100 0 0
+31 L.Depoitre 29 Belgium A N 76 80 100 0 0
 
-32 T.Hazard 24 Belgium A N 65 80 100 0 0
+32 T.Hazard 24 Belgium A N 68 80 100 0 0
 
-33 M.Batshuayi 24 Belgium A N 64 80 100 0 0
+33 M.Batshuayi 24 Belgium A N 62 80 100 0 0
 
-34 D.Origi 22 Belgium A N 73 80 100 0 0
+34 D.Origi 22 Belgium A N 66 80 100 0 0
 
-1 DiegoAlves 32 Brazil G N 66 80 100 0 0
+1 DiegoAlves 32 Brazil G N 64 80 100 0 0
 
-2 Cassio 30 Brazil G N 82 80 100 0 0
+2 Cassio 30 Brazil G N 80 80 100 0 0
 
-3 Weverton 30 Brazil G N 61 80 100 0 0
+3 Weverton 30 Brazil G G 94 80 100 0 0
 
-4 Alisson 25 Brazil G N 54 80 100 0 0
+4 Alisson 25 Brazil G N 88 80 100 0 0
 
-5 DaniloFernandes 29 Brazil G N 80 80 100 0 0
+5 DaniloFernandes 29 Brazil G N 48 80 100 0 0
 
-6 AlexMuralha 28 Brazil G G 100 80 100 0 0
+6 AlexMuralha 28 Brazil G N 76 80 100 0 0
 
-7 EdersonMoraes 24 Brazil G N 54 80 100 0 0
+7 EdersonMoraes 24 Brazil G N 72 80 100 0 0
 
-8 JoaoMiranda 33 Brazil D N 60 80 100 0 0
+8 JoaoMiranda 33 Brazil D N 56 80 100 0 0
 
-9 Rafinha 32 Brazil D N 44 80 100 0 0
+9 Rafinha 32 Brazil D N 67 80 100 0 0
 
-10 DaniAlves 34 Brazil D N 57 80 100 0 0
+10 DaniAlves 34 Brazil D N 63 80 100 0 0
 
-11 FilipeLuis 32 Brazil D N 45 80 100 0 0
+11 FilipeLuis 32 Brazil D D 100 80 100 0 0
 
-12 FabioSantos 32 Brazil D D 90 80 100 0 0
+12 FabioSantos 32 Brazil D N 53 80 100 0 0
 
-13 ThiagoSilva 33 Brazil D N 60 80 100 0 0
+13 ThiagoSilva 33 Brazil D N 49 80 100 0 0
 
-14 DavidLuiz 30 Brazil D N 72 80 100 0 0
+14 DavidLuiz 30 Brazil D N 73 80 100 0 0
 
-15 PedroGeromel 32 Brazil D N 51 80 100 0 0
+15 PedroGeromel 32 Brazil D D 95 80 100 0 0
 
-16 Fagner 28 Brazil D N 60 80 100 0 0
+16 Fagner 28 Brazil D N 49 80 100 0 0
 
-17 Marcelo 29 Brazil D N 63 80 100 0 0
+17 Marcelo 29 Brazil D N 44 80 100 0 0
 
-18 MarcosRocha 29 Brazil D D 94 80 100 0 0
+18 MarcosRocha 29 Brazil D D 87 80 100 0 0
 
-19 Danilo 26 Brazil D N 74 80 100 0 0
+19 Danilo 26 Brazil D N 76 80 100 0 0
 
-20 AlexSandro 26 Brazil D N 48 80 100 0 0
+20 AlexSandro 26 Brazil D N 81 80 100 0 0
 
-21 Gil 30 Brazil D N 44 80 100 0 0
+21 Gil 30 Brazil D N 59 80 100 0 0
 
-22 VitorHugo 26 Brazil D N 78 80 100 0 0
+22 VitorHugo 26 Brazil D N 42 80 100 0 0
 
-23 Marquinhos 23 Brazil D N 67 80 100 0 0
+23 Marquinhos 23 Brazil D N 69 80 100 0 0
 
-24 RodrigoCaio 24 Brazil D N 68 80 100 0 0
+24 RodrigoCaio 24 Brazil D N 59 80 100 0 0
 
-25 LuanGarcia 24 Brazil D N 85 80 100 0 0
+25 LuanGarcia 24 Brazil D N 83 80 100 0 0
 
-26 Jemerson 25 Brazil D N 77 80 100 0 0
+26 Jemerson 25 Brazil D N 70 80 100 0 0
 
-27 Jorge 21 Brazil D D 99 80 100 0 0
+27 Jorge 21 Brazil D N 54 80 100 0 0
 
-28 Diego 32 Brazil M N 83 80 100 0 0
+28 Diego 32 Brazil M N 72 80 100 0 0
 
-29 Willian 29 Brazil M N 69 80 100 0 0
+29 Willian 29 Brazil M N 86 80 100 0 0
 
-30 RenatoAugusto 29 Brazil M N 60 80 100 0 0
+30 RenatoAugusto 29 Brazil M M 98 80 100 0 0
 
-31 Henrique 32 Brazil M N 68 80 100 0 0
+31 Henrique 32 Brazil M N 87 80 100 0 0
 
-32 DiegoSouza 32 Brazil M N 74 80 100 0 0
+32 DiegoSouza 32 Brazil M N 69 80 100 0 0
 
-33 Fernandinho 32 Brazil M M 100 80 100 0 0
+33 Fernandinho 32 Brazil M N 61 80 100 0 0
 
-34 Giuliano 27 Brazil M N 43 80 100 0 0
+34 Giuliano 27 Brazil M M 92 80 100 0 0
 
-35 Paulinho 29 Brazil M N 49 80 100 0 0
+35 Paulinho 29 Brazil M N 84 80 100 0 0
 
-36 Taison 29 Brazil M M 95 80 100 0 0
+36 Taison 29 Brazil M M 91 80 100 0 0
 
-37 Camilo 31 Brazil M N 63 80 100 0 0
+37 Camilo 31 Brazil M M 91 80 100 0 0
 
-38 DouglasCosta 27 Brazil M M 88 80 100 0 0
+38 DouglasCosta 27 Brazil M N 85 80 100 0 0
 
-39 Rodriguinho 29 Brazil M N 60 80 100 0 0
+39 Rodriguinho 29 Brazil M M 94 80 100 0 0
 
-40 PhilippeCoutinho 25 Brazil M N 68 80 100 0 0
+40 PhilippeCoutinho 25 Brazil M N 80 80 100 0 0
 
-41 Casemiro 25 Brazil M N 82 80 100 0 0
+41 Casemiro 25 Brazil M N 85 80 100 0 0
 
-42 LucasLima 27 Brazil M M 91 80 100 0 0
+42 LucasLima 27 Brazil M N 48 80 100 0 0
 
-43 WillianArao 25 Brazil M N 70 80 100 0 0
+43 WillianArao 25 Brazil M N 85 80 100 0 0
 
-44 Walace 22 Brazil M M 89 80 100 0 0
+44 Walace 22 Brazil M N 87 80 100 0 0
 
-45 GustavoScarpa 23 Brazil M N 83 80 100 0 0
+45 GustavoScarpa 23 Brazil M N 70 80 100 0 0
 
-46 Robinho 33 Brazil A A 81 80 100 0 0
+46 Robinho 33 Brazil A N 54 80 100 0 0
 
-47 Dudu 25 Brazil A N 61 80 100 0 0
+47 Dudu 25 Brazil A N 77 80 100 0 0
 
-48 Neymar 25 Brazil A N 76 80 100 0 0
+48 Neymar 25 Brazil A A 80 80 100 0 0
 
-49 RobertoFirmino 26 Brazil A N 70 80 100 0 0
+49 RobertoFirmino 26 Brazil A A 81 80 100 0 0
 
-50 Luan 24 Brazil A N 66 80 100 0 0
+50 Luan 24 Brazil A N 40 80 100 0 0
 
-51 GabrielJesus 20 Brazil A A 80 80 100 0 0
+51 GabrielJesus 20 Brazil A N 59 80 100 0 0
 
-1 D.Gonzalez 35 Colombia G N 52 80 100 0 0
+1 D.Gonzalez 35 Colombia G G 80 80 100 0 0
 
-2 J.Cuadrado 32 Colombia G N 71 80 100 0 0
+2 J.Cuadrado 32 Colombia G N 79 80 100 0 0
 
-3 D.Ospina 29 Colombia G N 78 80 100 0 0
+3 D.Ospina 29 Colombia G N 53 80 100 0 0
 
-4 CamiloVargas 28 Colombia G N 46 80 100 0 0
+4 CamiloVargas 28 Colombia G N 45 80 100 0 0
 
-5 L.Castellanos 33 Colombia G G 93 80 100 0 0
+5 L.Castellanos 33 Colombia G N 61 80 100 0 0
 
-6 C.Zapata 31 Colombia D N 41 80 100 0 0
+6 C.Zapata 31 Colombia D D 72 80 100 0 0
 
-7 P.Armero 31 Colombia D D 80 80 100 0 0
+7 P.Armero 31 Colombia D N 54 80 100 0 0
 
-8 F.Diaz 34 Colombia D D 80 80 100 0 0
+8 F.Diaz 34 Colombia D N 53 80 100 0 0
 
-9 O.Murillo 29 Colombia D N 55 80 100 0 0
+9 O.Murillo 29 Colombia D N 46 80 100 0 0
 
-10 S.Arias 25 Colombia D N 52 80 100 0 0
+10 S.Arias 25 Colombia D D 80 80 100 0 0
 
-11 D.Bocanegra 30 Colombia D N 59 80 100 0 0
+11 D.Bocanegra 30 Colombia D N 47 80 100 0 0
 
-12 S.Medina 25 Colombia D N 73 80 100 0 0
+12 S.Medina 25 Colombia D N 43 80 100 0 0
 
-13 W.Tesillo 27 Colombia D N 47 80 100 0 0
+13 W.Tesillo 27 Colombia D N 53 80 100 0 0
 
-14 F.Fabra 26 Colombia D N 73 80 100 0 0
+14 F.Fabra 26 Colombia D N 50 80 100 0 0
 
-15 F.Aguilar 24 Colombia D N 51 80 100 0 0
+15 F.Aguilar 24 Colombia D N 59 80 100 0 0
 
-16 L.Balanta 27 Colombia D N 64 80 100 0 0
+16 L.Balanta 27 Colombia D N 47 80 100 0 0
 
-17 E.alvarez 24 Colombia D D 79 80 100 0 0
+17 E.alvarez 24 Colombia D N 54 80 100 0 0
 
-18 Y.Mina 23 Colombia D N 47 80 100 0 0
+18 Y.Mina 23 Colombia D N 54 80 100 0 0
 
-19 D.Sanchez 21 Colombia D D 89 80 100 0 0
+19 D.Sanchez 21 Colombia D N 53 80 100 0 0
 
-20 JuanQuintero 22 Colombia D N 44 80 100 0 0
+20 JuanQuintero 22 Colombia D D 74 80 100 0 0
 
-21 L.Orejuela 22 Colombia D N 67 80 100 0 0
+21 L.Orejuela 22 Colombia D D 65 80 100 0 0
 
-22 A.Aguilar 32 Colombia M M 80 80 100 0 0
+22 A.Aguilar 32 Colombia M N 59 80 100 0 0
 
-23 M.Torres 33 Colombia M N 56 80 100 0 0
+23 M.Torres 33 Colombia M N 40 80 100 0 0
 
-24 C.Sanchez 31 Colombia M M 99 80 100 0 0
+24 C.Sanchez 31 Colombia M M 72 80 100 0 0
 
-25 V.Hernandez 28 Colombia M N 74 80 100 0 0
+25 V.Hernandez 28 Colombia M N 60 80 100 0 0
 
-26 G.Moreno 31 Colombia M N 68 80 100 0 0
+26 G.Moreno 31 Colombia M N 44 80 100 0 0
 
-27 J.Cuadrado 29 Colombia M N 55 80 100 0 0
+27 J.Cuadrado 29 Colombia M N 66 80 100 0 0
 
-28 J.Rodriguez 26 Colombia M N 67 80 100 0 0
+28 J.Rodriguez 26 Colombia M N 71 80 100 0 0
 
-29 E.Cardona 25 Colombia M N 70 80 100 0 0
+29 E.Cardona 25 Colombia M N 45 80 100 0 0
 
-30 D.Torres 28 Colombia M N 67 80 100 0 0
+30 D.Torres 28 Colombia M M 80 80 100 0 0
 
-31 G.Cuellar 25 Colombia M M 80 80 100 0 0
+31 G.Cuellar 25 Colombia M N 68 80 100 0 0
 
-32 A.Hurtado 30 Colombia M N 59 80 100 0 0
+32 A.Hurtado 30 Colombia M N 63 80 100 0 0
 
-33 M.Uribe 26 Colombia M M 97 80 100 0 0
+33 M.Uribe 26 Colombia M N 72 80 100 0 0
 
 34 W.Barrios 24 Colombia M N 48 80 100 0 0
 
-35 S.Montoya 26 Colombia M N 48 80 100 0 0
+35 S.Montoya 26 Colombia M N 50 80 100 0 0
 
-36 J.Lerma 23 Colombia M N 60 80 100 0 0
+36 J.Lerma 23 Colombia M M 93 80 100 0 0
 
-37 R.Falcao 31 Colombia A N 51 80 100 0 0
+37 R.Falcao 31 Colombia A N 49 80 100 0 0
 
-38 T.Gutierrez 32 Colombia A N 45 80 100 0 0
+38 T.Gutierrez 32 Colombia A A 99 80 100 0 0
 
-39 F.Pardo 27 Colombia A A 86 80 100 0 0
+39 F.Pardo 27 Colombia A A 95 80 100 0 0
 
-40 D.Zapata 26 Colombia A A 78 80 100 0 0
+40 D.Zapata 26 Colombia A N 80 80 100 0 0
 
-41 C.Bacca 31 Colombia A N 48 80 100 0 0
+41 C.Bacca 31 Colombia A N 44 80 100 0 0
 
-42 O.Berrio 26 Colombia A N 51 80 100 0 0
+42 O.Berrio 26 Colombia A N 54 80 100 0 0
 
-43 L.Muriel 26 Colombia A N 74 80 100 0 0
+43 L.Muriel 26 Colombia A N 58 80 100 0 0
 
-44 J.Copete 29 Colombia A N 60 80 100 0 0
+44 J.Copete 29 Colombia A N 43 80 100 0 0
 
-45 J.Izquierdo 25 Colombia A N 73 80 100 0 0
+45 J.Izquierdo 25 Colombia A N 70 80 100 0 0
 
-46 M.Rangel 26 Colombia A N 64 80 100 0 0
+46 M.Rangel 26 Colombia A N 82 80 100 0 0
 
-47 M.Borja 24 Colombia A N 55 80 100 0 0
+47 M.Borja 24 Colombia A A 96 80 100 0 0
 
-1 L.Moreira 27 CostaRica G N 42 80 100 0 0
+1 L.Moreira 27 CostaRica G N 32 80 100 0 0
 
-18 P.Pemberton 35 CostaRica G N 40 80 100 0 0
+18 P.Pemberton 35 CostaRica G N 51 80 100 0 0
 
-23 D.Carvajal 28 CostaRica G G 54 80 100 0 0
+23 D.Carvajal 28 CostaRica G G 60 80 100 0 0
 
-2 J.Acosta 34 CostaRica D N 30 80 100 0 0
+2 J.Acosta 34 CostaRica D N 45 80 100 0 0
 
-3 G.Gonzalez 29 CostaRica D D 48 80 100 0 0
+3 G.Gonzalez 29 CostaRica D N 69 80 100 0 0
 
-4 M.Umana 35 CostaRica D D 54 80 100 0 0
+4 M.Umana 35 CostaRica D D 79 80 100 0 0
 
-5 K.Gutierrez 28 CostaRica D N 41 80 100 0 0
+5 K.Gutierrez 28 CostaRica D D 91 80 100 0 0
 
-6 J.Salvatierra 28 CostaRica D N 40 80 100 0 0
+6 J.Salvatierra 28 CostaRica D N 55 80 100 0 0
 
-8 B.Oviedo 27 CostaRica D N 37 80 100 0 0
+8 B.Oviedo 27 CostaRica D N 45 80 100 0 0
 
-15 F.Calvo 25 CostaRica D N 44 80 100 0 0
+15 F.Calvo 25 CostaRica D N 73 80 100 0 0
 
-16 C.Gamboa 28 CostaRica D N 24 80 100 0 0
+16 C.Gamboa 28 CostaRica D D 80 80 100 0 0
 
-22 J.Vargas 22 CostaRica D N 20 80 100 0 0
+22 J.Vargas 22 CostaRica D N 60 80 100 0 0
 
-24 K.Waston 29 CostaRica D D 53 80 100 0 0
+24 K.Waston 29 CostaRica D N 68 80 100 0 0
 
-26 J.Ordian 24 CostaRica D D 45 80 100 0 0
+26 J.Ordian 24 CostaRica D D 84 80 100 0 0
 
-11 J.Venegas 29 CostaRica M M 66 80 100 0 0
+11 J.Venegas 29 CostaRica M N 34 80 100 0 0
 
-13 R.Wallace 29 CostaRica M N 46 80 100 0 0
+13 R.Wallace 29 CostaRica M M 87 80 100 0 0
 
-14 R.Azofeifa 32 CostaRica M M 100 80 100 0 0
+14 R.Azofeifa 32 CostaRica M N 53 80 100 0 0
 
-17 Y.Tejeda 25 CostaRica M M 91 80 100 0 0
+17 Y.Tejeda 25 CostaRica M N 43 80 100 0 0
 
-19 U.Segura 24 CostaRica M N 36 80 100 0 0
+19 U.Segura 24 CostaRica M M 86 80 100 0 0
 
-20 D.Guzman 27 CostaRica M N 37 80 100 0 0
+20 D.Guzman 27 CostaRica M N 39 80 100 0 0
 
-25 J.Leiton 24 CostaRica M N 44 80 100 0 0
+25 J.Leiton 24 CostaRica M N 40 80 100 0 0
 
-27 J.Marin 20 CostaRica M N 22 80 100 0 0
+27 J.Marin 20 CostaRica M M 98 80 100 0 0
 
-7 D.Ramirez 24 CostaRica A N 60 80 100 0 0
+7 D.Ramirez 24 CostaRica A N 40 80 100 0 0
 
-9 A.Rodriguez 28 CostaRica A A 81 80 100 0 0
+9 A.Rodriguez 28 CostaRica A A 73 80 100 0 0
 
-10 B.Ruiz 32 CostaRica A A 85 80 100 0 0
+10 B.Ruiz 32 CostaRica A A 91 80 100 0 0
 
-12 J.Campbell 25 CostaRica A A 74 80 100 0 0
+12 J.Campbell 25 CostaRica A N 42 80 100 0 0
 
-21 M.Urena 27 CostaRica A N 65 80 100 0 0
+21 M.Urena 27 CostaRica A A 95 80 100 0 0
 
-1 I.Vargic 30 Croatia G N 93 80 100 0 0
+1 I.Vargic 30 Croatia G N 62 80 100 0 0
 
-2 D.Subasic 33 Croatia G N 82 80 100 0 0
+2 D.Subasic 33 Croatia G G 78 80 100 0 0
 
-3 L.Kalinic 27 Croatia G G 95 80 100 0 0
+3 L.Kalinic 27 Croatia G N 73 80 100 0 0
 
-4 D.Livakovic 22 Croatia G N 44 80 100 0 0
+4 D.Livakovic 22 Croatia G N 53 80 100 0 0
 
-5 V.corluka 31 Croatia D N 61 80 100 0 0
+5 V.corluka 31 Croatia D N 57 80 100 0 0
 
-6 M.Leovac 29 Croatia D N 50 80 100 0 0
+6 M.Leovac 29 Croatia D N 57 80 100 0 0
 
-7 D.Vida 28 Croatia D N 77 80 100 0 0
+7 D.Vida 28 Croatia D N 49 80 100 0 0
 
-8 I.Strinic 30 Croatia D N 58 80 100 0 0
+8 I.Strinic 30 Croatia D N 62 80 100 0 0
 
-9 D.Lovren 28 Croatia D N 71 80 100 0 0
+9 D.Lovren 28 Croatia D N 48 80 100 0 0
 
-10 J.Pivaric 28 Croatia D N 49 80 100 0 0
+10 J.Pivaric 28 Croatia D N 67 80 100 0 0
 
-11 s.Vrsaljko 25 Croatia D N 50 80 100 0 0
+11 s.Vrsaljko 25 Croatia D D 94 80 100 0 0
 
-12 Z.Nizic 28 Croatia D D 86 80 100 0 0
+12 Z.Nizic 28 Croatia D N 60 80 100 0 0
 
-13 M.Leskovic 26 Croatia D D 95 80 100 0 0
+13 M.Leskovic 26 Croatia D N 69 80 100 0 0
 
-14 A.Milic 23 Croatia D D 91 80 100 0 0
+14 A.Milic 23 Croatia D N 83 80 100 0 0
 
-15 M.Mitrovic 24 Croatia D D 88 80 100 0 0
+15 M.Mitrovic 24 Croatia D N 48 80 100 0 0
 
-16 T.Jedvaj 22 Croatia D N 68 80 100 0 0
+16 T.Jedvaj 22 Croatia D D 87 80 100 0 0
 
-17 D.caleta-Car 21 Croatia D N 55 80 100 0 0
+17 D.caleta-Car 21 Croatia D N 70 80 100 0 0
 
-18 B.Barisic 25 Croatia D N 46 80 100 0 0
+18 B.Barisic 25 Croatia D D 85 80 100 0 0
 
-19 L.Modric 32 Croatia M N 73 80 100 0 0
+19 L.Modric 32 Croatia M M 96 80 100 0 0
 
-20 I.Rakitic 29 Croatia M M 81 80 100 0 0
+20 I.Rakitic 29 Croatia M M 86 80 100 0 0
 
-21 I.Perisic 28 Croatia M N 65 80 100 0 0
+21 I.Perisic 28 Croatia M N 52 80 100 0 0
 
-22 D.Antolic 27 Croatia M M 87 80 100 0 0
+22 D.Antolic 27 Croatia M N 49 80 100 0 0
 
-23 M.Badelj 28 Croatia M N 48 80 100 0 0
+23 M.Badelj 28 Croatia M N 76 80 100 0 0
 
-24 F.Andrijasevic 26 Croatia M N 42 80 100 0 0
+24 F.Andrijasevic 26 Croatia M N 40 80 100 0 0
 
-25 M.Brozovic 25 Croatia M N 70 80 100 0 0
+25 M.Brozovic 25 Croatia M N 43 80 100 0 0
 
-26 M.Kovacic 23 Croatia M N 45 80 100 0 0
+26 M.Kovacic 23 Croatia M M 87 80 100 0 0
 
-27 M.Pasalic 22 Croatia M N 70 80 100 0 0
+27 M.Pasalic 22 Croatia M N 79 80 100 0 0
 
-28 M.Pjaca 22 Croatia M M 97 80 100 0 0
+28 M.Pjaca 22 Croatia M M 100 80 100 0 0
 
-29 F.Bradaric 24 Croatia M N 47 80 100 0 0
+29 F.Bradaric 24 Croatia M N 63 80 100 0 0
 
-30 M.Rog 22 Croatia M N 70 80 100 0 0
+30 M.Rog 22 Croatia M N 63 80 100 0 0
 
-31 N.Vlasic 20 Croatia M M 99 80 100 0 0
+31 N.Vlasic 20 Croatia M M 85 80 100 0 0
 
-32 A.coric 20 Croatia M N 66 80 100 0 0
+32 A.coric 20 Croatia M N 52 80 100 0 0
 
-33 M.Mandzukic 31 Croatia A N 71 80 100 0 0
+33 M.Mandzukic 31 Croatia A N 48 80 100 0 0
 
-34 N.Kalinic 29 Croatia A N 56 80 100 0 0
+34 N.Kalinic 29 Croatia A N 60 80 100 0 0
 
-35 D.cop 27 Croatia A A 94 80 100 0 0
+35 D.cop 27 Croatia A A 75 80 100 0 0
 
-36 I.Santini 28 Croatia A N 47 80 100 0 0
+36 I.Santini 28 Croatia A A 72 80 100 0 0
 
-37 A.Kramaric 26 Croatia A A 99 80 100 0 0
+37 A.Kramaric 26 Croatia A N 72 80 100 0 0
 
-38 A.Rebic 24 Croatia A N 71 80 100 0 0
+38 A.Rebic 24 Croatia A N 44 80 100 0 0
 
-1 J.Hansen 32 Denmark G G 90 80 100 0 0
+1 J.Hansen 32 Denmark G N 51 80 100 0 0
 
-2 D.Jensen 25 Denmark G N 41 80 100 0 0
+2 D.Jensen 25 Denmark G G 74 80 100 0 0
 
-3 F.Ronnow 25 Denmark G N 88 80 100 0 0
+3 F.Ronnow 25 Denmark G N 42 80 100 0 0
 
-4 A.Bjelland 29 Denmark D N 23 80 100 0 0
+4 A.Bjelland 29 Denmark D D 79 80 100 0 0
 
-5 M.Jorgensen 27 Denmark D D 53 80 100 0 0
+5 M.Jorgensen 27 Denmark D D 63 80 100 0 0
 
-6 J.Larsen 26 Denmark D D 53 80 100 0 0
+6 J.Larsen 26 Denmark D D 82 80 100 0 0
 
-7 J.Vestergaard 25 Denmark D N 34 80 100 0 0
+7 J.Vestergaard 25 Denmark D N 44 80 100 0 0
 
-8 R.Durmisi 23 Denmark D N 25 80 100 0 0
+8 R.Durmisi 23 Denmark D D 59 80 100 0 0
 
-9 F.Sorensen 25 Denmark D D 59 80 100 0 0
+9 F.Sorensen 25 Denmark D N 41 80 100 0 0
 
-10 A.Christensen 21 Denmark D D 62 80 100 0 0
+10 A.Christensen 21 Denmark D N 47 80 100 0 0
 
-11 W.Kvist 32 Denmark M M 80 80 100 0 0
+11 W.Kvist 32 Denmark M M 78 80 100 0 0
 
-12 L.Schone 31 Denmark M N 40 80 100 0 0
+12 L.Schone 31 Denmark M N 41 80 100 0 0
 
-13 T.Delaney 26 Denmark M M 89 80 100 0 0
+13 T.Delaney 26 Denmark M M 70 80 100 0 0
 
-14 C.Eriksen 25 Denmark M M 78 80 100 0 0
+14 C.Eriksen 25 Denmark M M 71 80 100 0 0
 
-15 L.Lerager 24 Denmark M M 96 80 100 0 0
+15 L.Lerager 24 Denmark M M 69 80 100 0 0
 
-16 A.Hjulsager 22 Denmark M N 33 80 100 0 0
+16 A.Hjulsager 22 Denmark M N 36 80 100 0 0
 
-17 L.Vibe 30 Denmark A N 56 80 100 0 0
+17 L.Vibe 30 Denmark A N 45 80 100 0 0
 
-18 N.Jorgensen 26 Denmark A A 71 80 100 0 0
+18 N.Jorgensen 26 Denmark A A 92 80 100 0 0
 
-19 M.Braithwaite 26 Denmark A A 72 80 100 0 0
+19 M.Braithwaite 26 Denmark A N 30 80 100 0 0
 
-20 Y.Poulsen 23 Denmark A N 61 80 100 0 0
+20 Y.Poulsen 23 Denmark A N 63 80 100 0 0
 
-21 P.Sisto 22 Denmark A N 23 80 100 0 0
+21 P.Sisto 22 Denmark A A 72 80 100 0 0
 
-22 K.Dolberg 20 Denmark A N 43 80 100 0 0
+22 K.Dolberg 20 Denmark A N 44 80 100 0 0
 
-1 EssamElHadary 44 Egypt G G 62 80 100 0 0
+1 EssamElHadary 44 Egypt G N 47 80 100 0 0
 
-16 SherifEkramy 34 Egypt G N 31 80 100 0 0
+16 SherifEkramy 34 Egypt G G 73 80 100 0 0
 
-23 AhmedAlShenawy 26 Egypt G N 26 80 100 0 0
+23 AhmedAlShenawy 26 Egypt G N 47 80 100 0 0
 
-2 AliGabr 28 Egypt D D 97 80 100 0 0
+2 AliGabr 28 Egypt D D 50 80 100 0 0
 
 4 OmarGaber 25 Egypt D N 40 80 100 0 0
 
-6 AhmedHegazi 26 Egypt D N 48 80 100 0 0
+6 AhmedHegazi 26 Egypt D N 37 80 100 0 0
 
-7 AhmedFathy 33 Egypt D N 47 80 100 0 0
+7 AhmedFathy 33 Egypt D N 40 80 100 0 0
 
-12 AhmedDowidar 30 Egypt D D 74 80 100 0 0
+12 AhmedDowidar 30 Egypt D D 50 80 100 0 0
 
-13 MohamedAbdulShafy 32 Egypt D D 55 80 100 0 0
+13 MohamedAbdulShafy 32 Egypt D D 53 80 100 0 0
 
-15 KarimHafez 21 Egypt D D 59 80 100 0 0
+15 KarimHafez 21 Egypt D D 82 80 100 0 0
 
-20 SaadSamir 28 Egypt D N 44 80 100 0 0
+20 SaadSamir 28 Egypt D N 29 80 100 0 0
 
-3 AhmedElMohamady 30 Egypt M N 25 80 100 0 0
+3 AhmedElMohamady 30 Egypt M M 80 80 100 0 0
 
-5 IbrahimSalah 30 Egypt M N 22 80 100 0 0
+5 IbrahimSalah 30 Egypt M N 42 80 100 0 0
 
-8 TarekHamed 29 Egypt M N 25 80 100 0 0
+8 TarekHamed 29 Egypt M M 55 80 100 0 0
 
-11 Kahraba 23 Egypt M M 61 80 100 0 0
+11 Kahraba 23 Egypt M M 54 80 100 0 0
 
-17 MohamedElneny 25 Egypt M N 20 80 100 0 0
+17 MohamedElneny 25 Egypt M N 48 80 100 0 0
 
-18 MarwanMohsen 28 Egypt M M 82 80 100 0 0
+18 MarwanMohsen 28 Egypt M N 50 80 100 0 0
 
-19 AbdallaElSaid 32 Egypt M N 48 80 100 0 0
+19 AbdallaElSaid 32 Egypt M N 20 80 100 0 0
 
-21 Trezeguet 23 Egypt M N 41 80 100 0 0
+21 Trezeguet 23 Egypt M N 28 80 100 0 0
 
-22 AmrWarda 24 Egypt M M 75 80 100 0 0
+22 AmrWarda 24 Egypt M N 47 80 100 0 0
 
-9 Koka 24 Egypt A A 57 80 100 0 0
+9 Koka 24 Egypt A A 56 80 100 0 0
 
-10 MohamedSalah 25 Egypt A A 80 80 100 0 0
+10 MohamedSalah 25 Egypt A A 90 80 100 0 0
 
-14 RamadanSobhi 20 Egypt A A 74 80 100 0 0
+14 RamadanSobhi 20 Egypt A A 79 80 100 0 0
 
-1 J.Hart 30 England G G 90 80 100 0 0
+1 J.Hart 30 England G G 89 80 100 0 0
 
-2 T.Heaton 31 England G N 90 80 100 0 0
+2 T.Heaton 31 England G N 46 80 100 0 0
 
 3 F.Forster 29 England G N 40 80 100 0 0
 
-4 J.Pickford 23 England G N 48 80 100 0 0
+4 J.Pickford 23 England G N 80 80 100 0 0
 
-5 J.Butland 24 England G N 71 80 100 0 0
+5 J.Butland 24 England G N 60 80 100 0 0
 
-6 A.Gunn 21 England G N 79 80 100 0 0
+6 A.Gunn 21 England G N 84 80 100 0 0
 
-7 G.Cahill 32 England D N 61 80 100 0 0
+7 G.Cahill 32 England D N 43 80 100 0 0
 
-8 D.Rose 27 England D N 66 80 100 0 0
+8 D.Rose 27 England D N 47 80 100 0 0
 
-9 R.Bertrand 28 England D N 66 80 100 0 0
+9 R.Bertrand 28 England D D 83 80 100 0 0
 
-10 A.Cresswell 28 England D N 49 80 100 0 0
+10 A.Cresswell 28 England D N 70 80 100 0 0
 
-11 N.Clyne 26 England D D 92 80 100 0 0
+11 N.Clyne 26 England D N 44 80 100 0 0
 
-12 K.Walker 27 England D D 77 80 100 0 0
+12 K.Walker 27 England D N 75 80 100 0 0
 
-13 C.Smalling 28 England D N 67 80 100 0 0
+13 C.Smalling 28 England D D 80 80 100 0 0
 
-14 P.Jones 25 England D N 42 80 100 0 0
+14 P.Jones 25 England D N 70 80 100 0 0
 
-15 K.Trippier 27 England D N 65 80 100 0 0
+15 K.Trippier 27 England D N 76 80 100 0 0
 
-16 H.Maguire 24 England D N 70 80 100 0 0
+16 H.Maguire 24 England D N 68 80 100 0 0
 
-17 B.Gibson 24 England D D 90 80 100 0 0
+17 B.Gibson 24 England D N 44 80 100 0 0
 
-18 J.Stones 23 England D D 97 80 100 0 0
+18 J.Stones 23 England D N 71 80 100 0 0
 
-19 M.Keane 24 England D N 41 80 100 0 0
+19 M.Keane 24 England D D 98 80 100 0 0
 
-20 L.Shaw 22 England D N 61 80 100 0 0
+20 L.Shaw 22 England D N 52 80 100 0 0
 
-21 J.Gomez 20 England D D 74 80 100 0 0
+21 J.Gomez 20 England D N 42 80 100 0 0
 
-22 A.Young 32 England M N 57 80 100 0 0
+22 A.Young 32 England M M 80 80 100 0 0
 
-23 A.Lallana 29 England M M 87 80 100 0 0
+23 A.Lallana 29 England M M 81 80 100 0 0
 
-24 J.Cork 28 England M N 81 80 100 0 0
+24 J.Cork 28 England M N 77 80 100 0 0
 
-25 J.Livermore 28 England M N 66 80 100 0 0
+25 J.Livermore 28 England M N 69 80 100 0 0
 
-26 A.OxladeChamberlain 24 England M M 84 80 100 0 0
+26 A.OxladeChamberlain 24 England M N 40 80 100 0 0
 
-27 N.Redmond 23 England M N 55 80 100 0 0
+27 N.Redmond 23 England M M 82 80 100 0 0
 
-28 R.Barkley 24 England M N 67 80 100 0 0
+28 R.Barkley 24 England M N 68 80 100 0 0
 
-29 R.Sterling 23 England M N 42 80 100 0 0
+29 R.Sterling 23 England M N 59 80 100 0 0
 
-30 J.Ward-Prowse 23 England M M 82 80 100 0 0
+30 J.Ward-Prowse 23 England M N 54 80 100 0 0
 
-31 D.Alli 21 England M N 63 80 100 0 0
+31 D.Alli 21 England M N 72 80 100 0 0
 
-32 J.Lingard 25 England M N 41 80 100 0 0
+32 J.Lingard 25 England M N 70 80 100 0 0
 
-33 E.Dier 23 England M N 47 80 100 0 0
+33 E.Dier 23 England M M 97 80 100 0 0
 
-34 R.Loftus-Cheek 21 England M M 87 80 100 0 0
+34 R.Loftus-Cheek 21 England M M 80 80 100 0 0
 
-35 L.Cook 20 England M N 72 80 100 0 0
+35 L.Cook 20 England M N 60 80 100 0 0
 
-36 J.Defoe 35 England A N 49 80 100 0 0
+36 J.Defoe 35 England A A 91 80 100 0 0
 
-37 H.Kane 24 England A N 61 80 100 0 0
+37 H.Kane 24 England A A 90 80 100 0 0
 
-38 J.Vardy 30 England A A 75 80 100 0 0
+38 J.Vardy 30 England A N 59 80 100 0 0
 
-39 D.Solanke 20 England A N 53 80 100 0 0
+39 D.Solanke 20 England A N 41 80 100 0 0
 
-40 T.Abraham 20 England A N 45 80 100 0 0
+40 T.Abraham 20 England A N 63 80 100 0 0
 
-41 M.Rashford 20 England A N 68 80 100 0 0
+41 M.Rashford 20 England A N 46 80 100 0 0
 
-1 H.Lloris 30 France G G 90 80 100 0 0
+1 H.Lloris 30 France G N 55 80 100 0 0
 
-2 S.Mandanda 32 France G N 70 80 100 0 0
+2 S.Mandanda 32 France G G 92 80 100 0 0
 
-3 B.Costil 30 France G N 55 80 100 0 0
+3 B.Costil 30 France G N 48 80 100 0 0
 
-4 A.Areola 24 France G N 69 80 100 0 0
+4 A.Areola 24 France G N 66 80 100 0 0
 
-5 C.Jallet 34 France D D 90 80 100 0 0
+5 C.Jallet 34 France D N 85 80 100 0 0
 
-6 L.Koscielny 32 France D N 70 80 100 0 0
+6 L.Koscielny 32 France D N 61 80 100 0 0
 
-7 S.Corchia 27 France D D 92 80 100 0 0
+7 S.Corchia 27 France D N 42 80 100 0 0
 
-8 D.Sidibe 25 France D N 61 80 100 0 0
+8 D.Sidibe 25 France D N 81 80 100 0 0
 
-9 L.Digne 24 France D N 72 80 100 0 0
+9 L.Digne 24 France D D 100 80 100 0 0
 
-10 L.Kurzawa 25 France D N 60 80 100 0 0
+10 L.Kurzawa 25 France D N 84 80 100 0 0
 
-11 R.Varane 24 France D N 84 80 100 0 0
+11 R.Varane 24 France D N 94 80 100 0 0
 
-12 S.Umtiti 24 France D D 91 80 100 0 0
+12 S.Umtiti 24 France D D 98 80 100 0 0
 
-13 B.Mendy 23 France D D 96 80 100 0 0
+13 B.Mendy 23 France D N 78 80 100 0 0
 
-14 K.Zouma 23 France D N 52 80 100 0 0
+14 K.Zouma 23 France D N 80 80 100 0 0
 
-15 A.Laporte 23 France D N 46 80 100 0 0
+15 A.Laporte 23 France D D 100 80 100 0 0
 
-16 P.Kimpembe 22 France D N 58 80 100 0 0
+16 P.Kimpembe 22 France D D 96 80 100 0 0
 
-17 B.Pavard 21 France D N 85 80 100 0 0
+17 B.Pavard 21 France D D 95 80 100 0 0
 
-18 B.Matuidi 30 France M N 73 80 100 0 0
+18 B.Matuidi 30 France M M 89 80 100 0 0
 
-19 D.Payet 30 France M N 85 80 100 0 0
+19 D.Payet 30 France M M 85 80 100 0 0
 
-20 M.Sissoko 28 France M M 86 80 100 0 0
+20 M.Sissoko 28 France M N 74 80 100 0 0
 
 21 S.N'Zonzi 29 France M N 79 80 100 0 0
 
-22 T.Bakayoko 23 France M N 72 80 100 0 0
+22 T.Bakayoko 23 France M N 74 80 100 0 0
 
-23 P.Pogba 24 France M N 59 80 100 0 0
+23 P.Pogba 24 France M N 78 80 100 0 0
 
-24 F.Thauvin 24 France M M 94 80 100 0 0
+24 F.Thauvin 24 France M M 80 80 100 0 0
 
-25 T.Lemar 22 France M N 68 80 100 0 0
+25 T.Lemar 22 France M N 80 80 100 0 0
 
-26 N.Kante 26 France M N 85 80 100 0 0
+26 N.Kante 26 France M M 85 80 100 0 0
 
-27 C.Tolisso 23 France M M 89 80 100 0 0
+27 C.Tolisso 23 France M N 74 80 100 0 0
 
-28 A.Rabiot 22 France M N 56 80 100 0 0
+28 A.Rabiot 22 France M N 71 80 100 0 0
 
-29 K.Gameiro 30 France A N 60 80 100 0 0
+29 K.Gameiro 30 France A N 42 80 100 0 0
 
-30 O.Giroud 31 France A N 45 80 100 0 0
+30 O.Giroud 31 France A A 92 80 100 0 0
 
-31 A.Lacazette 26 France A A 98 80 100 0 0
+31 A.Lacazette 26 France A N 84 80 100 0 0
 
-32 A.Griezmann 26 France A A 94 80 100 0 0
+32 A.Griezmann 26 France A N 62 80 100 0 0
 
-33 N.Fekir 24 France A N 63 80 100 0 0
+33 N.Fekir 24 France A N 41 80 100 0 0
 
-34 A.Martial 22 France A A 95 80 100 0 0
+34 A.Martial 22 France A N 82 80 100 0 0
 
-35 K.Coman 21 France A N 67 80 100 0 0
+35 K.Coman 21 France A N 47 80 100 0 0
 
-36 O.Dembele 20 France A N 73 80 100 0 0
+36 O.Dembele 20 France A N 55 80 100 0 0
 
-37 K.Mbappe 19 France A N 86 80 100 0 0
+37 K.Mbappe 19 France A N 60 80 100 0 0
 
-1 K.Trapp 27 Germany G G 89 80 100 0 0
+1 K.Trapp 27 Germany G G 81 80 100 0 0
 
-2 M.terStegen 25 Germany G N 80 80 100 0 0
+2 M.terStegen 25 Germany G N 52 80 100 0 0
 
-3 B.Leno 25 Germany G N 85 80 100 0 0
+3 B.Leno 25 Germany G N 55 80 100 0 0
 
-4 J.Boateng 29 Germany D D 80 80 100 0 0
+4 J.Boateng 29 Germany D N 74 80 100 0 0
 
-5 B.Howedes 29 Germany D N 78 80 100 0 0
+5 B.Howedes 29 Germany D N 70 80 100 0 0
 
-6 M.Hummels 29 Germany D N 69 80 100 0 0
+6 M.Hummels 29 Germany D N 82 80 100 0 0
 
-7 S.Mustafi 25 Germany D N 76 80 100 0 0
+7 S.Mustafi 25 Germany D D 95 80 100 0 0
 
-8 M.Plattenhardt 25 Germany D N 43 80 100 0 0
+8 M.Plattenhardt 25 Germany D D 94 80 100 0 0
 
-9 J.Hector 27 Germany D N 59 80 100 0 0
+9 J.Hector 27 Germany D N 41 80 100 0 0
 
-10 M.Halstenberg 26 Germany D N 62 80 100 0 0
+10 M.Halstenberg 26 Germany D N 69 80 100 0 0
 
-11 A.Rudiger 24 Germany D N 74 80 100 0 0
+11 A.Rudiger 24 Germany D N 71 80 100 0 0
 
-12 N.Sule 22 Germany D D 95 80 100 0 0
+12 N.Sule 22 Germany D N 71 80 100 0 0
 
-13 M.Ginter 23 Germany D N 54 80 100 0 0
+13 M.Ginter 23 Germany D D 100 80 100 0 0
 
-14 B.Henrichs 20 Germany D D 98 80 100 0 0
+14 B.Henrichs 20 Germany D N 73 80 100 0 0
 
-15 M.Ozil 29 Germany M N 52 80 100 0 0
+15 M.Ozil 29 Germany M N 79 80 100 0 0
 
-16 S.Khedira 30 Germany M N 80 80 100 0 0
+16 S.Khedira 30 Germany M M 93 80 100 0 0
 
-17 T.Kroos 27 Germany M N 79 80 100 0 0
+17 T.Kroos 27 Germany M N 70 80 100 0 0
 
-18 S.Rudy 27 Germany M M 94 80 100 0 0
+18 S.Rudy 27 Germany M N 89 80 100 0 0
 
-19 I.Gundogan 27 Germany M M 92 80 100 0 0
+19 I.Gundogan 27 Germany M M 90 80 100 0 0
 
-20 M.Gotze 25 Germany M M 83 80 100 0 0
+20 M.Gotze 25 Germany M M 100 80 100 0 0
 
-21 A.Schurrle 27 Germany M N 69 80 100 0 0
+21 A.Schurrle 27 Germany M N 56 80 100 0 0
 
-22 D.Demme 26 Germany M N 59 80 100 0 0
+22 D.Demme 26 Germany M N 90 80 100 0 0
 
-23 E.Can 23 Germany M N 80 80 100 0 0
+23 E.Can 23 Germany M N 43 80 100 0 0
 
-24 J.Draxler 24 Germany M N 67 80 100 0 0
+24 J.Draxler 24 Germany M N 84 80 100 0 0
 
-25 L.Goretzka 22 Germany M N 43 80 100 0 0
+25 L.Goretzka 22 Germany M N 71 80 100 0 0
 
-26 J.Brandt 21 Germany M N 68 80 100 0 0
+26 J.Brandt 21 Germany M M 96 80 100 0 0
 
-27 K.Demirbay 24 Germany M M 84 80 100 0 0
+27 K.Demirbay 24 Germany M M 100 80 100 0 0
 
-28 J.Weigl 22 Germany M M 85 80 100 0 0
+28 J.Weigl 22 Germany M N 77 80 100 0 0
 
-29 J.Kimmich 22 Germany M N 44 80 100 0 0
+29 J.Kimmich 22 Germany M N 48 80 100 0 0
 
-30 L.Sane 21 Germany M N 42 80 100 0 0
+30 L.Sane 21 Germany M N 74 80 100 0 0
 
-31 L.Podolski 32 Germany A N 51 80 100 0 0
+31 L.Podolski 32 Germany A N 47 80 100 0 0
 
-32 T.Muller 28 Germany A A 80 80 100 0 0
+32 T.Muller 28 Germany A N 44 80 100 0 0
 
-33 L.Stindl 29 Germany A N 71 80 100 0 0
+33 L.Stindl 29 Germany A N 63 80 100 0 0
 
-34 S.Wagner 30 Germany A N 79 80 100 0 0
+34 S.Wagner 30 Germany A A 80 80 100 0 0
 
-35 A.Younes 24 Germany A A 91 80 100 0 0
+35 A.Younes 24 Germany A A 92 80 100 0 0
 
-36 T.Werner 21 Germany A N 66 80 100 0 0
+36 T.Werner 21 Germany A N 80 80 100 0 0
 
-1 H.Halldorsson 33 Iceland G N 46 80 100 0 0
+1 H.Halldorsson 33 Iceland G N 55 80 100 0 0
 
-12 O.Kristinsson 28 Iceland G N 73 80 100 0 0
+12 O.Kristinsson 28 Iceland G G 70 80 100 0 0
 
-13 R.Runarsson 22 Iceland G G 80 80 100 0 0
+13 R.Runarsson 22 Iceland G N 53 80 100 0 0
 
-2 B.Saevarsson 33 Iceland D D 93 80 100 0 0
+2 B.Saevarsson 33 Iceland D N 50 80 100 0 0
 
-3 K.Jonsson 27 Iceland D D 74 80 100 0 0
+3 K.Jonsson 27 Iceland D D 60 80 100 0 0
 
-4 O.omarsson 22 Iceland D N 49 80 100 0 0
+4 O.omarsson 22 Iceland D D 79 80 100 0 0
 
-5 J.Fjoluson 28 Iceland D D 76 80 100 0 0
+5 J.Fjoluson 28 Iceland D N 54 80 100 0 0
 
-15 V.Jonsson 23 Iceland D N 70 80 100 0 0
+15 V.Jonsson 23 Iceland D D 62 80 100 0 0
 
-20 B.Bodvarsson 22 Iceland D N 31 80 100 0 0
+20 B.Bodvarsson 22 Iceland D D 90 80 100 0 0
 
-6 V.Palsson 26 Iceland M M 98 80 100 0 0
+6 V.Palsson 26 Iceland M M 61 80 100 0 0
 
-7 A.Sigurdarson 24 Iceland M M 92 80 100 0 0
+7 A.Sigurdarson 24 Iceland M M 86 80 100 0 0
 
-10 B.Sverrisson 27 Iceland M M 96 80 100 0 0
+10 B.Sverrisson 27 Iceland M N 41 80 100 0 0
 
-11 A.Smarason 29 Iceland M N 27 80 100 0 0
+11 A.Smarason 29 Iceland M N 21 80 100 0 0
 
-14 K.Arnason 35 Iceland M M 92 80 100 0 0
+14 K.Arnason 35 Iceland M N 57 80 100 0 0
 
-16 O.Sigurjonsson 22 Iceland M N 24 80 100 0 0
+16 O.Sigurjonsson 22 Iceland M N 46 80 100 0 0
 
-18 E.Bjarnason 30 Iceland M N 40 80 100 0 0
+18 E.Bjarnason 30 Iceland M N 50 80 100 0 0
 
-19 S.Larusson 25 Iceland M M 72 80 100 0 0
+19 S.Larusson 25 Iceland M M 76 80 100 0 0
 
-21 AlbertGudmundsson 20 Iceland M N 57 80 100 0 0
+21 AlbertGudmundsson 20 Iceland M M 96 80 100 0 0
 
-8 B.Sigurdarson 26 Iceland A A 55 80 100 0 0
+8 B.Sigurdarson 26 Iceland A N 39 80 100 0 0
 
-9 K.Finnbogason 31 Iceland A N 42 80 100 0 0
+9 K.Finnbogason 31 Iceland A A 67 80 100 0 0
 
-17 O.Karlsson 20 Iceland A A 58 80 100 0 0
+17 O.Karlsson 20 Iceland A A 56 80 100 0 0
 
-22 E.omarsson 22 Iceland A N 55 80 100 0 0
+22 E.omarsson 22 Iceland A N 47 80 100 0 0
 
-1 A.Haghighi 29 Iran G N 33 80 100 0 0
+1 A.Haghighi 29 Iran G G 80 80 100 0 0
 
-2 H.Lak 27 Iran G N 44 80 100 0 0
+2 H.Lak 27 Iran G N 54 80 100 0 0
 
-3 M.Mazaheri 28 Iran G G 97 80 100 0 0
+3 M.Mazaheri 28 Iran G N 84 80 100 0 0
 
-4 A.Abedzadeh 24 Iran G N 56 80 100 0 0
+4 A.Abedzadeh 24 Iran G N 84 80 100 0 0
 
-5 A.Beiranvand 25 Iran G N 85 80 100 0 0
+5 A.Beiranvand 25 Iran G N 78 80 100 0 0
 
-6 M.Akhbari 24 Iran G N 78 80 100 0 0
+6 M.Akhbari 24 Iran G N 40 80 100 0 0
 
-7 J.Hosseini 35 Iran D N 41 80 100 0 0
+7 J.Hosseini 35 Iran D D 92 80 100 0 0
 
-8 P.Montazeri 34 Iran D D 48 80 100 0 0
+8 P.Montazeri 34 Iran D N 26 80 100 0 0
 
-9 V.Ghafouri 30 Iran D N 32 80 100 0 0
+9 V.Ghafouri 30 Iran D D 77 80 100 0 0
 
-10 M.Pouraliganji 25 Iran D N 40 80 100 0 0
+10 M.Pouraliganji 25 Iran D D 99 80 100 0 0
 
-11 R.Rezaeian 27 Iran D N 23 80 100 0 0
+11 R.Rezaeian 27 Iran D N 75 80 100 0 0
 
-12 M.Kanani 23 Iran D D 55 80 100 0 0
+12 M.Kanani 23 Iran D N 68 80 100 0 0
 
-13 E.Pourghaz 30 Iran D N 34 80 100 0 0
+13 E.Pourghaz 30 Iran D N 30 80 100 0 0
 
-14 R.Cheshmi 24 Iran D D 67 80 100 0 0
+14 R.Cheshmi 24 Iran D D 80 80 100 0 0
 
-15 MiladMohammadi 24 Iran D D 55 80 100 0 0
+15 MiladMohammadi 24 Iran D N 47 80 100 0 0
 
-16 A.Dejagah 31 Iran M N 42 80 100 0 0
+16 A.Dejagah 31 Iran M N 39 80 100 0 0
 
-17 E.Hajsafi 27 Iran M N 75 80 100 0 0
+17 E.Hajsafi 27 Iran M M 73 80 100 0 0
 
-18 A.Imani 25 Iran M M 96 80 100 0 0
+18 A.Imani 25 Iran M N 67 80 100 0 0
 
-19 O.Ebrahimi 30 Iran M N 42 80 100 0 0
+19 O.Ebrahimi 30 Iran M N 21 80 100 0 0
 
-20 A.Abdollahzadeh 25 Iran M M 88 80 100 0 0
+20 A.Abdollahzadeh 25 Iran M M 71 80 100 0 0
 
 21 S.Aghaei 22 Iran M N 43 80 100 0 0
 
-22 V.Amiri 29 Iran M N 36 80 100 0 0
+22 V.Amiri 29 Iran M N 29 80 100 0 0
 
-23 S.Ezatolahi 21 Iran M N 25 80 100 0 0
+23 S.Ezatolahi 21 Iran M M 86 80 100 0 0
 
-24 E.Pahlevan 24 Iran M M 78 80 100 0 0
+24 E.Pahlevan 24 Iran M N 37 80 100 0 0
 
-25 AliKarimi 23 Iran M N 47 80 100 0 0
+25 AliKarimi 23 Iran M N 42 80 100 0 0
 
-26 M.Torabi 23 Iran M N 44 80 100 0 0
+26 M.Torabi 23 Iran M N 52 80 100 0 0
 
-27 R.Ghoochannejhad 30 Iran A A 86 80 100 0 0
+27 R.Ghoochannejhad 30 Iran A N 27 80 100 0 0
 
-28 K.Ansarifard 27 Iran A N 35 80 100 0 0
+28 K.Ansarifard 27 Iran A N 49 80 100 0 0
 
-29 K.Rezaei 25 Iran A N 40 80 100 0 0
+29 K.Rezaei 25 Iran A A 59 80 100 0 0
 
-30 M.Taremi 25 Iran A N 74 80 100 0 0
+30 M.Taremi 25 Iran A A 59 80 100 0 0
 
-31 S.Azmoun 22 Iran A N 23 80 100 0 0
+31 S.Azmoun 22 Iran A N 59 80 100 0 0
 
-32 S.Ghoddos 24 Iran A A 83 80 100 0 0
+32 S.Ghoddos 24 Iran A N 45 80 100 0 0
 
-33 A.Jahanbakhsh 24 Iran A A 95 80 100 0 0
+33 A.Jahanbakhsh 24 Iran A A 90 80 100 0 0
 
-1 E.Kawashima 34 Japan G N 34 80 100 0 0
+1 E.Kawashima 34 Japan G G 50 80 100 0 0
 
-2 M.Higashiguchi 31 Japan G N 21 80 100 0 0
+2 M.Higashiguchi 31 Japan G N 30 80 100 0 0
 
-3 S.Nishikawa 31 Japan G G 64 80 100 0 0
+3 S.Nishikawa 31 Japan G N 42 80 100 0 0
 
-4 K.Nakamura 22 Japan G N 55 80 100 0 0
+4 K.Nakamura 22 Japan G N 26 80 100 0 0
 
-5 Y.Konno 34 Japan D D 76 80 100 0 0
+5 Y.Konno 34 Japan D N 39 80 100 0 0
 
-6 T.Makino 30 Japan D N 30 80 100 0 0
+6 T.Makino 30 Japan D N 45 80 100 0 0
 
-7 M.Yoshida 29 Japan D D 80 80 100 0 0
+7 M.Yoshida 29 Japan D D 69 80 100 0 0
 
-8 Y.Nagatomo 31 Japan D D 65 80 100 0 0
+8 Y.Nagatomo 31 Japan D N 46 80 100 0 0
 
-9 H.Sakai 27 Japan D D 51 80 100 0 0
+9 H.Sakai 27 Japan D N 26 80 100 0 0
 
-10 G.Sakai 26 Japan D N 29 80 100 0 0
+10 G.Sakai 26 Japan D D 56 80 100 0 0
 
-11 W.Endo 24 Japan D N 23 80 100 0 0
+11 W.Endo 24 Japan D N 47 80 100 0 0
 
-12 G.Shoji 25 Japan D D 52 80 100 0 0
+12 G.Shoji 25 Japan D N 45 80 100 0 0
 
-13 N.Ueda 23 Japan D N 39 80 100 0 0
+13 N.Ueda 23 Japan D N 23 80 100 0 0
 
-14 G.Miura 22 Japan D N 46 80 100 0 0
+14 G.Miura 22 Japan D N 50 80 100 0 0
 
-15 S.Kurumaya 25 Japan D N 45 80 100 0 0
+15 S.Kurumaya 25 Japan D D 60 80 100 0 0
 
-16 M.Hasebe 33 Japan M M 58 80 100 0 0
+16 M.Hasebe 33 Japan M N 34 80 100 0 0
 
-17 T.Inui 29 Japan M N 36 80 100 0 0
+17 T.Inui 29 Japan M M 80 80 100 0 0
 
-18 S.Kurata 29 Japan M N 40 80 100 0 0
+18 S.Kurata 29 Japan M N 24 80 100 0 0
 
-19 K.Honda 31 Japan M M 59 80 100 0 0
+19 K.Honda 31 Japan M M 58 80 100 0 0
 
-20 S.Kagawa 28 Japan M M 55 80 100 0 0
+20 S.Kagawa 28 Japan M N 21 80 100 0 0
 
-21 G.Haraguchi 26 Japan M N 54 80 100 0 0
+21 G.Haraguchi 26 Japan M N 27 80 100 0 0
 
-22 T.Usami 25 Japan M N 25 80 100 0 0
+22 T.Usami 25 Japan M M 75 80 100 0 0
 
-23 H.Yamaguchi 27 Japan M M 75 80 100 0 0
+23 H.Yamaguchi 27 Japan M N 26 80 100 0 0
 
-24 T.Ugajin 29 Japan M N 50 80 100 0 0
+24 T.Ugajin 29 Japan M N 37 80 100 0 0
 
-25 R.Morioka 26 Japan M N 28 80 100 0 0
+25 R.Morioka 26 Japan M N 27 80 100 0 0
 
-26 Y.Kobayashi 25 Japan M N 26 80 100 0 0
+26 Y.Kobayashi 25 Japan M M 52 80 100 0 0
 
-27 K.Kato 28 Japan M N 36 80 100 0 0
+27 K.Kato 28 Japan M N 29 80 100 0 0
 
-28 K.Nagasawa 26 Japan M N 50 80 100 0 0
+28 K.Nagasawa 26 Japan M M 63 80 100 0 0
 
-29 Y.Ideguchi 21 Japan M N 25 80 100 0 0
+29 Y.Ideguchi 21 Japan M N 28 80 100 0 0
 
-30 S.Okazaki 31 Japan A N 32 80 100 0 0
+30 S.Okazaki 31 Japan A N 25 80 100 0 0
 
-31 Y.Osako 27 Japan A N 26 80 100 0 0
+31 Y.Osako 27 Japan A N 54 80 100 0 0
 
-32 K.Sugimoto 25 Japan A N 22 80 100 0 0
+32 K.Sugimoto 25 Japan A N 32 80 100 0 0
 
-33 S.Koroki 31 Japan A N 34 80 100 0 0
+33 S.Koroki 31 Japan A N 37 80 100 0 0
 
-34 Y.Kubo 24 Japan A A 76 80 100 0 0
+34 Y.Kubo 24 Japan A N 37 80 100 0 0
 
-35 Y.Muto 25 Japan A N 27 80 100 0 0
+35 Y.Muto 25 Japan A A 73 80 100 0 0
 
-36 T.Asano 23 Japan A N 36 80 100 0 0
+36 T.Asano 23 Japan A A 56 80 100 0 0
 
-1 KwounSun-Tae 33 Korea G N 43 80 100 0 0
+1 KwounSun-Tae 33 Korea G N 21 80 100 0 0
 
-2 KimSeung-Gyu 27 Korea G N 31 80 100 0 0
+2 KimSeung-Gyu 27 Korea G N 57 80 100 0 0
 
-3 KimJin-Hyeon 30 Korea G N 41 80 100 0 0
+3 KimJin-Hyeon 30 Korea G N 35 80 100 0 0
 
-4 ChoHyun-Woo 26 Korea G G 70 80 100 0 0
+4 ChoHyun-Woo 26 Korea G N 56 80 100 0 0
 
-5 GuSung-Yun 23 Korea G N 40 80 100 0 0
+5 GuSung-Yun 23 Korea G G 79 80 100 0 0
 
-6 KimChang-Soo 32 Korea D N 24 80 100 0 0
+6 KimChang-Soo 32 Korea D N 33 80 100 0 0
 
-7 ChoiChul-Soon 30 Korea D N 56 80 100 0 0
+7 ChoiChul-Soon 30 Korea D D 59 80 100 0 0
 
-8 ParkJoo-Ho 30 Korea D N 30 80 100 0 0
+8 ParkJoo-Ho 30 Korea D N 58 80 100 0 0
 
-9 KwakTae-Hwi 36 Korea D N 24 80 100 0 0
+9 KwakTae-Hwi 36 Korea D N 47 80 100 0 0
 
-10 KimYoung-Gwon 27 Korea D N 22 80 100 0 0
+10 KimYoung-Gwon 27 Korea D D 63 80 100 0 0
 
-11 HongJeong-Ho 28 Korea D N 53 80 100 0 0
+11 HongJeong-Ho 28 Korea D N 51 80 100 0 0
 
-12 KimMinHyeok 25 Korea D N 55 80 100 0 0
+12 KimMinHyeok 25 Korea D D 60 80 100 0 0
 
-13 KimJin-Su 25 Korea D D 80 80 100 0 0
+13 KimJin-Su 25 Korea D N 29 80 100 0 0
 
-14 OhJae-Seok 27 Korea D N 24 80 100 0 0
+14 OhJae-Seok 27 Korea D N 50 80 100 0 0
 
-15 RimChang-Woo 25 Korea D D 59 80 100 0 0
+15 RimChang-Woo 25 Korea D N 42 80 100 0 0
 
-16 KimJoo-Young 29 Korea D D 57 80 100 0 0
+16 KimJoo-Young 29 Korea D D 69 80 100 0 0
 
-17 KimKi-Hee 28 Korea D N 40 80 100 0 0
+17 KimKi-Hee 28 Korea D D 60 80 100 0 0
 
-18 JangHyun-Soo 26 Korea D N 20 80 100 0 0
+18 JangHyun-Soo 26 Korea D N 31 80 100 0 0
 
-19 KwonKyung-Won 25 Korea D D 60 80 100 0 0
+19 KwonKyung-Won 25 Korea D N 50 80 100 0 0
 
-20 SongJu-Hun 23 Korea D N 30 80 100 0 0
+20 SongJu-Hun 23 Korea D N 20 80 100 0 0
 
-21 JungSeung-Hyeon 23 Korea D D 62 80 100 0 0
+21 JungSeung-Hyeon 23 Korea D N 40 80 100 0 0
 
-22 YeomKi-Hun 34 Korea M N 43 80 100 0 0
+22 YeomKi-Hun 34 Korea M N 49 80 100 0 0
 
-23 KiSung-Yeung 28 Korea M N 45 80 100 0 0
+23 KiSung-Yeung 28 Korea M M 55 80 100 0 0
 
-24 LeeChung-Yong 29 Korea M M 49 80 100 0 0
+24 LeeChung-Yong 29 Korea M N 46 80 100 0 0
 
-25 KoYo-Han 29 Korea M M 51 80 100 0 0
+25 KoYo-Han 29 Korea M N 29 80 100 0 0
 
-26 NamTae-Hee 26 Korea M N 27 80 100 0 0
+26 NamTae-Hee 26 Korea M N 52 80 100 0 0
 
-27 KimMin-Woo 27 Korea M N 25 80 100 0 0
+27 KimMin-Woo 27 Korea M N 39 80 100 0 0
 
-28 KooJa-Cheol 28 Korea M M 50 80 100 0 0
+28 KooJa-Cheol 28 Korea M N 40 80 100 0 0
 
-29 KimBo-Kyung 28 Korea M N 37 80 100 0 0
+29 KimBo-Kyung 28 Korea M N 42 80 100 0 0
 
-30 ParkJong-Woo 28 Korea M N 39 80 100 0 0
+30 ParkJong-Woo 28 Korea M M 75 80 100 0 0
 
-31 JiDong-Won 26 Korea M N 36 80 100 0 0
+31 JiDong-Won 26 Korea M M 58 80 100 0 0
 
-32 HwangIl-Soo 30 Korea M N 20 80 100 0 0
+32 HwangIl-Soo 30 Korea M M 60 80 100 0 0
 
-33 HanKook-Young 27 Korea M N 45 80 100 0 0
+33 HanKook-Young 27 Korea M N 38 80 100 0 0
 
-34 JungWoo-Young 28 Korea M N 25 80 100 0 0
+34 JungWoo-Young 28 Korea M N 26 80 100 0 0
 
-35 LeeMyeong-Ju 27 Korea M N 49 80 100 0 0
+35 LeeMyeong-Ju 27 Korea M N 54 80 100 0 0
 
-36 JuSe-Jong 27 Korea M N 35 80 100 0 0
+36 JuSe-Jong 27 Korea M N 49 80 100 0 0
 
-37 KwonChang-Hoon 23 Korea M N 35 80 100 0 0
+37 KwonChang-Hoon 23 Korea M N 38 80 100 0 0
 
-38 LeeChang-Min 23 Korea M M 78 80 100 0 0
+38 LeeChang-Min 23 Korea M N 46 80 100 0 0
 
-39 LeeJae-Sung 25 Korea M N 32 80 100 0 0
+39 LeeJae-Sung 25 Korea M N 40 80 100 0 0
 
-40 LeeKeun-Ho 32 Korea A N 21 80 100 0 0
+40 LeeKeun-Ho 32 Korea A N 25 80 100 0 0
 
-41 SonHeung-Min 25 Korea A N 50 80 100 0 0
+41 SonHeung-Min 25 Korea A A 66 80 100 0 0
 
-42 LeeJung-Hyub 26 Korea A N 52 80 100 0 0
+42 LeeJung-Hyub 26 Korea A N 29 80 100 0 0
 
-43 HwangEui-Jo 25 Korea A N 37 80 100 0 0
+43 HwangEui-Jo 25 Korea A N 34 80 100 0 0
 
-44 HwangHee-Chan 21 Korea A A 60 80 100 0 0
+44 HwangHee-Chan 21 Korea A N 22 80 100 0 0
 
-1 JoseCorona 36 Mexico G N 59 80 100 0 0
+1 JoseCorona 36 Mexico G G 64 80 100 0 0
 
-12 M.Fraga 30 Mexico G G 100 80 100 0 0
+12 M.Fraga 30 Mexico G N 50 80 100 0 0
 
-23 M.Munoz 37 Mexico G N 86 80 100 0 0
+23 M.Munoz 37 Mexico G N 48 80 100 0 0
 
-3 J.Pereira 31 Mexico D D 77 80 100 0 0
+3 J.Pereira 31 Mexico D D 69 80 100 0 0
 
-4 H.Ayala 30 Mexico D D 95 80 100 0 0
+4 H.Ayala 30 Mexico D N 51 80 100 0 0
 
-6 E.Alvarez 20 Mexico D D 62 80 100 0 0
+6 E.Alvarez 20 Mexico D D 71 80 100 0 0
 
-13 C.Montes 20 Mexico D N 44 80 100 0 0
+13 C.Montes 20 Mexico D D 80 80 100 0 0
 
-14 H.Marin 24 Mexico D N 43 80 100 0 0
+14 H.Marin 24 Mexico D D 90 80 100 0 0
 
-22 M.Mayorga 20 Mexico D N 58 80 100 0 0
+22 M.Mayorga 20 Mexico D D 70 80 100 0 0
 
-2 L.Rodriguez 26 Mexico M N 46 80 100 0 0
+2 L.Rodriguez 26 Mexico M N 77 80 100 0 0
 
-5 J.Molina 29 Mexico M M 88 80 100 0 0
+5 J.Molina 29 Mexico M M 86 80 100 0 0
 
-7 O.Pineda 21 Mexico M N 73 80 100 0 0
+7 O.Pineda 21 Mexico M N 54 80 100 0 0
 
-8 e.Gutierrez 22 Mexico M M 91 80 100 0 0
+8 e.Gutierrez 22 Mexico M N 47 80 100 0 0
 
-11 EliasHernandez 29 Mexico M N 52 80 100 0 0
+11 EliasHernandez 29 Mexico M N 44 80 100 0 0
 
-15 R.Pizarro 23 Mexico M M 94 80 100 0 0
+15 R.Pizarro 23 Mexico M N 69 80 100 0 0
 
-16 JorgeHernandez 28 Mexico M N 63 80 100 0 0
+16 JorgeHernandez 28 Mexico M M 88 80 100 0 0
 
-17 R.Lopez 24 Mexico M N 71 80 100 0 0
+17 R.Lopez 24 Mexico M N 74 80 100 0 0
 
-18 J.Gallardo 23 Mexico M N 58 80 100 0 0
+18 J.Gallardo 23 Mexico M N 81 80 100 0 0
 
-20 J.Duenas 28 Mexico M M 83 80 100 0 0
+20 J.Duenas 28 Mexico M M 87 80 100 0 0
 
-21 R.Reyes 26 Mexico M M 91 80 100 0 0
+21 R.Reyes 26 Mexico M M 92 80 100 0 0
 
-9 E.Torres 24 Mexico A A 91 80 100 0 0
+9 E.Torres 24 Mexico A A 71 80 100 0 0
 
-10 M.Barragan 26 Mexico A A 79 80 100 0 0
+10 M.Barragan 26 Mexico A N 56 80 100 0 0
 
-19 A.Sepulveda 26 Mexico A N 78 80 100 0 0
+19 A.Sepulveda 26 Mexico A N 41 80 100 0 0
 
-1 Y.Bounou 26 Morocco G G 53 80 100 0 0
+1 Y.Bounou 26 Morocco G N 22 80 100 0 0
 
-12 Munir 28 Morocco G N 43 80 100 0 0
+12 Munir 28 Morocco G N 27 80 100 0 0
 
-22 Y.ElKharroubi 27 Morocco G N 40 80 100 0 0
+22 Y.ElKharroubi 27 Morocco G G 57 80 100 0 0
 
-2 H.Mendyl 20 Morocco D D 66 80 100 0 0
+2 H.Mendyl 20 Morocco D D 60 80 100 0 0
 
-3 F.Chafik 31 Morocco D N 28 80 100 0 0
+3 F.Chafik 31 Morocco D D 66 80 100 0 0
 
-4 M.daCosta 31 Morocco D D 39 80 100 0 0
+4 M.daCosta 31 Morocco D N 32 80 100 0 0
 
-5 M.Benatia 30 Morocco D D 56 80 100 0 0
+5 M.Benatia 30 Morocco D D 51 80 100 0 0
 
-10 F.Rherras 24 Morocco D D 53 80 100 0 0
+10 F.Rherras 24 Morocco D N 21 80 100 0 0
 
-18 A.Atouchi 25 Morocco D N 28 80 100 0 0
+18 A.Atouchi 25 Morocco D D 63 80 100 0 0
 
-6 R.Saš?ss 27 Morocco M N 39 80 100 0 0
+6 R.Saš?ss 27 Morocco M N 37 80 100 0 0
 
-8 K.ElAhmadi 32 Morocco M N 24 80 100 0 0
+8 K.ElAhmadi 32 Morocco M N 45 80 100 0 0
 
-11 F.Fajr 29 Morocco M N 32 80 100 0 0
+11 F.Fajr 29 Morocco M N 35 80 100 0 0
 
-14 M.Boussoufa 33 Morocco M N 32 80 100 0 0
+14 M.Boussoufa 33 Morocco M N 29 80 100 0 0
 
-15 Y.Aš?tBennasser 21 Morocco M M 43 80 100 0 0
+15 Y.Aš?tBennasser 21 Morocco M M 66 80 100 0 0
 
-16 O.ElKaddouri 27 Morocco M M 43 80 100 0 0
+16 O.ElKaddouri 27 Morocco M N 47 80 100 0 0
 
-17 N.Dirar 31 Morocco M M 59 80 100 0 0
+17 N.Dirar 31 Morocco M M 57 80 100 0 0
 
-19 M.Obbadi 34 Morocco M N 23 80 100 0 0
+19 M.Obbadi 34 Morocco M M 74 80 100 0 0
 
-21 M.Carcela 28 Morocco M N 40 80 100 0 0
+21 M.Carcela 28 Morocco M M 51 80 100 0 0
 
-7 Y.En-Nesyri 20 Morocco A A 64 80 100 0 0
+7 Y.En-Nesyri 20 Morocco A A 53 80 100 0 0
 
-9 Y.El-Arabi 30 Morocco A N 33 80 100 0 0
+9 Y.El-Arabi 30 Morocco A N 29 80 100 0 0
 
-13 K.Boutaš?b 30 Morocco A A 65 80 100 0 0
+13 K.Boutaš?b 30 Morocco A N 20 80 100 0 0
 
-20 A.Bouhaddouz 30 Morocco A A 50 80 100 0 0
+20 A.Bouhaddouz 30 Morocco A N 27 80 100 0 0
 
-23 R.Alioui 25 Morocco A N 49 80 100 0 0
+23 R.Alioui 25 Morocco A A 73 80 100 0 0
 
-1 I.Ezenwa 29 Nigeria G N 58 80 100 0 0
+1 I.Ezenwa 29 Nigeria G N 52 80 100 0 0
 
-2 D.Akpeyi 31 Nigeria G G 78 80 100 0 0
+2 D.Akpeyi 31 Nigeria G G 64 80 100 0 0
 
-3 D.Alampasu 21 Nigeria G N 55 80 100 0 0
+3 D.Alampasu 21 Nigeria G N 26 80 100 0 0
 
-4 F.Uzoho 19 Nigeria G N 33 80 100 0 0
+4 F.Uzoho 19 Nigeria G N 51 80 100 0 0
 
-5 E.Echiejile 29 Nigeria D N 52 80 100 0 0
+5 E.Echiejile 29 Nigeria D N 32 80 100 0 0
 
-6 L.Balogun 29 Nigeria D N 41 80 100 0 0
+6 L.Balogun 29 Nigeria D D 69 80 100 0 0
 
-7 K.Omeruo 24 Nigeria D D 66 80 100 0 0
+7 K.Omeruo 24 Nigeria D N 44 80 100 0 0
 
-8 W.Troost-Ekong 24 Nigeria D N 41 80 100 0 0
+8 W.Troost-Ekong 24 Nigeria D N 27 80 100 0 0
 
-9 B.Idowu 25 Nigeria D D 71 80 100 0 0
+9 B.Idowu 25 Nigeria D N 47 80 100 0 0
 
-10 O.Aina 21 Nigeria D N 22 80 100 0 0
+10 O.Aina 21 Nigeria D N 32 80 100 0 0
 
-11 A.Shehu 24 Nigeria D D 70 80 100 0 0
+11 A.Shehu 24 Nigeria D N 44 80 100 0 0
 
-12 U.Agbo 22 Nigeria D N 60 80 100 0 0
+12 U.Agbo 22 Nigeria D D 53 80 100 0 0
 
-13 T.Ebuehi 22 Nigeria D N 30 80 100 0 0
+13 T.Ebuehi 22 Nigeria D D 60 80 100 0 0
 
-14 C.Awaziem 20 Nigeria D D 72 80 100 0 0
+14 C.Awaziem 20 Nigeria D D 48 80 100 0 0
 
-15 J.ObiMikel 30 Nigeria M N 24 80 100 0 0
+15 J.ObiMikel 30 Nigeria M N 40 80 100 0 0
 
-16 J.Ogu 29 Nigeria M N 31 80 100 0 0
+16 J.Ogu 29 Nigeria M N 27 80 100 0 0
 
-17 O.Onazi 25 Nigeria M N 23 80 100 0 0
+17 O.Onazi 25 Nigeria M N 40 80 100 0 0
 
-18 M.Agu 24 Nigeria M M 78 80 100 0 0
+18 M.Agu 24 Nigeria M M 56 80 100 0 0
 
-19 A.Iwobi 21 Nigeria M M 52 80 100 0 0
+19 A.Iwobi 21 Nigeria M M 50 80 100 0 0
 
-20 W.Ndidi 21 Nigeria M M 59 80 100 0 0
+20 W.Ndidi 21 Nigeria M M 43 80 100 0 0
 
-21 C.Nwakali 20 Nigeria M N 24 80 100 0 0
+21 C.Nwakali 20 Nigeria M N 26 80 100 0 0
 
-22 O.Kayode 24 Nigeria A N 23 80 100 0 0
+22 O.Kayode 24 Nigeria A N 28 80 100 0 0
 
-23 A.Musa 25 Nigeria A N 51 80 100 0 0
+23 A.Musa 25 Nigeria A A 77 80 100 0 0
 
-24 A.Nwakaeme 28 Nigeria A N 23 80 100 0 0
+24 A.Nwakaeme 28 Nigeria A N 55 80 100 0 0
 
-25 M.Simon 22 Nigeria A N 45 80 100 0 0
+25 M.Simon 22 Nigeria A N 32 80 100 0 0
 
-26 I.Success 21 Nigeria A N 43 80 100 0 0
+26 I.Success 21 Nigeria A N 39 80 100 0 0
 
-27 K.Iheanacho 21 Nigeria A A 56 80 100 0 0
+27 K.Iheanacho 21 Nigeria A N 51 80 100 0 0
 
-28 O.Etebo 22 Nigeria A N 42 80 100 0 0
+28 O.Etebo 22 Nigeria A A 80 80 100 0 0
 
-29 H.Onyekuru 20 Nigeria A A 53 80 100 0 0
+29 H.Onyekuru 20 Nigeria A N 30 80 100 0 0
 
-30 V.Osimhen 18 Nigeria A A 70 80 100 0 0
+30 V.Osimhen 18 Nigeria A A 59 80 100 0 0
 
-31 A.Alhassan 21 Nigeria A N 30 80 100 0 0
+31 A.Alhassan 21 Nigeria A N 34 80 100 0 0
 
-32 S.Odey 19 Nigeria A N 30 80 100 0 0
+32 S.Odey 19 Nigeria A N 49 80 100 0 0
 
-1 A.Rodriguez 27 Panama G N 34 80 100 0 0
+1 A.Rodriguez 27 Panama G N 43 80 100 0 0
 
-12 J.Calderon 32 Panama G G 40 80 100 0 0
+12 J.Calderon 32 Panama G G 59 80 100 0 0
 
-16 O.Mosquera 23 Panama G N 22 80 100 0 0
+16 O.Mosquera 23 Panama G N 32 80 100 0 0
 
-2 M.Murillo 21 Panama D D 54 80 100 0 0
+2 M.Murillo 21 Panama D N 22 80 100 0 0
 
-3 A.Patrick 25 Panama D N 23 80 100 0 0
+3 A.Patrick 25 Panama D D 49 80 100 0 0
 
-4 J.Vargas 22 Panama D N 45 80 100 0 0
+4 J.Vargas 22 Panama D D 69 80 100 0 0
 
-5 F.Escobar 22 Panama D D 46 80 100 0 0
+5 F.Escobar 22 Panama D N 25 80 100 0 0
 
-13 R.Miller 25 Panama D D 53 80 100 0 0
+13 R.Miller 25 Panama D D 43 80 100 0 0
 
-15 E.Davis 26 Panama D D 70 80 100 0 0
+15 E.Davis 26 Panama D D 58 80 100 0 0
 
-17 L.Ovalle 29 Panama D N 20 80 100 0 0
+17 L.Ovalle 29 Panama D N 23 80 100 0 0
 
-23 R.Chen 23 Panama D D 60 80 100 0 0
+23 R.Chen 23 Panama D D 55 80 100 0 0
 
-6 G.Gomez 33 Panama M M 58 80 100 0 0
+6 G.Gomez 33 Panama M M 75 80 100 0 0
 
-8 E.Barcenas 24 Panama M N 29 80 100 0 0
+8 E.Barcenas 24 Panama M N 27 80 100 0 0
 
-11 A.Cooper 30 Panama M M 56 80 100 0 0
+11 A.Cooper 30 Panama M M 73 80 100 0 0
 
-14 V.Pimentel 26 Panama M N 29 80 100 0 0
+14 V.Pimentel 26 Panama M M 58 80 100 0 0
 
-18 M.Camargo 24 Panama M M 44 80 100 0 0
+18 M.Camargo 24 Panama M N 30 80 100 0 0
 
-19 J.Nunez 24 Panama M N 33 80 100 0 0
+19 J.Nunez 24 Panama M N 36 80 100 0 0
 
-20 A.Godoy 27 Panama M M 60 80 100 0 0
+20 A.Godoy 27 Panama M N 29 80 100 0 0
 
-21 L.Heraldez 24 Panama M N 36 80 100 0 0
+21 L.Heraldez 24 Panama M M 60 80 100 0 0
 
-7 R.Clarke 25 Panama A N 34 80 100 0 0
+7 R.Clarke 25 Panama A N 40 80 100 0 0
 
-9 G.Torres 29 Panama A N 42 80 100 0 0
+9 G.Torres 29 Panama A A 56 80 100 0 0
 
-10 I.Diaz 20 Panama A N 41 80 100 0 0
+10 I.Diaz 20 Panama A N 40 80 100 0 0
 
-22 A.Arroyo 24 Panama A A 43 80 100 0 0
+22 A.Arroyo 24 Panama A N 39 80 100 0 0
 
-1 P.Gallese 27 Peru G N 43 80 100 0 0
+1 P.Gallese 27 Peru G N 58 80 100 0 0
 
-12 C.Caceda 26 Peru G N 59 80 100 0 0
+12 C.Caceda 26 Peru G G 63 80 100 0 0
 
-21 J.Carvallo 31 Peru G G 69 80 100 0 0
+21 J.Carvallo 31 Peru G N 61 80 100 0 0
 
-2 A.Rodriguez 33 Peru D N 51 80 100 0 0
+2 A.Rodriguez 33 Peru D N 48 80 100 0 0
 
-3 A.Corzo 28 Peru D D 89 80 100 0 0
+3 A.Corzo 28 Peru D N 60 80 100 0 0
 
-4 A.Santamaria 25 Peru D D 65 80 100 0 0
+4 A.Santamaria 25 Peru D N 53 80 100 0 0
 
-5 A.Zela 28 Peru D N 49 80 100 0 0
+5 A.Zela 28 Peru D D 97 80 100 0 0
 
-6 M.Trauco 25 Peru D D 82 80 100 0 0
+6 M.Trauco 25 Peru D N 53 80 100 0 0
 
-15 C.Ramos 29 Peru D N 51 80 100 0 0
+15 C.Ramos 29 Peru D N 56 80 100 0 0
 
-17 L.Advincula 27 Peru D N 60 80 100 0 0
+17 L.Advincula 27 Peru D D 77 80 100 0 0
 
-22 N.Loyola 23 Peru D N 63 80 100 0 0
+22 N.Loyola 23 Peru D D 67 80 100 0 0
 
-41 M.Araujo 23 Peru D D 68 80 100 0 0
+41 M.Araujo 23 Peru D D 87 80 100 0 0
 
-7 P.Hurtado 27 Peru M M 77 80 100 0 0
+7 P.Hurtado 27 Peru M N 51 80 100 0 0
 
-8 C.Cueva 26 Peru M M 89 80 100 0 0
+8 C.Cueva 26 Peru M N 60 80 100 0 0
 
-13 R.Tapia 22 Peru M N 56 80 100 0 0
+13 R.Tapia 22 Peru M M 61 80 100 0 0
 
-16 W.Cartagena 23 Peru M M 83 80 100 0 0
+16 W.Cartagena 23 Peru M M 66 80 100 0 0
 
-18 A.Carrillo 26 Peru M N 61 80 100 0 0
+18 A.Carrillo 26 Peru M M 64 80 100 0 0
 
-19 Y.Yotš 26 Peru  N 45 80 100 0 0
+19 Y.Yotš 26 Peru  N 63 80 100 0 0
 
-23 P.Aquino 22 Peru M N 57 80 100 0 0
+23 P.Aquino 22 Peru M N 61 80 100 0 0
 
-42 S.Pena 22 Peru M M 80 80 100 0 0
+42 S.Pena 22 Peru M N 58 80 100 0 0
 
-9 Y.Reyna 24 Peru A N 72 80 100 0 0
+9 Y.Reyna 24 Peru A N 42 80 100 0 0
 
-10 J.Farfan 33 Peru A A 76 80 100 0 0
+10 J.Farfan 33 Peru A A 70 80 100 0 0
 
-11 R.Ruidiaz 27 Peru A A 100 80 100 0 0
+11 R.Ruidiaz 27 Peru A N 47 80 100 0 0
 
-14 A.Polo 23 Peru A N 71 80 100 0 0
+14 A.Polo 23 Peru A A 83 80 100 0 0
 
-20 E.Flores 23 Peru A N 51 80 100 0 0
+20 E.Flores 23 Peru A A 80 80 100 0 0
 
-20  23 Peru  N 53 80 100 0 0
+20  23 Peru  N 77 80 100 0 0
 
-1 A.Boruc 37 Poland G N 60 80 100 0 0
+1 A.Boruc 37 Poland G G 88 80 100 0 0
 
-2 L.Fabianski 32 Poland G N 69 80 100 0 0
+2 L.Fabianski 32 Poland G N 70 80 100 0 0
 
-3 W.Szczesny 27 Poland G N 43 80 100 0 0
+3 W.Szczesny 27 Poland G N 62 80 100 0 0
 
-4 L.Skorupski 26 Poland G G 77 80 100 0 0
+4 L.Skorupski 26 Poland G N 61 80 100 0 0
 
-5 A.Jedrzejczyk 30 Poland D N 61 80 100 0 0
+5 A.Jedrzejczyk 30 Poland D N 49 80 100 0 0
 
 6 M.Rybus 28 Poland D N 72 80 100 0 0
 
-7 T.Cionek 31 Poland D N 67 80 100 0 0
+7 T.Cionek 31 Poland D N 47 80 100 0 0
 
-8 K.Glik 29 Poland D N 53 80 100 0 0
+8 K.Glik 29 Poland D N 55 80 100 0 0
 
 9 B.Bereszynski 25 Poland D D 75 80 100 0 0
 
-10 T.Kedziora 23 Poland D D 77 80 100 0 0
+10 T.Kedziora 23 Poland D D 98 80 100 0 0
 
-11 J.Jach 23 Poland D D 73 80 100 0 0
+11 J.Jach 23 Poland D D 96 80 100 0 0
 
-12 J.Blaszczykowski 32 Poland M N 50 80 100 0 0
+12 J.Blaszczykowski 32 Poland M N 54 80 100 0 0
 
-13 K.Maczynski 30 Poland M M 88 80 100 0 0
+13 K.Maczynski 30 Poland M M 86 80 100 0 0
 
-14 G.Krychowiak 27 Poland M M 80 80 100 0 0
+14 G.Krychowiak 27 Poland M N 50 80 100 0 0
 
-15 M.Makuszewski 28 Poland M N 62 80 100 0 0
+15 M.Makuszewski 28 Poland M M 96 80 100 0 0
 
-16 R.Wolski 25 Poland M M 88 80 100 0 0
+16 R.Wolski 25 Poland M N 54 80 100 0 0
 
-17 P.Wszolek 25 Poland M N 68 80 100 0 0
+17 P.Wszolek 25 Poland M M 83 80 100 0 0
 
-18 P.Zielinski 23 Poland M N 65 80 100 0 0
+18 P.Zielinski 23 Poland M N 70 80 100 0 0
 
-19 D.Kadzior 25 Poland M M 93 80 100 0 0
+19 D.Kadzior 25 Poland M N 69 80 100 0 0
 
-20 J.Goralski 25 Poland M M 87 80 100 0 0
+20 J.Goralski 25 Poland M N 65 80 100 0 0
 
-21 K.Linetty 22 Poland M N 70 80 100 0 0
+21 K.Linetty 22 Poland M M 80 80 100 0 0
 
-22 R.Kurzawa 24 Poland M N 80 80 100 0 0
+22 R.Kurzawa 24 Poland M M 88 80 100 0 0
 
-23 P.Frankowski 22 Poland M N 68 80 100 0 0
+23 P.Frankowski 22 Poland M N 70 80 100 0 0
 
-24 K.Grosicki 29 Poland A N 57 80 100 0 0
+24 K.Grosicki 29 Poland A A 100 80 100 0 0
 
-25 K.Wilczek 29 Poland A A 72 80 100 0 0
+25 K.Wilczek 29 Poland A A 81 80 100 0 0
 
-26 J.Swierczok 24 Poland A N 62 80 100 0 0
+26 J.Swierczok 24 Poland A N 49 80 100 0 0
 
-27 M.Stepinski 22 Poland A A 85 80 100 0 0
+27 M.Stepinski 22 Poland A N 73 80 100 0 0
 
-1 RuiPatricio 29 Portugal G N 51 80 100 0 0
+1 RuiPatricio 29 Portugal G N 62 80 100 0 0
 
-12 JoseSa 24 Portugal G N 73 80 100 0 0
+12 JoseSa 24 Portugal G G 69 80 100 0 0
 
-22 Beto 35 Portugal G G 83 80 100 0 0
+22 Beto 35 Portugal G N 64 80 100 0 0
 
-2 BrunoAlves 36 Portugal D N 54 80 100 0 0
+2 BrunoAlves 36 Portugal D D 89 80 100 0 0
 
-3 Pepe 34 Portugal D D 69 80 100 0 0
+3 Pepe 34 Portugal D D 92 80 100 0 0
 
-4 Neto 29 Portugal D N 66 80 100 0 0
+4 Neto 29 Portugal D N 61 80 100 0 0
 
-5 RaphaelGuerreiro 24 Portugal D N 50 80 100 0 0
+5 RaphaelGuerreiro 24 Portugal D N 60 80 100 0 0
 
-6 JoseFonte 34 Portugal D D 85 80 100 0 0
+6 JoseFonte 34 Portugal D D 93 80 100 0 0
 
-11 NelsonSemedo 24 Portugal D N 55 80 100 0 0
+11 NelsonSemedo 24 Portugal D N 80 80 100 0 0
 
-19 Eliseu 34 Portugal D N 65 80 100 0 0
+19 Eliseu 34 Portugal D D 89 80 100 0 0
 
-21 CedricSoares 26 Portugal D D 83 80 100 0 0
+21 CedricSoares 26 Portugal D N 66 80 100 0 0
 
-8 JoaoMoutinho 31 Portugal M M 95 80 100 0 0
+8 JoaoMoutinho 31 Portugal M N 60 80 100 0 0
 
-10 BernardoSilva 23 Portugal M M 85 80 100 0 0
+10 BernardoSilva 23 Portugal M N 70 80 100 0 0
 
-13 DaniloPereira 26 Portugal M N 53 80 100 0 0
+13 DaniloPereira 26 Portugal M M 82 80 100 0 0
 
-14 WilliamCarvalho 25 Portugal M N 75 80 100 0 0
+14 WilliamCarvalho 25 Portugal M N 77 80 100 0 0
 
-15 AndreGomes 24 Portugal M N 79 80 100 0 0
+15 AndreGomes 24 Portugal M M 90 80 100 0 0
 
-16 Pizzi 28 Portugal M N 60 80 100 0 0
+16 Pizzi 28 Portugal M M 80 80 100 0 0
 
-17 Nani 31 Portugal M M 80 80 100 0 0
+17 Nani 31 Portugal M N 61 80 100 0 0
 
-20 RicardoQuaresma 34 Portugal M M 98 80 100 0 0
+20 RicardoQuaresma 34 Portugal M M 78 80 100 0 0
 
-23 AdrienSilva 28 Portugal M M 87 80 100 0 0
+23 AdrienSilva 28 Portugal M N 48 80 100 0 0
 
-7 CristianoRonaldo 32 Portugal A A 90 80 100 0 0
+7 CristianoRonaldo 32 Portugal A N 77 80 100 0 0
 
-9 AndreSilva 22 Portugal A A 95 80 100 0 0
+9 AndreSilva 22 Portugal A A 92 80 100 0 0
 
-18 GelsonMartins 22 Portugal A N 84 80 100 0 0
+18 GelsonMartins 22 Portugal A A 91 80 100 0 0
 
-1 I.Akinfeev 31 Russia G N 75 80 100 0 0
+1 I.Akinfeev 31 Russia G N 82 80 100 0 0
 
-12 V.Gabulov 34 Russia G G 96 80 100 0 0
+12 V.Gabulov 34 Russia G G 92 80 100 0 0
 
-16 G.Marinato 32 Russia G N 72 80 100 0 0
+16 G.Marinato 32 Russia G N 66 80 100 0 0
 
-2 I.Smolnikov 29 Russia D D 94 80 100 0 0
+2 I.Smolnikov 29 Russia D N 41 80 100 0 0
 
-3 R.Shishkin 30 Russia D D 87 80 100 0 0
+3 R.Shishkin 30 Russia D N 44 80 100 0 0
 
-5 V.Vasin 29 Russia D D 89 80 100 0 0
+5 V.Vasin 29 Russia D N 63 80 100 0 0
 
-6 G.Dzhikiya 24 Russia D N 68 80 100 0 0
+6 G.Dzhikiya 24 Russia D D 69 80 100 0 0
 
-10 R.Kambolov 27 Russia D N 68 80 100 0 0
+10 R.Kambolov 27 Russia D D 89 80 100 0 0
 
-13 F.Kudryashov 30 Russia D N 45 80 100 0 0
+13 F.Kudryashov 30 Russia D D 89 80 100 0 0
 
-14 I.Kutepov 24 Russia D N 40 80 100 0 0
+14 I.Kutepov 24 Russia D N 43 80 100 0 0
 
-4 Y.Gazinskiy 28 Russia M M 82 80 100 0 0
+4 Y.Gazinskiy 28 Russia M M 85 80 100 0 0
 
-8 D.Glushakov 30 Russia M N 62 80 100 0 0
+8 D.Glushakov 30 Russia M M 76 80 100 0 0
 
-15 AlekseyMiranchuk 22 Russia M N 62 80 100 0 0
+15 AlekseyMiranchuk 22 Russia M M 97 80 100 0 0
 
-17 A.Golovin 21 Russia M M 95 80 100 0 0
+17 A.Golovin 21 Russia M N 44 80 100 0 0
 
-18 Y.Zhirkov 34 Russia M M 100 80 100 0 0
+18 Y.Zhirkov 34 Russia M N 62 80 100 0 0
 
-19 A.Samedov 33 Russia M M 71 80 100 0 0
+19 A.Samedov 33 Russia M N 62 80 100 0 0
 
-21 A.Erokhin 28 Russia M N 52 80 100 0 0
+21 A.Erokhin 28 Russia M M 81 80 100 0 0
 
-22 D.Tarasov 30 Russia M M 97 80 100 0 0
+22 D.Tarasov 30 Russia M N 72 80 100 0 0
 
-23 D.Kombarov 30 Russia M N 69 80 100 0 0
+23 D.Kombarov 30 Russia M M 79 80 100 0 0
 
-7 D.Poloz 26 Russia A A 83 80 100 0 0
+7 D.Poloz 26 Russia A A 100 80 100 0 0
 
-9 F.Smolov 27 Russia A A 71 80 100 0 0
+9 F.Smolov 27 Russia A N 88 80 100 0 0
 
-11 A.Bukharov 32 Russia A N 49 80 100 0 0
+11 A.Bukharov 32 Russia A A 100 80 100 0 0
 
-20 M.Kanunnikov 26 Russia A N 61 80 100 0 0
+20 M.Kanunnikov 26 Russia A N 84 80 100 0 0
 
-1 AssafAlQarni 33 SaudiArabia G G 74 80 100 0 0
+1 AssafAlQarni 33 SaudiArabia G G 75 80 100 0 0
 
-2 MoslemFreej 29 SaudiArabia G N 56 80 100 0 0
+2 MoslemFreej 29 SaudiArabia G N 53 80 100 0 0
 
-3 AbdulquddusAtiah 20 SaudiArabia G N 38 80 100 0 0
+3 AbdulquddusAtiah 20 SaudiArabia G N 71 80 100 0 0
 
-4 OmarHawsawi 32 SaudiArabia D D 45 80 100 0 0
+4 OmarHawsawi 32 SaudiArabia D D 58 80 100 0 0
 
 5 MohammedAlKhabrani 24 SaudiArabia D N 33 80 100 0 0
 
-6 AbdulrahmanAlObaid 24 SaudiArabia D D 70 80 100 0 0
+6 AbdulrahmanAlObaid 24 SaudiArabia D D 35 80 100 0 0
 
-7 AbdullahAlShammari 24 SaudiArabia D D 38 80 100 0 0
+7 AbdullahAlShammari 24 SaudiArabia D N 25 80 100 0 0
 
-8 HammamAjaj 22 SaudiArabia D N 23 80 100 0 0
+8 HammamAjaj 22 SaudiArabia D D 34 80 100 0 0
 
-9 AhmedAlFraidi 29 SaudiArabia M M 56 80 100 0 0
+9 AhmedAlFraidi 29 SaudiArabia M M 55 80 100 0 0
 
-10 MaanKhodary 26 SaudiArabia M M 49 80 100 0 0
+10 MaanKhodary 26 SaudiArabia M M 73 80 100 0 0
 
-11 NaifHazazi 25 SaudiArabia M N 21 80 100 0 0
+11 NaifHazazi 25 SaudiArabia M N 31 80 100 0 0
 
-12 NouhAlmousa 26 SaudiArabia M N 24 80 100 0 0
+12 NouhAlmousa 26 SaudiArabia M N 34 80 100 0 0
 
-13 MohammedKanoo 23 SaudiArabia M M 54 80 100 0 0
+13 MohammedKanoo 23 SaudiArabia M M 60 80 100 0 0
 
-14 SultanAlGhanam 23 SaudiArabia M M 45 80 100 0 0
+14 SultanAlGhanam 23 SaudiArabia M N 26 80 100 0 0
 
-15 AhmedAlFiqi 24 SaudiArabia M N 23 80 100 0 0
+15 AhmedAlFiqi 24 SaudiArabia M M 54 80 100 0 0
 
-16 JaberMustafa 20 SaudiArabia M M 40 80 100 0 0
+16 JaberMustafa 20 SaudiArabia M M 71 80 100 0 0
 
-17 SalemSaeed 18 SaudiArabia M N 33 80 100 0 0
+17 SalemSaeed 18 SaudiArabia M N 42 80 100 0 0
 
-18 MukhtarFallatah 30 SaudiArabia A N 41 80 100 0 0
+18 MukhtarFallatah 30 SaudiArabia A A 57 80 100 0 0
 
-19 SalmanAlMoasher 29 SaudiArabia A A 44 80 100 0 0
+19 SalmanAlMoasher 29 SaudiArabia A N 23 80 100 0 0
 
-20 KhalidAlKabi 25 SaudiArabia A N 44 80 100 0 0
+20 KhalidAlKabi 25 SaudiArabia A A 80 80 100 0 0
 
-21 SalehAlJamaan 24 SaudiArabia A N 40 80 100 0 0
+21 SalehAlJamaan 24 SaudiArabia A N 50 80 100 0 0
 
-22 HazzaaAlHazzaa 26 SaudiArabia A N 28 80 100 0 0
+22 HazzaaAlHazzaa 26 SaudiArabia A N 44 80 100 0 0
 
-23 AliAl-Nemer 26 SaudiArabia A A 57 80 100 0 0
+23 AliAl-Nemer 26 SaudiArabia A N 25 80 100 0 0
 
-1 A.Diallo 25 Senegal G N 55 80 100 0 0
+1 A.Diallo 25 Senegal G N 45 80 100 0 0
 
-16 K.N'Diaye 32 Senegal G G 69 80 100 0 0
+16 K.N'Diaye 32 Senegal G N 63 80 100 0 0
 
-23 PapeSeydouN'Diaye 24 Senegal G N 27 80 100 0 0
+23 PapeSeydouN'Diaye 24 Senegal G G 72 80 100 0 0
 
-3 K.Koulibaly 26 Senegal D D 63 80 100 0 0
+3 K.Koulibaly 26 Senegal D D 69 80 100 0 0
 
-4 C.M'Bengue 29 Senegal D N 43 80 100 0 0
+4 C.M'Bengue 29 Senegal D D 58 80 100 0 0
 
-14 Z.Toure 28 Senegal D N 35 80 100 0 0
+14 Z.Toure 28 Senegal D D 70 80 100 0 0
 
-19 S.Ciss 28 Senegal D D 52 80 100 0 0
+19 S.Ciss 28 Senegal D D 99 80 100 0 0
 
-21 L.Gassama 28 Senegal D D 60 80 100 0 0
+21 L.Gassama 28 Senegal D D 73 80 100 0 0
 
-2 K.Mbodji 28 Senegal M N 41 80 100 0 0
+2 K.Mbodji 28 Senegal M M 88 80 100 0 0
 
-5 I.Gueye 28 Senegal M M 72 80 100 0 0
+5 I.Gueye 28 Senegal M N 35 80 100 0 0
 
-8 C.Kouyate 28 Senegal M M 68 80 100 0 0
+8 C.Kouyate 28 Senegal M N 38 80 100 0 0
 
-11 C.N'Doye 31 Senegal M M 59 80 100 0 0
+11 C.N'Doye 31 Senegal M M 54 80 100 0 0
 
-12 M.Diame 30 Senegal M M 92 80 100 0 0
+12 M.Diame 30 Senegal M M 93 80 100 0 0
 
-15 P.Diop 31 Senegal M M 64 80 100 0 0
+15 P.Diop 31 Senegal M N 37 80 100 0 0
 
-17 PapaAliouneN'Diaye 27 Senegal M N 40 80 100 0 0
+17 PapaAliouneN'Diaye 27 Senegal M M 71 80 100 0 0
 
-18 I.Sarr 19 Senegal M N 28 80 100 0 0
+18 I.Sarr 19 Senegal M N 22 80 100 0 0
 
-22 H.Saivet 27 Senegal M N 55 80 100 0 0
+22 H.Saivet 27 Senegal M N 52 80 100 0 0
 
-6 F.Diedhiou 25 Senegal A A 91 80 100 0 0
+6 F.Diedhiou 25 Senegal A N 31 80 100 0 0
 
-7 M.Sow 31 Senegal A A 97 80 100 0 0
+7 M.Sow 31 Senegal A N 53 80 100 0 0
 
-9 M.Diouf 30 Senegal A N 40 80 100 0 0
+9 M.Diouf 30 Senegal A N 44 80 100 0 0
 
-10 S.Mane 25 Senegal A N 55 80 100 0 0
+10 S.Mane 25 Senegal A A 92 80 100 0 0
 
-13 M.Konate 24 Senegal A N 47 80 100 0 0
+13 M.Konate 24 Senegal A N 57 80 100 0 0
 
-20 K.Balde 22 Senegal A N 66 80 100 0 0
+20 K.Balde 22 Senegal A N 28 80 100 0 0
 
-1 V.Stojkovic 34 Serbia G N 62 80 100 0 0
+1 V.Stojkovic 34 Serbia G N 69 80 100 0 0
 
-2 M.Dmitrovic 25 Serbia G N 67 80 100 0 0
+2 M.Dmitrovic 25 Serbia G N 52 80 100 0 0
 
-3 O.cancarevic 28 Serbia G G 77 80 100 0 0
+3 O.cancarevic 28 Serbia G G 74 80 100 0 0
 
-4 P.Rajkovic 22 Serbia G N 45 80 100 0 0
+4 P.Rajkovic 22 Serbia G N 40 80 100 0 0
 
-5 F.Manojlovic 21 Serbia G N 60 80 100 0 0
+5 F.Manojlovic 21 Serbia G N 42 80 100 0 0
 
-6 D.Tosic 32 Serbia D N 26 80 100 0 0
+6 D.Tosic 32 Serbia D D 78 80 100 0 0
 
-7 B.Ivanovic 33 Serbia D N 28 80 100 0 0
+7 B.Ivanovic 33 Serbia D N 41 80 100 0 0
 
-8 A.Kolarov 32 Serbia D N 30 80 100 0 0
+8 A.Kolarov 32 Serbia D N 56 80 100 0 0
 
-9 A.Rukavina 33 Serbia D D 61 80 100 0 0
+9 A.Rukavina 33 Serbia D N 23 80 100 0 0
 
-10 I.Obradovic 29 Serbia D N 23 80 100 0 0
+10 I.Obradovic 29 Serbia D D 65 80 100 0 0
 
-11 J.Vukovic 29 Serbia D D 71 80 100 0 0
+11 J.Vukovic 29 Serbia D N 40 80 100 0 0
 
-12 N.Aksentijevic 24 Serbia D N 27 80 100 0 0
+12 N.Aksentijevic 24 Serbia D N 39 80 100 0 0
 
-13 A.Filipovic 23 Serbia D N 21 80 100 0 0
+13 A.Filipovic 23 Serbia D D 75 80 100 0 0
 
-14 S.Panic 25 Serbia D N 47 80 100 0 0
+14 S.Panic 25 Serbia D D 66 80 100 0 0
 
-15 N.Maras 22 Serbia D N 33 80 100 0 0
+15 N.Maras 22 Serbia D N 58 80 100 0 0
 
-16 M.Simonovic 27 Serbia D D 54 80 100 0 0
+16 M.Simonovic 27 Serbia D N 31 80 100 0 0
 
-17 M.Klisura 25 Serbia D N 22 80 100 0 0
+17 M.Klisura 25 Serbia D N 57 80 100 0 0
 
-18 N.calasan 21 Serbia D D 72 80 100 0 0
+18 N.calasan 21 Serbia D N 30 80 100 0 0
 
-19 N.Krsticic 27 Serbia M N 49 80 100 0 0
+19 N.Krsticic 27 Serbia M N 55 80 100 0 0
 
-20 D.Tadic 29 Serbia M M 57 80 100 0 0
+20 D.Tadic 29 Serbia M N 36 80 100 0 0
 
-21 N.Gudelj 26 Serbia M N 48 80 100 0 0
+21 N.Gudelj 26 Serbia M N 30 80 100 0 0
 
-22 E.Alivodic 32 Serbia M N 23 80 100 0 0
+22 E.Alivodic 32 Serbia M M 61 80 100 0 0
 
-23 F.Kostic 25 Serbia M N 22 80 100 0 0
+23 F.Kostic 25 Serbia M N 52 80 100 0 0
 
-24 N.cirkovic 26 Serbia M N 34 80 100 0 0
+24 N.cirkovic 26 Serbia M N 57 80 100 0 0
 
-25 M.Jevtovic 24 Serbia M N 28 80 100 0 0
+25 M.Jevtovic 24 Serbia M N 50 80 100 0 0
 
-26 M.Gobeljic 25 Serbia M N 30 80 100 0 0
+26 M.Gobeljic 25 Serbia M N 61 80 100 0 0
 
-27 J.Dokic 25 Serbia M N 31 80 100 0 0
+27 J.Dokic 25 Serbia M N 38 80 100 0 0
 
-28 A.Zivkovic 21 Serbia M N 33 80 100 0 0
+28 A.Zivkovic 21 Serbia M M 76 80 100 0 0
 
-29 M.Gacinovic 22 Serbia M N 40 80 100 0 0
+29 M.Gacinovic 22 Serbia M N 25 80 100 0 0
 
-30 M.Veljkovic 22 Serbia M N 30 80 100 0 0
+30 M.Veljkovic 22 Serbia M N 46 80 100 0 0
 
-31 A.Palocevic 24 Serbia M N 48 80 100 0 0
+31 A.Palocevic 24 Serbia M N 46 80 100 0 0
 
-32 M.Grujic 21 Serbia M M 53 80 100 0 0
+32 M.Grujic 21 Serbia M N 54 80 100 0 0
 
-33 S.Milinkovic-Savic 22 Serbia M N 29 80 100 0 0
+33 S.Milinkovic-Savic 22 Serbia M N 49 80 100 0 0
 
-34 N.Maksimovic 22 Serbia M M 53 80 100 0 0
+34 N.Maksimovic 22 Serbia M M 75 80 100 0 0
 
-35 NemanjaMiletic 26 Serbia M N 42 80 100 0 0
+35 NemanjaMiletic 26 Serbia M N 47 80 100 0 0
 
-36 S.Plavsic 22 Serbia M N 35 80 100 0 0
+36 S.Plavsic 22 Serbia M M 75 80 100 0 0
 
-37 A.Prijovic 27 Serbia A N 36 80 100 0 0
+37 A.Prijovic 27 Serbia A N 34 80 100 0 0
 
-38 A.Ljajic 26 Serbia A A 77 80 100 0 0
+38 A.Ljajic 26 Serbia A A 58 80 100 0 0
 
-39 S.Jovanovic 26 Serbia A N 23 80 100 0 0
+39 S.Jovanovic 26 Serbia A N 37 80 100 0 0
 
-40 A.Mitrovic 23 Serbia A A 68 80 100 0 0
+40 A.Mitrovic 23 Serbia A N 47 80 100 0 0
 
-41 L.Jovanovic 24 Serbia A N 30 80 100 0 0
+41 L.Jovanovic 24 Serbia A N 37 80 100 0 0
 
-42 N.Radonjic 21 Serbia A N 39 80 100 0 0
+42 N.Radonjic 21 Serbia A N 20 80 100 0 0
 
-43 M.Mrkic 21 Serbia A N 48 80 100 0 0
+43 M.Mrkic 21 Serbia A A 68 80 100 0 0
 
-44 D.Ivanovic 22 Serbia A A 74 80 100 0 0
+44 D.Ivanovic 22 Serbia A N 40 80 100 0 0
 
-1 PepeReina 35 Spain G N 63 80 100 0 0
+1 PepeReina 35 Spain G N 77 80 100 0 0
 
-2 DaviddeGea 27 Spain G N 48 80 100 0 0
+2 DaviddeGea 27 Spain G N 63 80 100 0 0
 
-3 SergioRico 24 Spain G N 54 80 100 0 0
+3 SergioRico 24 Spain G G 89 80 100 0 0
 
-4 Kepa 23 Spain G G 69 80 100 0 0
+4 Kepa 23 Spain G N 82 80 100 0 0
 
-5 SergioRamos 31 Spain D D 72 80 100 0 0
+5 SergioRamos 31 Spain D D 80 80 100 0 0
 
-6 NachoMonreal 31 Spain D D 73 80 100 0 0
+6 NachoMonreal 31 Spain D N 70 80 100 0 0
 
-7 JaviMartš?nez 29 Spain D N 70 80 100 0 0
+7 JaviMartš?nez 29 Spain D N 44 80 100 0 0
 
-8 Pique 30 Spain D N 66 80 100 0 0
+8 Pique 30 Spain D N 49 80 100 0 0
 
-9 Azpilicueta 28 Spain D N 62 80 100 0 0
+9 Azpilicueta 28 Spain D N 44 80 100 0 0
 
-10 JordiAlba 28 Spain D N 57 80 100 0 0
+10 JordiAlba 28 Spain D D 98 80 100 0 0
 
-11 Bartra 26 Spain D D 97 80 100 0 0
+11 Bartra 26 Spain D N 59 80 100 0 0
 
-12 Nacho 27 Spain D N 56 80 100 0 0
+12 Nacho 27 Spain D N 49 80 100 0 0
 
-13 DanielCarvajal 25 Spain D D 73 80 100 0 0
+13 DanielCarvajal 25 Spain D D 100 80 100 0 0
 
-14 AlbertoMoreno 25 Spain D N 41 80 100 0 0
+14 AlbertoMoreno 25 Spain D N 60 80 100 0 0
 
-15 AlvaroOdriozola 22 Spain D N 61 80 100 0 0
+15 AlvaroOdriozola 22 Spain D N 64 80 100 0 0
 
-16 Iniesta 33 Spain M N 62 80 100 0 0
+16 Iniesta 33 Spain M M 87 80 100 0 0
 
-17 DavidSilva 31 Spain M M 86 80 100 0 0
+17 DavidSilva 31 Spain M N 61 80 100 0 0
 
-18 SergioBusquets 29 Spain M N 44 80 100 0 0
+18 SergioBusquets 29 Spain M N 47 80 100 0 0
 
-19 Pedro 30 Spain M N 48 80 100 0 0
+19 Pedro 30 Spain M M 84 80 100 0 0
 
-20 Illarramendi 27 Spain M N 59 80 100 0 0
+20 Illarramendi 27 Spain M N 60 80 100 0 0
 
-21 AnderHerrera 28 Spain M N 64 80 100 0 0
+21 AnderHerrera 28 Spain M N 46 80 100 0 0
 
-22 ThiagoAlcantara 26 Spain M M 69 80 100 0 0
+22 ThiagoAlcantara 26 Spain M N 50 80 100 0 0
 
-23 Isco 25 Spain M N 54 80 100 0 0
+23 Isco 25 Spain M M 76 80 100 0 0
 
-24 Vitolo 28 Spain M N 41 80 100 0 0
+24 Vitolo 28 Spain M M 93 80 100 0 0
 
-25 LuisAlberto 25 Spain M N 49 80 100 0 0
+25 LuisAlberto 25 Spain M N 66 80 100 0 0
 
-26 Saul 23 Spain M N 44 80 100 0 0
+26 Saul 23 Spain M M 80 80 100 0 0
 
-27 Koke 25 Spain M N 65 80 100 0 0
+27 Koke 25 Spain M N 57 80 100 0 0
 
-28 MarcoAsensio 21 Spain M M 84 80 100 0 0
+28 MarcoAsensio 21 Spain M N 74 80 100 0 0
 
-29 JoseCallejon 30 Spain A N 60 80 100 0 0
+29 JoseCallejon 30 Spain A N 45 80 100 0 0
 
-30 DiegoCosta 29 Spain A A 96 80 100 0 0
+30 DiegoCosta 29 Spain A A 80 80 100 0 0
 
 31 IagoAspas 30 Spain A N 50 80 100 0 0
 
-32 AlvaroMorata 25 Spain A N 61 80 100 0 0
+32 AlvaroMorata 25 Spain A N 50 80 100 0 0
 
-33 Rodrigo 26 Spain A N 64 80 100 0 0
+33 Rodrigo 26 Spain A N 43 80 100 0 0
 
-34 Deulofeu 23 Spain A A 77 80 100 0 0
+34 Deulofeu 23 Spain A N 54 80 100 0 0
 
-35 Suso 24 Spain A A 99 80 100 0 0
+35 Suso 24 Spain A A 59 80 100 0 0
 
-1 P.Abrahamsson 29 Sweden G N 53 80 100 0 0
+1 P.Abrahamsson 29 Sweden G N 36 80 100 0 0
 
-2 K.Nordfeldt 28 Sweden G N 30 80 100 0 0
+2 K.Nordfeldt 28 Sweden G N 44 80 100 0 0
 
-3 K.Johnsson 27 Sweden G N 50 80 100 0 0
+3 K.Johnsson 27 Sweden G N 45 80 100 0 0
 
-4 R.Olsen 27 Sweden G G 81 80 100 0 0
+4 R.Olsen 27 Sweden G G 58 80 100 0 0
 
-5 A.Linde 24 Sweden G N 66 80 100 0 0
+5 A.Linde 24 Sweden G N 52 80 100 0 0
 
-6 T.Erlandsson 21 Sweden G N 27 80 100 0 0
+6 T.Erlandsson 21 Sweden G N 51 80 100 0 0
 
-7 A.Granqvist 32 Sweden D N 40 80 100 0 0
+7 A.Granqvist 32 Sweden D D 94 80 100 0 0
 
-8 M.Lustig 31 Sweden D N 42 80 100 0 0
+8 M.Lustig 31 Sweden D N 41 80 100 0 0
 
-9 E.Salomonsson 28 Sweden D N 22 80 100 0 0
+9 E.Salomonsson 28 Sweden D D 92 80 100 0 0
 
 10 N.Hult 27 Sweden D N 50 80 100 0 0
 
-11 A.Tinnerholm 26 Sweden D D 97 80 100 0 0
+11 A.Tinnerholm 26 Sweden D N 73 80 100 0 0
 
-12 P.Jansson 26 Sweden D N 30 80 100 0 0
+12 P.Jansson 26 Sweden D N 58 80 100 0 0
 
-13 V.Lindelof 23 Sweden D D 55 80 100 0 0
+13 V.Lindelof 23 Sweden D N 49 80 100 0 0
 
-14 L.Augustinsson 23 Sweden D N 29 80 100 0 0
+14 L.Augustinsson 23 Sweden D N 58 80 100 0 0
 
-15 J.Une-Larsson 23 Sweden D N 46 80 100 0 0
+15 J.Une-Larsson 23 Sweden D D 100 80 100 0 0
 
-16 E.Krafth 23 Sweden D D 70 80 100 0 0
+16 E.Krafth 23 Sweden D N 54 80 100 0 0
 
-17 P.Konate 23 Sweden D N 40 80 100 0 0
+17 P.Konate 23 Sweden D N 53 80 100 0 0
 
 18 F.Helander 24 Sweden D N 52 80 100 0 0
 
-19 J.Nilsson 23 Sweden D N 46 80 100 0 0
+19 J.Nilsson 23 Sweden D N 60 80 100 0 0
 
-20 L.Wahlqvist 21 Sweden D D 82 80 100 0 0
+20 L.Wahlqvist 21 Sweden D D 89 80 100 0 0
 
-21 F.Dagerstal 20 Sweden D N 44 80 100 0 0
+21 F.Dagerstal 20 Sweden D N 52 80 100 0 0
 
-22 F.Brorsson 21 Sweden D N 20 80 100 0 0
+22 F.Brorsson 21 Sweden D N 35 80 100 0 0
 
-23 J.Johansson 27 Sweden M N 64 80 100 0 0
+23 J.Johansson 27 Sweden M M 73 80 100 0 0
 
-24 S.Larsson 32 Sweden M N 51 80 100 0 0
+24 S.Larsson 32 Sweden M N 35 80 100 0 0
 
-25 A.Ekdal 28 Sweden M M 80 80 100 0 0
+25 A.Ekdal 28 Sweden M N 66 80 100 0 0
 
-26 J.Durmaz 28 Sweden M N 60 80 100 0 0
+26 J.Durmaz 28 Sweden M N 41 80 100 0 0
 
-27 E.Forsberg 26 Sweden M N 57 80 100 0 0
+27 E.Forsberg 26 Sweden M M 85 80 100 0 0
 
-28 J.Allansson 25 Sweden M N 64 80 100 0 0
+28 J.Allansson 25 Sweden M N 55 80 100 0 0
 
-29 O.Hiljemark 25 Sweden M N 49 80 100 0 0
+29 O.Hiljemark 25 Sweden M N 45 80 100 0 0
 
-30 O.Lewicki 25 Sweden M M 78 80 100 0 0
+30 O.Lewicki 25 Sweden M N 56 80 100 0 0
 
-31 V.Claesson 25 Sweden M N 60 80 100 0 0
+31 V.Claesson 25 Sweden M M 99 80 100 0 0
 
-32 M.Rohden 26 Sweden M N 44 80 100 0 0
+32 M.Rohden 26 Sweden M N 57 80 100 0 0
 
-33 K.Olsson 22 Sweden M N 76 80 100 0 0
+33 K.Olsson 22 Sweden M N 47 80 100 0 0
 
-34 K.Sema 24 Sweden M M 89 80 100 0 0
+34 K.Sema 24 Sweden M N 57 80 100 0 0
 
-35 M.Berg 31 Sweden A A 98 80 100 0 0
+35 M.Berg 31 Sweden A N 27 80 100 0 0
 
-36 O.Toivonen 31 Sweden A N 89 80 100 0 0
+36 O.Toivonen 31 Sweden A N 41 80 100 0 0
 
-37 N.Barkroth 25 Sweden A N 93 80 100 0 0
+37 N.Barkroth 25 Sweden A N 51 80 100 0 0
 
-38 S.Armenteros 27 Sweden A N 67 80 100 0 0
+38 S.Armenteros 27 Sweden A A 81 80 100 0 0
 
-39 J.Guidetti 25 Sweden A N 40 80 100 0 0
+39 J.Guidetti 25 Sweden A N 71 80 100 0 0
 
-40 S.Andersson 26 Sweden A N 23 80 100 0 0
+40 S.Andersson 26 Sweden A N 26 80 100 0 0
 
-41 S.Larsson 24 Sweden A N 83 80 100 0 0
+41 S.Larsson 24 Sweden A N 44 80 100 0 0
 
-42 C.Nyman 25 Sweden A A 96 80 100 0 0
+42 C.Nyman 25 Sweden A A 99 80 100 0 0
 
-43 S.Ghoddos 24 Sweden A A 97 80 100 0 0
+43 S.Ghoddos 24 Sweden A N 53 80 100 0 0
 
-44 I.Thelin 25 Sweden A N 89 80 100 0 0
+44 I.Thelin 25 Sweden A N 26 80 100 0 0
 
-45 D.Moberg-Karlsson 23 Sweden A N 37 80 100 0 0
+45 D.Moberg-Karlsson 23 Sweden A N 54 80 100 0 0
 
-46 A.Jeremejeff 24 Sweden A N 40 80 100 0 0
+46 A.Jeremejeff 24 Sweden A N 76 80 100 0 0
 
-47 P.Frick 25 Sweden A N 81 80 100 0 0
+47 P.Frick 25 Sweden A A 80 80 100 0 0
 
-48 A.Isak 18 Sweden A N 54 80 100 0 0
+48 A.Isak 18 Sweden A N 51 80 100 0 0
 
-1 Y.Sommer 29 Switzerland G G 100 80 100 0 0
+1 Y.Sommer 29 Switzerland G N 41 80 100 0 0
 
-2 R.Burki 27 Switzerland G N 54 80 100 0 0
+2 R.Burki 27 Switzerland G G 77 80 100 0 0
 
-3 M.Hitz 30 Switzerland G N 78 80 100 0 0
+3 M.Hitz 30 Switzerland G N 68 80 100 0 0
 
-4 G.Kobel 20 Switzerland G N 85 80 100 0 0
+4 G.Kobel 20 Switzerland G N 55 80 100 0 0
 
-5 J.Djourou 30 Switzerland D D 94 80 100 0 0
+5 J.Djourou 30 Switzerland D N 43 80 100 0 0
 
-6 T.Klose 29 Switzerland D D 82 80 100 0 0
+6 T.Klose 29 Switzerland D D 64 80 100 0 0
 
-7 F.Moubandje 27 Switzerland D N 65 80 100 0 0
+7 F.Moubandje 27 Switzerland D D 92 80 100 0 0
 
-8 S.Widmer 24 Switzerland D N 71 80 100 0 0
+8 S.Widmer 24 Switzerland D N 51 80 100 0 0
 
-9 N.Elvedi 21 Switzerland D D 93 80 100 0 0
+9 N.Elvedi 21 Switzerland D N 40 80 100 0 0
 
-10 F.Hadergjonaj 23 Switzerland D D 81 80 100 0 0
+10 F.Hadergjonaj 23 Switzerland D D 59 80 100 0 0
 
-11 U.Garcia 21 Switzerland D D 73 80 100 0 0
+11 U.Garcia 21 Switzerland D N 47 80 100 0 0
 
-12 V.Behrami 32 Switzerland M M 89 80 100 0 0
+12 V.Behrami 32 Switzerland M M 57 80 100 0 0
 
-13 G.Fernandes 31 Switzerland M N 47 80 100 0 0
+13 G.Fernandes 31 Switzerland M M 81 80 100 0 0
 
-14 F.Frei 28 Switzerland M N 69 80 100 0 0
+14 F.Frei 28 Switzerland M N 44 80 100 0 0
 
-15 S.Zuber 26 Switzerland M N 68 80 100 0 0
+15 S.Zuber 26 Switzerland M N 43 80 100 0 0
 
-16 X.Shaqiri 26 Switzerland M N 45 80 100 0 0
+16 X.Shaqiri 26 Switzerland M N 49 80 100 0 0
 
-17 G.Xhaka 25 Switzerland M M 72 80 100 0 0
+17 G.Xhaka 25 Switzerland M N 56 80 100 0 0
 
-18 R.Freuler 25 Switzerland M M 98 80 100 0 0
+18 R.Freuler 25 Switzerland M M 73 80 100 0 0
 
-19 A.Grgic 21 Switzerland M M 92 80 100 0 0
+19 A.Grgic 21 Switzerland M M 67 80 100 0 0
 
-20 E.Fernandes 21 Switzerland M N 53 80 100 0 0
+20 E.Fernandes 21 Switzerland M M 76 80 100 0 0
 
-21 D.Sow 20 Switzerland M N 42 80 100 0 0
+21 D.Sow 20 Switzerland M N 57 80 100 0 0
 
-22 A.Mehmedi 26 Switzerland A N 47 80 100 0 0
+22 A.Mehmedi 26 Switzerland A A 77 80 100 0 0
 
-23 H.Seferovic 25 Switzerland A A 91 80 100 0 0
+23 H.Seferovic 25 Switzerland A A 76 80 100 0 0
 
-1 R.Jridi 32 Tunisia G G 68 80 100 0 0
+1 R.Jridi 32 Tunisia G G 99 80 100 0 0
 
-16 A.Mathlouthi 33 Tunisia G N 37 80 100 0 0
+16 A.Mathlouthi 33 Tunisia G N 44 80 100 0 0
 
-22 M.BenCherifia 26 Tunisia G N 44 80 100 0 0
+22 M.BenCherifia 26 Tunisia G N 31 80 100 0 0
 
-2 S.BenYoussef 28 Tunisia D N 27 80 100 0 0
+2 S.BenYoussef 28 Tunisia D D 85 80 100 0 0
 
-3 A.Abdennour 28 Tunisia D N 47 80 100 0 0
+3 A.Abdennour 28 Tunisia D N 77 80 100 0 0
 
-4 Z.Boughattas 27 Tunisia D D 81 80 100 0 0
+4 Z.Boughattas 27 Tunisia D N 55 80 100 0 0
 
-5 S.Kchok 23 Tunisia D N 41 80 100 0 0
+5 S.Kchok 23 Tunisia D D 95 80 100 0 0
 
-6 C.Dhaouadi 30 Tunisia D N 45 80 100 0 0
+6 C.Dhaouadi 30 Tunisia D D 81 80 100 0 0
 
-12 A.Maaloul 27 Tunisia D N 26 80 100 0 0
+12 A.Maaloul 27 Tunisia D N 52 80 100 0 0
 
-17 H.Mathlouthi 25 Tunisia D D 60 80 100 0 0
+17 H.Mathlouthi 25 Tunisia D N 58 80 100 0 0
 
-20 M.Yacoubi 27 Tunisia D D 85 80 100 0 0
+20 M.Yacoubi 27 Tunisia D D 91 80 100 0 0
 
-21 H.Nagguez 25 Tunisia D N 44 80 100 0 0
+21 H.Nagguez 25 Tunisia D N 76 80 100 0 0
 
-8 H.Lahmar 27 Tunisia M M 60 80 100 0 0
+8 H.Lahmar 27 Tunisia M N 41 80 100 0 0
 
-10 W.Khazri 26 Tunisia M M 49 80 100 0 0
+10 W.Khazri 26 Tunisia M N 44 80 100 0 0
 
-13 F.Sassi 25 Tunisia M N 48 80 100 0 0
+13 F.Sassi 25 Tunisia M M 72 80 100 0 0
 
-14 M.BenAmor 25 Tunisia M M 54 80 100 0 0
+14 M.BenAmor 25 Tunisia M M 100 80 100 0 0
 
-15 L.Azouni 23 Tunisia M M 71 80 100 0 0
+15 L.Azouni 23 Tunisia M N 44 80 100 0 0
 
-18 A.Khalil 23 Tunisia M M 75 80 100 0 0
+18 A.Khalil 23 Tunisia M M 94 80 100 0 0
 
-23 N.Sliti 25 Tunisia M N 46 80 100 0 0
+23 N.Sliti 25 Tunisia M N 30 80 100 0 0
 
-7 Y.Msakni 27 Tunisia A A 81 80 100 0 0
+7 Y.Msakni 27 Tunisia A A 90 80 100 0 0
 
-9 A.Akaichi 28 Tunisia A A 48 80 100 0 0
+9 A.Akaichi 28 Tunisia A A 93 80 100 0 0
 
-11 Y.Khenissi 25 Tunisia A N 37 80 100 0 0
+11 Y.Khenissi 25 Tunisia A A 52 80 100 0 0
 
-19 S.Khalifa 31 Tunisia A N 21 80 100 0 0
+19 S.Khalifa 31 Tunisia A N 49 80 100 0 0
 
-1 F.Muslera 31 Uruguay G N 49 80 100 0 0
+1 F.Muslera 31 Uruguay G N 47 80 100 0 0
 
-2 E.Conde 34 Uruguay G G 98 80 100 0 0
+2 E.Conde 34 Uruguay G N 50 80 100 0 0
 
-3 M.Silva 34 Uruguay G N 46 80 100 0 0
+3 M.Silva 34 Uruguay G N 59 80 100 0 0
 
-4 M.Campana 28 Uruguay G N 62 80 100 0 0
+4 M.Campana 28 Uruguay G N 57 80 100 0 0
 
-5 G.Guruceaga 22 Uruguay G N 76 80 100 0 0
+5 G.Guruceaga 22 Uruguay G G 79 80 100 0 0
 
-6 M.Pereira 33 Uruguay D D 78 80 100 0 0
+6 M.Pereira 33 Uruguay D N 53 80 100 0 0
 
-7 M.Caceres 30 Uruguay D N 45 80 100 0 0
+7 M.Caceres 30 Uruguay D N 62 80 100 0 0
 
-8 D.Godin 31 Uruguay D N 68 80 100 0 0
+8 D.Godin 31 Uruguay D N 66 80 100 0 0
 
-9 M.Corujo 31 Uruguay D N 57 80 100 0 0
+9 M.Corujo 31 Uruguay D D 75 80 100 0 0
 
-10 S.Coates 27 Uruguay D N 61 80 100 0 0
+10 S.Coates 27 Uruguay D N 63 80 100 0 0
 
-11 G.Silva 23 Uruguay D N 58 80 100 0 0
+11 G.Silva 23 Uruguay D D 74 80 100 0 0
 
-12 G.Varela 24 Uruguay D D 76 80 100 0 0
+12 G.Varela 24 Uruguay D N 43 80 100 0 0
 
-13 J.Gimenez 22 Uruguay D N 51 80 100 0 0
+13 J.Gimenez 22 Uruguay D N 55 80 100 0 0
 
-14 F.Ricca 23 Uruguay D N 62 80 100 0 0
+14 F.Ricca 23 Uruguay D D 69 80 100 0 0
 
-15 M.Lemos 21 Uruguay D D 82 80 100 0 0
+15 M.Lemos 21 Uruguay D D 78 80 100 0 0
 
-16 C.Rodriguez 32 Uruguay M M 74 80 100 0 0
+16 C.Rodriguez 32 Uruguay M N 43 80 100 0 0
 
-17 AlvaroGonzalez 33 Uruguay M N 64 80 100 0 0
+17 AlvaroGonzalez 33 Uruguay M N 53 80 100 0 0
 
-18 E.Arevalo 35 Uruguay M N 74 80 100 0 0
+18 E.Arevalo 35 Uruguay M N 54 80 100 0 0
 
-19 N.Lodeiro 28 Uruguay M M 79 80 100 0 0
+19 N.Lodeiro 28 Uruguay M M 93 80 100 0 0
 
-20 C.Sanchez 33 Uruguay M M 76 80 100 0 0
+20 C.Sanchez 33 Uruguay M M 69 80 100 0 0
 
-21 J.Urretaviscaya 27 Uruguay M N 69 80 100 0 0
+21 J.Urretaviscaya 27 Uruguay M N 63 80 100 0 0
 
-22 M.Vecino 26 Uruguay M M 92 80 100 0 0
+22 M.Vecino 26 Uruguay M M 90 80 100 0 0
 
-23 D.Laxalt 24 Uruguay M N 67 80 100 0 0
+23 D.Laxalt 24 Uruguay M M 66 80 100 0 0
 
-24 G.DeArrascaeta 23 Uruguay M N 63 80 100 0 0
+24 G.DeArrascaeta 23 Uruguay M N 43 80 100 0 0
 
-25 N.Nandez 21 Uruguay M M 92 80 100 0 0
+25 N.Nandez 21 Uruguay M N 42 80 100 0 0
 
-26 R.Bentancur 20 Uruguay M N 42 80 100 0 0
+26 R.Bentancur 20 Uruguay M N 58 80 100 0 0
 
-27 F.Valverde 19 Uruguay M N 56 80 100 0 0
+27 F.Valverde 19 Uruguay M N 66 80 100 0 0
 
-28 E.Cavani 30 Uruguay A N 52 80 100 0 0
+28 E.Cavani 30 Uruguay A N 42 80 100 0 0
 
-29 C.Stuani 31 Uruguay A A 70 80 100 0 0
+29 C.Stuani 31 Uruguay A A 72 80 100 0 0
 
-30 A.Silva 28 Uruguay A A 95 80 100 0 0
+30 A.Silva 28 Uruguay A A 74 80 100 0 0
 
-31 D.Rolan 24 Uruguay A N 49 80 100 0 0
+31 D.Rolan 24 Uruguay A N 60 80 100 0 0
 
-32 G.Pereiro 22 Uruguay A N 52 80 100 0 0
+32 G.Pereiro 22 Uruguay A N 46 80 100 0 0
 
-33 M.Gomez 21 Uruguay A N 43 80 100 0 0
+33 M.Gomez 21 Uruguay A N 61 80 100 0 0
 
 0  0   N 0 80 100 0 0

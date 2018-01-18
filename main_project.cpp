@@ -87,14 +87,14 @@ teams_node * searchTeamForGrouping(teams_node * head_team,const char * teamName)
 int main()
 {
 	//for delay and show wordcup
-/*	srand((unsigned)time(NULL));
+	srand((unsigned)time(NULL));
 	////////////////splash screen
 	clock_t clockk0=clock();
 	while(clock()<clockk0+2000);
 	splash();
 	clockk0=clock();
 while(clock()<clockk0+3000);
-*/
+
 system("cls");
 	////////////////new WorldCup or recent WorldCup?
 	printf("\n\n\n\n\n\tEnter What do you want : (write 'exit' to close the program)");
