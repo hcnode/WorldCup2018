@@ -10,7 +10,7 @@ int groupTable[4][8]={};//////this ganna update after one proceed
 char selectedTeam[25]={};
 int gPlan[32][15]={};
 int exitt=0;
-int proceed=3;
+int proceed=0;
 int worldCupnewGrouping=0;
 typedef struct players{
 	int number;
@@ -36,6 +36,9 @@ typedef struct teams{
 	int pointOfteam;
 	int goalsRecev;
 	int goalsScoerds;
+	int wins;
+	int losses;
+	int draws;
 	struct teams *next;
 }teams_node;
 void loadPlayersInformationFirstTime(player_node * head_players);
@@ -72,8 +75,11 @@ void printGroupTable(int groupTable[][8]);
 void totalPointNULL(int totalpoint[][2]);
 void groupTableNULL();
 void startNewWorldCup();
+void loadRecentWorldCup();
+void mainMenu(player_node *headp,teams_node * headt);
 void loadGrouping(teams_node * head_teams);
 void loadPlayersInformationFirstTime();
+void playerReadInfo(player_node *pp);
 void newGrouping(teams_node * head_team);
 int check(int place,int group,int teamNumber);
 int checkNULL();
@@ -84,7 +90,7 @@ void setTempPosts(player_node * pp,teams_node * pt);
 void randomizeTeams();
 void balloting();
 ///////////////////matchs
-void matchControllerGroups(player_node * headp,teams_node * headt);
+void matchControllerGroups(player_node * headp,teams_node * headt,int v);
 /////////////////
 int goalNumber(double attackPower1, double defencePower2);
 int winer(int goal1,int goal2);/////////////////////////////////////to do ***********
@@ -94,11 +100,15 @@ teams_node * searchTeamForGrouping(teams_node * head_team,const char * teamName)
 void writegPlans_MatchTable_selectedTeam();
 void writeTeamsInfo(teams_node * headt);
 void readgPlans_MatchTable_selectedTeam();
+void readTeamsInfo(teams_node * headt);
 void updateAllPlayersOutGameFormFitness(player_node * headp,teams_node * headt,const char * teamName1,const char * teamName2);
 void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * teamName,int winner);
 void updateFormGoalZan(player_node * headp,teams_node * headt,const char * teamName);
 void updateFormGoalKhor(player_node * headp,teams_node * headt,const char * teamName);
 void updateIfCleanSheet(player_node * headp,teams_node * headt,const char * teamName);
+void fixture();
+void mainTable(teams_node * headt);
+
 int main()
 {
 	srand((unsigned)time(NULL));
@@ -129,7 +139,7 @@ int main()
 			}
 			else if(strcmp(n,"2")==0)
 			{
-				//loadRecentWorldCup();
+				loadRecentWorldCup();
 				a=0;
 			}
 			else if(strcmp(n,"exit")==0)
@@ -148,19 +158,48 @@ int main()
 	
 	
 }
+
+void loadRecentWorldCup()
+{
+	FILE *proceeds=fopen("Proceeds.txt","r");
+	if(proceeds)
+	{
+		fscanf(proceeds,"%d",&proceed);
+		fclose(proceeds);
+		proceeds=NULL;
+		FILE *managment1=fopen("teamNames.txt","r");
+		char line[5000]={};
+		int team=0;
+		int i=0;
+		while(i<32)
+		{
+			fscanf(managment1,"%s",teamNamesandNums[i]);
+			i++;
+		}
+		fclose(managment1);
+		managment1=NULL;
+		////////head of player here !!!!!!!!!!!!!!!!!!!
+		player_node *head_player=(player_node *)calloc(1,sizeof(player_node));
+		teams_node * head_teams=(teams_node *)calloc(1,sizeof(teams_node));
+		playerReadInfo(head_player);
+		loadGrouping(head_teams);
+		readTeamsInfo(head_teams);
+		readgPlans_MatchTable_selectedTeam();
+		sortGroups(head_teams);
+		mainMenu(head_player,head_teams);
+	}
+	
+}
 void startNewWorldCup()
 {
-	FILE *managment1=fopen("teamNames.txt","r");
-	char line[5000]={};
-	int team=0;
-	int i=0;
-	while(i<33)
-	{
-		fscanf(managment1,"%s",teamNamesandNums[i]);
-		i++;
-	}
-	fclose(managment1);
-	managment1=NULL;
+	proceed=0;
+	/*FILE *result = fopen("ResultOfGroupingGames.txt","w");
+	fclose(result);
+	result=NULL;												VERY IMPORTANT
+	FILE *teamsInfo = fopen("teamsInfo.txt","w");
+	fclose(teamsInfo);
+	teamsInfo=NULL;
+	*/
 	////////head of player here !!!!!!!!!!!!!!!!!!!
 	player_node *head_player=(player_node *)calloc(1,sizeof(player_node));
 	teams_node * head_teams=(teams_node *)calloc(1,sizeof(teams_node));
@@ -202,29 +241,118 @@ void startNewWorldCup()
 		free(n);
 		n=NULL;
 	}
+	
 	if(!exitt)
 	{
+	loadGrouping(head_teams);
 	selectTeamsToManagement();
-	//loadGrouping(head_teams);/////////*******
+	FILE *managment=fopen("teamNames.txt","r");
+	int i=0;
+	while(i<32)
+	{
+		fscanf(managment,"%s",teamNamesandNums[i]);
+		i++;
+	}
 	loadPlayersInformationFirstTime(head_player);
 	doSkills(head_teams,head_player);
 	gamePlan(head_player,head_teams);
 	setTempPosts(head_player,head_teams);
-	playerWriteInfo(head_player);
-	writegPlans_MatchTable_selectedTeam();
-	readgPlans_MatchTable_selectedTeam();
+	mainMenu(head_player,head_teams);
+	//playerWriteInfo(head_player);
+	//writegPlans_MatchTable_selectedTeam();
+	//readgPlans_MatchTable_selectedTeam();
 	}
 	
 	if(!exitt)
 	{
 		customization(head_player,head_teams);
-		playerWriteInfo(head_player);
-		writegPlans_MatchTable_selectedTeam();
+		//playerWriteInfo(head_player);
+		//writegPlans_MatchTable_selectedTeam();
 	}
 	
-	if(!exitt)
-	matchControllerGroups(head_player,head_teams);
+	//if(!exitt)
+	//matchControllerGroups(head_player,head_teams);
 	
+}
+void mainMenu(player_node *headp,teams_node * headt)
+{
+	player_node * pp=(player_node *)calloc(1,sizeof(player_node));
+	teams_node * pt=(teams_node *)calloc(1,sizeof(teams_node));
+	pp=headp;
+	pt = headt;
+	int a=1;
+	int v=0;
+	while(a)
+	{
+		system("cls");
+		puts("\t\t\t\t\t ======= Main Menu =======");
+		puts("\n\n");
+		puts("\t\tEnter what do you want :");
+		puts("\t\t\tlineup\n\t\t\ttable\n\t\t\tfixture\n\t\t\tproceed (number of proceeds)\n\t\t\tsave\n\t\t\texit");
+		char *n=(char *)calloc(15,sizeof(char));
+		scanf("%s",n);
+		if (strcmp(n,"lineup")==0 || strcmp(n,"table")==0 ||strcmp(n,"fixture")==0 || strcmp(n,"proceed")==0  || strcmp(n,"save")==0  || strcmp(n,"exit")==0)
+		{
+			if(strcmp(n,"lineup")==0)
+			{
+				system("cls");
+				customization(pp,pt);
+				//a=0;
+			}
+			else if(strcmp(n,"table")==0)
+			{
+				system("cls");	
+				mainTable(pt);
+				//a=0;
+			}
+			else if(strcmp(n,"fixture")==0)
+			{
+				system("cls");
+				fixture();
+				//a=0;
+			}
+			else if(strcmp(n,"proceed")==0)
+			{
+				int w=1;
+				scanf("%d",&v);
+				while (w)
+				{
+					if(v<8 && v >0)
+					{
+						system("cls");
+						matchControllerGroups(pp,pt,v);
+						w=0;
+					}
+					else
+					{
+						printf("proceed needs a 0<number<8 !!!!!");
+					}
+				}
+				
+			}
+			else if(strcmp(n,"save")==0)
+			{
+				system("cls");
+				playerWriteInfo(pp);
+				writeTeamsInfo(pt);
+				writegPlans_MatchTable_selectedTeam();
+				//a=0;
+			}
+			else if(strcmp(n,"exit")==0)
+			{
+				system("cls");
+				exitt=1;
+				a=0;
+			}
+		}
+		else
+		{
+			puts("Choose your order from list please!");
+		}
+		free(n);
+		n=NULL;
+		
+	}
 }
 void customization(player_node *headp,teams_node * headt)
 {
@@ -631,11 +759,11 @@ void loadGrouping(teams_node * head_teams)
 {
 	/////////first this ganna run
 	FILE *tt =  fopen("players\\teams.txt","r");
-	teams_node *head_team= (teams_node *)calloc(1,sizeof(teams_node));
 	teams_node *pt=(teams_node *)calloc(1,sizeof(teams_node));///////////////////////*****************
 	pt=head_teams;
 	//////////////////teams info grouping and ... from file ***********
 	teamsReadInfofromGlobal(tt,pt);
+	///loadGroupingInfo
 	if(worldCupnewGrouping==1)
 	newGrouping(pt);
 }
@@ -665,9 +793,7 @@ player_node * playersReadInfo(FILE *t,player_node *p,const char * teamNamee)
 		p->age=age;
 		
 		/////////////our calculations
-		strcpy(p->nation,teamNamee);             	
-		
-		
+		strcpy(p->nation,teamNamee);
 		////////////
 		p->next = (player_node *)calloc(1, sizeof(player_node));
 		p = p->next;
@@ -717,28 +843,61 @@ void teamsReadInfofromGlobal(FILE *t,teams_node *p)///////sould copy this to our
 }
 void splash()
 {
+	clock_t clockk0=0;
 	puts("=========================================================================================================================");
 	puts("=========================================================================================================================");
 	puts("");
 	puts("");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("WW           WW           WW    OOOOOOOOOO    RRRRRRRRRR    LL         DDDDDDDD       CCCCCCCCC  UU      UU   PPPPPPPPPP");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("  WW       WW  WW        WW     OO      OO    RR      RR    LL         DD      D      CC         UU      UU   PP      PP");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("   WW     WW     WW     WW      OO      OO    RR     RR     LL         DD       D     CC         UU      UU   PP      PP");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("    WW   WW       WW   WW       OO      OO    RRRRRRRR      LL         DD      D      CC         UU      UU   PPPPPPPPP");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("     WW WW         WW WW        OO      OO    RR     RR     LL         DD     D       CC         UU      UU   PP");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("      WW             WW         OOOOOOOOOO    RR      RR    LLLLLLLL   DDDDDDD        CCCCCCCCC  UUUUUUUUUU   PP");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("");
 	puts("");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("=========================================================================================================================");
 	puts("");
 	puts("");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("                        2222222222222   0000000000000  11   8888888888888");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("                                   22   00         00  11   88         88");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("                                   22   00         00  11   88         88");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("                        2222222222222   00         00  11   8888888888888");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("                        22              00         00  11   88         88");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("                        22              00         00  11   88         88");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("                        2222222222222   0000000000000  11   8888888888888");
+	clockk0=clock();
+	while(clock()<clockk0+300);
 	puts("");
 	puts("");
 	puts("=========================================================================================================================");
@@ -2141,6 +2300,66 @@ void doSkills(teams_node * head_team,player_node * head_player)
 	}
 	
 }
+void fixture()
+{
+	system("cls");
+	FILE *results=fopen("ResultOfGroupingGames.txt","r");
+	char line[2000]={};
+	int counter=0;
+	int r=0;
+	int j=0;
+	int t=0;
+	for(int f=0;fgets(line,2000,results)!=NULL;f++)
+	{
+		counter=0;
+		r=0;
+		char *strTemp=(char *)calloc (30,sizeof(char));
+		strcpy(strTemp,"q");
+		for(int g=0;strcmp(strTemp,"");g++)
+		{
+			strcpy(strTemp,"");
+			fscanf(results,"%s",strTemp);
+			if(counter == 5&&(strcmp(strTemp,"A")==0 || strcmp(strTemp,"B")==0 ||strcmp(strTemp,"C")==0 ||strcmp(strTemp,"D")==0 ||strcmp(strTemp,"E")==0 ||strcmp(strTemp,"F")==0 ||strcmp(strTemp,"G")==0 ||strcmp(strTemp,"H")==0))
+			{
+				counter=0;
+			}
+			
+			if(counter ==0&&strcmp(strTemp,""))
+			{
+				printf("\t\t\t\t\t\t%s\n",strTemp);
+				r=1;
+			}
+			if(counter ==1 && strcmp(strTemp,""))
+			printf("\t\t\t\t\t\t%-16s",strTemp);
+			if(counter ==2 && strcmp(strTemp,""))
+			printf("  %s",strTemp);
+			if(counter ==3 && strcmp(strTemp,""))
+			printf(" VS %s",strTemp);
+			if(counter ==4&&strcmp(strTemp,""))
+			printf("  %16s\n",strTemp);////
+			if(counter ==5&&strcmp(strTemp,""))
+			printf("\t\t\t\t\t\tGoal Scorer :%s.",strTemp);
+			if(counter ==6&&strcmp(strTemp,""))
+			printf("%s\n",strTemp);
+			if(counter ==7&&strcmp(strTemp,""))
+			printf("\t\t\t\t\t\tAssist :%s.",strTemp);
+			if(counter ==8&&strcmp(strTemp,""))
+			{
+				printf("%s\n",strTemp);
+				counter=4;
+			}
+			counter++;
+		}
+		//////A Russia 1 0 SaudiArabia 9 F.Smolov 8 D.Glushakov 
+		free(strTemp);
+		strTemp=NULL;
+	}
+	puts("Enter any key to continue . . .");
+	char *temp=(char *)calloc(10,sizeof(char));
+	scanf("%s",temp);
+	fclose(results);
+	results=NULL;
+}
 //////////////////////////////////////writes
 void playerWriteInfo(player_node *pp)
 {
@@ -2151,11 +2370,29 @@ void playerWriteInfo(player_node *pp)
 	p=pp;
 	while (p != NULL) {
 		char integer_string[70]={};
-		sprintf(integer_string, "\n%d %s %d %s %s %s %d %d %d %d %d\n", p->number,p->name,p->age,p->nation,p->mainPost,p->tempPost,p->skill,p->form,p->fitness,p->goals,p->passGoals);
+		sprintf(integer_string, "\n%d %s %d %s %s %s %d %d %d %d %d", p->number,p->name,p->age,p->nation,p->mainPost,p->tempPost,p->skill,p->form,p->fitness,p->goals,p->passGoals);
 		strcat(playersInformations, integer_string); 
 		p = p->next;
 	}
 	fprintf(playersdata,"%s",playersInformations);
+	fclose(playersdata);
+	playersdata=NULL;
+}
+void playerReadInfo(player_node *pp)
+{
+		
+	FILE *playersdata=fopen("recentWorldCupPlayersInfo.txt","r");
+	player_node *p = (player_node*)calloc(1,sizeof(player_node));
+	p=pp;
+	char tempString[150]={};
+	int counter=0;
+	for(int i=0;fgets(tempString,150,playersdata)!=NULL && counter!=32;i++)
+	{
+		
+		fscanf(playersdata, "%d%s%d%s%s%s%d%d%d%d%d", &p->number,p->name,&p->age,p->nation,p->mainPost,p->tempPost,&p->skill,&p->form,&p->fitness,&p->goals,&p->passGoals);
+		p->next = (player_node *)calloc(1, sizeof(player_node));
+		p = p->next;
+	}
 	fclose(playersdata);
 	playersdata=NULL;
 }
@@ -2239,7 +2476,7 @@ void writeTeamsInfo(teams_node * headt)
 	char tempString[80]={};
 	while(pt)
 	{
-		sprintf(tempString, "\n%s %s %d %s %d %d %d %d",pt->teamName,pt->group,pt->state,pt->confed,pt->seed,pt->pointOfteam,pt->goalsRecev,pt->goalsScoerds);
+		sprintf(tempString, "\n%s %s %d %s %d %d %d %d %d %d %d",pt->teamName,pt->group,pt->state,pt->confed,pt->seed,pt->pointOfteam,pt->goalsRecev,pt->goalsScoerds,pt->wins,pt->losses,pt->draws);
 		strcat(TeamInformations, tempString);
 		pt=pt->next;
 	}
@@ -2256,8 +2493,10 @@ void readTeamsInfo(teams_node * headt)
 	int counter=0;
 	for(int i=0;fgets(tempString,100,teamsInfo)!=NULL && counter!=32;i++)
 	{
-		fscanf(teamsInfo,"%s%s%d%s%d%d%d%d",pt->teamName,pt->group,pt->state,pt->confed,pt->seed,pt->pointOfteam,pt->goalsRecev,pt->goalsScoerds);
+		fscanf(teamsInfo,"%s%s%d%s%d%d%d%d%d%d%d",pt->teamName,pt->group,&pt->state,pt->confed,&pt->seed,&pt->pointOfteam,&pt->goalsRecev,&pt->goalsScoerds,&pt->wins,&pt->losses,&pt->draws);
 		counter++;
+		pt->next=(teams_node *)calloc(1,sizeof(teams_node));
+		pt = pt -> next;
 	}
 	fclose(teamsInfo);
 	teamsInfo=NULL;	
@@ -2283,70 +2522,50 @@ void readgPlans_MatchTable_selectedTeam()
 	fclose(read);
 	read=NULL;
 }
-void matchControllerGroups(player_node * headp,teams_node * headt)
+void matchControllerGroups(player_node * headp,teams_node * headt,int proc)
 {
+	FILE *proceeds=fopen("Proceeds.txt","r");
+	fscanf(proceeds,"%d",&proceed);
+	fclose(proceeds);
+	proceeds=NULL;
 	player_node * pp = (player_node *)calloc(1,sizeof(player_node));
 	player_node * ppp = (player_node *)calloc(1,sizeof(player_node));
 	teams_node * pt = (teams_node *)calloc(1,sizeof(teams_node));
 	teams_node * ppt = (teams_node *)calloc(1,sizeof(teams_node));
 	pt =headt;
 	pp = headp;
-	int loacalProceed = 0;
 	int goalsofTeam1=0;
 	int goalsofTeam2=0;
 	int golzanNum=0;
 	int passGoalNum=0;
-		/////////////////////////
-		/*
-		char teamName[15];
-	char group[2];
-	int state;
-	char confed[15];
-	int seed;
-	int pointOfteam;
-	int goalsRecev;
-	int goalsScoerds;
-	struct teams *next;
-	/////////////
-	int number;
-	char name[20];
-	int age;
-	char nation[20];
-	char mainPost[2];
-	char tempPost[2];
-	int skill;
-	int form;
-	int fitness;
-	int goals;
-	int passGoals;
-	*/
-	//char teamNamesandNums[32][25]={};
-	//for(loacalProceed = 0;loacalProceed<4;loacalProceed++)
-	//if(loacalProceed==1)
-	//{
-		//(matchTable[0][0]%100,matchTable[1][0]%100);
 		////////////////writing on file result Of grouping games
+		FILE *results=fopen("ResultOfGroupingGames.txt","a");
+		char *resultsInformation=(char *)calloc (1500,sizeof(char));
+		//sortGroups(pt);
+		//strcat(resultsInformation,"\n");
+		char tempStr[40]={};
+		int t=0;
+		int j=0;
+		int x = proceed;
+		int n = proc;
+		/////////////////
+	for(int f=0;n!=0;f++)
+	{
+	if(x==0)
+	{
+		
+		x++;
 		FILE *results=fopen("ResultOfGroupingGames.txt","a");
 		char *resultsInformation=(char *)calloc (1500,sizeof(char));
 		//sortGroups(pt);
 		strcat(resultsInformation,"\n");
 		char tempStr[40]={};
-		int t=0;
-		int j=0;
-		/////////////////
-		if(proceed>=1)
-		{
-			
-		
-		
 		for(int i=-1;j<32;t++,j+=2)
 		{
 			if(t%2==0)
 			{
 				i++;
 			}
-		
-		
 		goalsofTeam1=goalNumber(gPlan[matchTable[j%4][i]%100-1][13],gPlan[matchTable[(j+1)%4][i]%100-1][12]);
 		goalsofTeam2=goalNumber(gPlan[matchTable[(j+1)%4][i]%100-1][13],gPlan[matchTable[j%4][i]%100-1][12]);
 		printf ("\nteam1 = %s   %d   VS    team2= %s  %d",teamNamesandNums[matchTable[j%4][i]%100-1],goalsofTeam1,teamNamesandNums[matchTable[(j+1)%4][i]%100-1],goalsofTeam2);
@@ -2370,15 +2589,21 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 			{
 				ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 				ppt->pointOfteam+=3;
+				ppt->wins++;
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],1);
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+1)%4][i]%100-1],0);
+				ppt= search_team(pt,teamNamesandNums[matchTable[(j+1)%4][i]%100-1]);
+				ppt->losses++;
 			}
 			else
 			{
 				ppt= search_team(pt,teamNamesandNums[matchTable[(j+1)%4][i]%100-1]);
 				ppt->pointOfteam+=3;
+				ppt->wins++;
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+1)%4][i]%100-1],1);
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],0);
+				ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
+				ppt->losses++;
 			}
 			
 		}
@@ -2386,8 +2611,12 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		{
 			ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 			ppt->pointOfteam+=1;
+			ppt->draws++;
 			ppt= search_team(pt,teamNamesandNums[matchTable[(j+1)%4][i]%100-1]);
 			ppt->pointOfteam+=1;
+			ppt->draws++;
+			updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],2);
+			updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+1)%4][i]%100-1],2);
 		}
 		ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 		ppt->goalsScoerds+=goalsofTeam1;
@@ -2453,32 +2682,29 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 			sprintf(tempStr,"%d %s ",ppp->number,ppp->name);
 			strcat(resultsInformation,tempStr);
 			goalsofTeam2--;
-			}
-			if(j<30)
-			strcat(resultsInformation,"\n");
-			fprintf(results,"%s",resultsInformation);
-			strcpy(resultsInformation,"");
-			
-			
+		}
+		if(j<30)
+		strcat(resultsInformation,"\n");
+		fprintf(results,"%s",resultsInformation);
+		strcpy(resultsInformation,"");	
 		}
 		fclose(results);
 		results=NULL;
-		writeTeamsInfo(pt);
-	}
-		////////////update form and fitness for all of players Done -----> writeplayerInfo
-		playerWriteInfo(pp);
-		//////proceed2
-		j=-1;
-		t=0;
+		//writeTeamsInfo(pt);
+		//playerWriteInfo(pp);
 		sortGroups(pt);
-	if (proceed>=2)
+		//start_Proceed++;
+	}
+	else if (x==1)
 	{
+		x++;
 		FILE *results1=fopen("ResultOfGroupingGames.txt","a");
 		char *resultsInformation=(char *)calloc (1500,sizeof(char));
-		
 		strcat(resultsInformation,"\n");
 		char tempStr[40]={};
 		//////proceed2
+		j=-1;
+		t=0;
 		for(int i=-1;t<16;t++,j+=1)
 		{
 			if(t%2==0)
@@ -2511,15 +2737,21 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 			{
 				ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 				ppt->pointOfteam+=3;
+				ppt->wins++;
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],1);
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+2)%4][i]%100-1],0);
+				ppt= search_team(pt,teamNamesandNums[matchTable[(j+2)%4][i]%100-1]);
+				ppt->losses++;
 			}
 			else
 			{
 				ppt= search_team(pt,teamNamesandNums[matchTable[(j+2)%4][i]%100-1]);
 				ppt->pointOfteam+=3;
+				ppt->wins++;
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+2)%4][i]%100-1],1);
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],0);
+				ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
+				ppt->losses++;
 			}
 			
 		}
@@ -2527,8 +2759,12 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		{
 			ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 			ppt->pointOfteam+=1;
+			ppt->draws++;
 			ppt= search_team(pt,teamNamesandNums[matchTable[(j+2)%4][i]%100-1]);
 			ppt->pointOfteam+=1;
+			ppt->draws++;
+			updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],2);
+			updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+2)%4][i]%100-1],2);
 		}
 		ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 		ppt->goalsScoerds+=goalsofTeam1;
@@ -2595,7 +2831,7 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 			strcat(resultsInformation,tempStr);
 			goalsofTeam2--;
 			}
-			if(j<30)
+			if(j<22)
 			strcat(resultsInformation,"\n");
 			fprintf(results,"%s",resultsInformation);
 			strcpy(resultsInformation,"");
@@ -2604,20 +2840,20 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		}
 		fclose(results);
 		results=NULL;
-		writeTeamsInfo(pt);
+		//writeTeamsInfo(pt);
+		//playerWriteInfo(pp);
+		sortGroups(pt);
+		//start_Proceed++;
 	}
-	sortGroups(pt);
-	if (proceed==3)
+	else if (x==2)
 	{
-	
-		//printf("\n\n\n\n\n\n\n\n\n");
-		// start of proceed 3
+		x++;
 		FILE *results1=fopen("ResultOfGroupingGames.txt","a");
 		char *resultsInformation=(char *)calloc (1500,sizeof(char));
 		
 		strcat(resultsInformation,"\n");
 		char tempStr[40]={};
-		//////proceed3
+		
 		t=0;
 		j=0;
 		for(int i=-1;t<16;t++,j+=2)
@@ -2651,15 +2887,21 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 			{
 				ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 				ppt->pointOfteam+=3;
+				ppt->wins++;
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],1);
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+3)%4][i]%100-1],0);
+				ppt= search_team(pt,teamNamesandNums[matchTable[(j+3)%4][i]%100-1]);
+				ppt->losses++;
 			}
 			else
 			{
 				ppt= search_team(pt,teamNamesandNums[matchTable[(j+3)%4][i]%100-1]);
 				ppt->pointOfteam+=3;
+				ppt->wins++;
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+3)%4][i]%100-1],1);
 				updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],0);
+				ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
+				ppt->losses++;
 			}
 			
 		}
@@ -2667,8 +2909,12 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		{
 			ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 			ppt->pointOfteam+=1;
+			ppt->draws++;
 			ppt= search_team(pt,teamNamesandNums[matchTable[(j+3)%4][i]%100-1]);
 			ppt->pointOfteam+=1;
+			ppt->draws++;
+			updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[j%4][i]%100-1],2);
+			updateFormWinnerLoss(pp,pt,teamNamesandNums[matchTable[(j+3)%4][i]%100-1],2);
 		}
 		ppt= search_team(pt,teamNamesandNums[matchTable[j%4][i]%100-1]);
 		ppt->goalsScoerds+=goalsofTeam1;
@@ -2744,9 +2990,16 @@ void matchControllerGroups(player_node * headp,teams_node * headt)
 		}
 		fclose(results);
 		results=NULL;
-		writeTeamsInfo(pt);
+		//writeTeamsInfo(pt);
+		//playerWriteInfo(pp);
+		sortGroups(pt);
 	}
-	sortGroups(pt);
+		
+	n--;
+	}
+	FILE *proceedss=fopen("Proceeds.txt","w");
+	fprintf(proceedss,"%d",proceed+proc);
+	fclose(proceedss);
 }
 
 void updateAllPlayersOutGameFormFitness(player_node * headp,teams_node * headt,const char * teamName1,const char * teamName2)
@@ -2796,7 +3049,7 @@ void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * te
 	{
 		///////goaler
 		ppp=search_post_temp(pp,"G",teamName);
-		if(ppp->fitness<11)
+		if(ppp->fitness>10)
 		ppp->fitness-=10;
 		if(ppp->form<96)
 		ppp->form+=5;
@@ -2808,7 +3061,7 @@ void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * te
 			ppp=search_post_temp(pp,"D",teamName);
 			if(ppp)
 			{
-				if(ppp->fitness<11)
+				if(ppp->fitness>10)
 				ppp->fitness-=10;
 				if(ppp->form<96)
 				ppp->form+=5;
@@ -2822,7 +3075,7 @@ void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * te
 			ppp=search_post_temp(pp,"M",teamName);
 			if(ppp)
 			{
-				if(ppp->fitness<11)
+				if(ppp->fitness>10)
 				ppp->fitness-=10;
 				if(ppp->form<96)
 				ppp->form+=5;
@@ -2836,7 +3089,7 @@ void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * te
 			ppp=search_post_temp(pp,"A",teamName);
 			if(ppp)
 			{
-				if(ppp->fitness<11)
+				if(ppp->fitness>10)
 				ppp->fitness-=10;
 				if(ppp->form<96)
 				ppp->form+=5;
@@ -2846,11 +3099,11 @@ void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * te
 		pp=headp;
 		ppp=pp;
 	}
-	else
+	else if (winner==0)
 	{
 		///////goaler
 		ppp=search_post_temp(pp,"G",teamName);
-		if(ppp->fitness<11)
+		if(ppp->fitness>10)
 		ppp->fitness-=10;
 		if(ppp->form>0)
 		ppp->form-=1;
@@ -2862,7 +3115,7 @@ void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * te
 			ppp=search_post_temp(pp,"D",teamName);
 			if(ppp)
 			{
-				if(ppp->fitness<11)
+				if(ppp->fitness>10)
 				ppp->fitness-=10;
 				if(ppp->form>0)
 				ppp->form-=1;
@@ -2876,7 +3129,7 @@ void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * te
 			ppp=search_post_temp(pp,"M",teamName);
 			if(ppp)
 			{
-				if(ppp->fitness<11)
+				if(ppp->fitness>10)
 				ppp->fitness-=10;
 				if(ppp->form>0)
 				ppp->form-=1;
@@ -2890,10 +3143,64 @@ void updateFormWinnerLoss(player_node * headp,teams_node * headt,const char * te
 			ppp=search_post_temp(pp,"A",teamName);
 			if(ppp)
 			{
-				if(ppp->fitness<11)
+				if(ppp->fitness>10)
 				ppp->fitness-=10;
 				if(ppp->form>0)
 				ppp->form-=1;
+				pp=ppp->next;
+			}
+		}
+		pp=headp;
+		ppp=pp;
+		
+	}
+	else if(winner==2)
+	{
+		ppp=search_post_temp(pp,"G",teamName);
+		if(ppp->fitness>10)
+		ppp->fitness-=10;
+		if(ppp->form<96)
+		ppp->form+=2;
+		pp=headp;
+		ppp=pp;
+		//////def
+		while (ppp && pp)
+		{
+			ppp=search_post_temp(pp,"D",teamName);
+			if(ppp)
+			{
+				if(ppp->fitness>10)
+				ppp->fitness-=10;
+				if(ppp->form<96)
+				ppp->form+=2;
+				pp=ppp->next;
+			}
+		}
+		pp=headp;
+		ppp=pp;
+		while (ppp && pp)
+		{
+			ppp=search_post_temp(pp,"M",teamName);
+			if(ppp)
+			{
+				if(ppp->fitness>10)
+				ppp->fitness-=10;
+				if(ppp->form<96)
+				ppp->form+=2;
+				pp=ppp->next;
+			}
+		}
+		pp=headp;
+		ppp=pp;
+		while (ppp && pp)
+		{
+			ppp=search_post_temp(pp,"A",teamName);
+			if(ppp)
+			{
+				if(ppp->fitness>10)
+				ppp->fitness-=10;
+				if(ppp->form<96)
+				ppp->form+=2;
 				pp=ppp->next;
 			}
 		}
@@ -2926,6 +3233,7 @@ void updateFormGoalZan(player_node * headp,teams_node * headt,const char * teamN
 }
 void updateIfCleanSheet(player_node * headp,teams_node * headt,const char * teamName)
 {
+	
 	player_node * pp = (player_node *)calloc(1,sizeof(player_node));
 	teams_node * pt = (teams_node *)calloc(1,sizeof(teams_node));
 	player_node * ppp = (player_node *)calloc(1,sizeof(player_node));
@@ -3036,6 +3344,44 @@ void printGroupTable(int groupTable[][8])
 		}
 		puts("");
 	}
+}
+void mainTable(teams_node * headt)
+{
+	teams_node * pt = (teams_node *)calloc(1,sizeof(teams_node));
+	teams_node * ppt = (teams_node *)calloc(1,sizeof(teams_node));
+	pt = headt;
+	ppt=pt;
+	/*
+	typedef struct teams{
+	char teamName[15];
+	char group[2];
+	int state;
+	char confed[15];
+	int seed;
+	int pointOfteam;
+	int goalsRecev;
+	int goalsScoerds;
+	int wins;
+	int losses;
+	int draws;
+	struct teams *next;
+}teams_node;
+*/
+	puts("\t\t\t\t\t ===== Main Table =====");
+	puts("==============================================================================================================================");
+	printf(" Group |        Team Name        | Games | Wins | Draws | Losses | Goals Scoerd | Goals Receved | Goal Difference | Score \n");
+	for(int i=0;i<8;i++)
+	{
+		for(int j=0;j<4;j++)
+		{
+			ppt=search_team(pt,teamNamesandNums[groupTable[j][i]]);
+			printf("%-7s|%-25s|%-7d|%-6d|%-7d|%-8d|%-14d|%-15d|%-17d|%-7d\n",ppt->group,ppt->teamName,ppt->wins + ppt->losses + ppt->draws ,ppt->wins , ppt->draws , ppt->losses , ppt->goalsScoerds , ppt->goalsRecev,ppt->goalsScoerds-ppt->goalsRecev,ppt->pointOfteam);
+		}
+		puts("==============================================================================================================================");
+	}
+	puts("Enter any key to continue . . .");
+	char *temp=(char *)calloc(10,sizeof(char));
+	scanf("%s",temp);
 }
 void sortTotalPoints(int totalpoint[][2])
 {
